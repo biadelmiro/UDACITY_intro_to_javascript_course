@@ -1,2 +1,2 @@
 # intro-to-javascript
-A collection of summaries to udacity's Intro to JavaScript course
+A collection of summaries to UDACITY's Intro to JavaScript course
