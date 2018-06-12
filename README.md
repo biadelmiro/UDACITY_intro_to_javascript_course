@@ -10,4 +10,4 @@ A collection of summaries to Udacity's Intro to JavaScript
 6. Arrays
 7. Objects
 
-### Lesson 1: What is JavaScript?
+### What is JavaScript?
