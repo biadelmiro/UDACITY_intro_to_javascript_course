@@ -3,7 +3,7 @@ A collection of summaries to Udacity's Intro to JavaScript
 
 ## Table of Contents
 1. [What is JavaScript?](#what-is-javascript)
-  * [Intro to JavaScript](#intro-to-javascript)
+   - [Intro to JavaScript](#intro-to-javascript)
 2. [Data Types & Variables](#data-types-and-variables)
 3. [Conditionals](#conditionals)
 4. [Loops](#loops)
