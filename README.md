@@ -22,6 +22,8 @@ A collection of summaries to Udacity's Intro to JavaScript
 
 > **TIP:** HTML and CSS are markup languages. Markup languages are used to describe and define elements within a document. JavaScript is a programming language. Programming languages can be used to control the behavior of a machine and to express algorithms. - Julia Van Cleve & James Parkes
 
+### The JavaScript Console <a id="the-javascript-console"></a>
+
 ## Data Types & Variables <a id="data-types-and-variables"></a>
 ## Conditionals <a id="conditionals"></a>
 ## Loops <a id="loops"></a>
