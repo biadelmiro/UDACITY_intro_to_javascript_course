@@ -6,6 +6,7 @@ A collection of summaries to Udacity's Intro to JavaScript
    1. [Introduction to JavaScript](#introduction-to-javascript)
    2. [History of JavaScript](#history-of-javascript)
    3. [The JavaScript Console](#the-javascript-console)
+   4. [Developer Tools on Different Browsers](#developer-tools-on-different browsers)
 2. [Data Types & Variables](#data-types-and-variables)
 3. [Conditionals](#conditionals)
 4. [Loops](#loops)
