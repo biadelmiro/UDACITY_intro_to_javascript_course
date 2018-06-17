@@ -27,9 +27,9 @@ A collection of summaries to Udacity's Intro to JavaScript
 
 ### Developer Tools on Different Browsers
 
-## Data Types & Variables <a id="data-types-and-variables"></a>
-## Conditionals <a id="conditionals"></a>
-## Loops <a id="loops"></a>
-## Functions <a id="functions"></a>
-## Arrays <a id="arrays"></a>
-## Objects <a id="objects"></a>
+## Data Types & Variables
+## Conditionals
+## Loops
+## Functions
+## Arrays
+## Objects
