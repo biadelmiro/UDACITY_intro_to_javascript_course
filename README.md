@@ -7,7 +7,7 @@ A collection of summaries to Udacity's Intro to JavaScript
    2. [History of JavaScript](#history-of-javascript)
    3. [The JavaScript Console](#the-javascript-console)
    4. [Developer Tools on Different Browsers](#developer-tools-on-different-browsers)
-2. [Data Types & Variables](#data-types-and-variables)
+2. [Data Types and Variables](#data-types-and-variables)
 3. [Conditionals](#conditionals)
 4. [Loops](#loops)
 5. [Functions](#functions)
@@ -27,7 +27,7 @@ A collection of summaries to Udacity's Intro to JavaScript
 
 ### Developer Tools on Different Browsers
 
-## Data Types & Variables
+## Data Types and Variables
 ## Conditionals
 ## Loops
 ## Functions
