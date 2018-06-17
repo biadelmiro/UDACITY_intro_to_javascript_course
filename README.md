@@ -25,6 +25,8 @@ A collection of summaries to Udacity's Intro to JavaScript
 
 ### The JavaScript Console <a id="the-javascript-console"></a>
 
+### Developer Tools on Different Browsers
+
 ## Data Types & Variables <a id="data-types-and-variables"></a>
 ## Conditionals <a id="conditionals"></a>
 ## Loops <a id="loops"></a>
