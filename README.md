@@ -24,7 +24,7 @@ JavaScript was created in just 10 days by Brendan Eich back in 1995, while Eich 
 
 **Note:**
 - HTML and CSS are markup languages. 
-Markup languages are used to describe and define elements within a document. 
+- Markup languages are used to describe and define elements within a document. 
 
 JavaScript is a programming language. 
 Programming languages can be used to control the behavior of a machine and to express algorithms.
