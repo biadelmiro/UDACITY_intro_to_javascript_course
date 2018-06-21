@@ -7,7 +7,7 @@ A collection of summaries to Udacity's Intro to JavaScript
    2. [History of JavaScript](#history-of-javascript)
    3. [The JavaScript Console](#the-javascript-console)
    4. [Developer Tools on Different Browsers](#developer-tools-on-different-browsers)
-   5. [console.log](#console-log)
+   5. [Console](#console)
 2. [Data Types and Variables](#data-types-and-variables)
 3. [Conditionals](#conditionals)
 4. [Loops](#loops)
@@ -31,7 +31,7 @@ JavaScript was created in just 10 days by Brendan Eich back in 1995, while Eich 
 
 ### Developer Tools on Different Browsers
 
-### console.log
+### Console
 
 ## Data Types and Variables
 ## Conditionals
