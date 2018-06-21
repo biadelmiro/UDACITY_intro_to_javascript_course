@@ -11,6 +11,7 @@ A collection of summaries to Udacity's Intro to JavaScript
    6. [JavaScript Demo](#javascript-demo)
    7. [Summary](#summary)
 2. [Data Types and Variables](#data-types-and-variables)
+   1. [Introduction to Data Types](#introduction-to-data-types)
 3. [Conditionals](#conditionals)
 4. [Loops](#loops)
 5. [Functions](#functions)
