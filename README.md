@@ -9,6 +9,7 @@ A collection of summaries to Udacity's Intro to JavaScript
    4. [Developer Tools on Different Browsers](#developer-tools-on-different-browsers)
    5. [Console Log](#console-log)
    6. [JavaScript Demo](#javascript-demo)
+   7. [Summary](#summary)
 2. [Data Types and Variables](#data-types-and-variables)
 3. [Conditionals](#conditionals)
 4. [Loops](#loops)
