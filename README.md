@@ -37,6 +37,8 @@ JavaScript was created in just 10 days by Brendan Eich back in 1995, while Eich 
 
 ### JavaScript Demo
 
+### Summary
+
 ## Data Types and Variables
 ## Conditionals
 ## Loops
