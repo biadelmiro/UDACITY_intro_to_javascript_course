@@ -13,6 +13,7 @@ A collection of summaries to Udacity's Intro to JavaScript
 2. [Data Types and Variables](#data-types-and-variables)
    1. [Introduction to Data Types](#introduction-to-data-types)
    2. [Numbers](#numbers)
+   3. [Comments](#comments)
 3. [Conditionals](#conditionals)
 4. [Loops](#loops)
 5. [Functions](#functions)
@@ -45,6 +46,8 @@ JavaScript was created in just 10 days by Brendan Eich back in 1995, while Eich 
 ### Introduction to Data Types
 
 ### Numbers
+
+### Comments
 
 ## Conditionals
 ## Loops
