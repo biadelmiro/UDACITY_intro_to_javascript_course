@@ -14,6 +14,7 @@ A collection of summaries to Udacity's Intro to JavaScript
    1. [Introduction to Data Types](#introduction-to-data-types)
    2. [Numbers](#numbers)
    3. [Comments](#comments)
+   4. [Quiz: First Expression (2-1)](#quiz-first-expression-2-1)
 3. [Conditionals](#conditionals)
 4. [Loops](#loops)
 5. [Functions](#functions)
@@ -48,6 +49,8 @@ JavaScript was created in just 10 days by Brendan Eich back in 1995, while Eich 
 ### Numbers
 
 ### Comments
+
+### Quiz: First Expression (2-1)
 
 ## Conditionals
 ## Loops
