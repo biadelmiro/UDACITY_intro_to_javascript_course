@@ -37,7 +37,7 @@ JavaScript was created in just 10 days by Brendan Eich back in 1995, while Eich 
 - JavaScript is a programming language. Programming languages can be used to control the behavior of a machine and to express algorithms.
 
 ### The JavaScript Console
-> The first thing you’ll need to do is open up the developer tools. You can do this by right clicking on the page, and selecting Inspect. Once you have the developer tools open, you can find the JavaScript Console by clicking on the Console tab.
+> The first thing you’ll need to do is open up the developer tools. You can do this by right clicking on the page, and selecting Inspect. Once you have the developer tools open, you can find the JavaScript Console by clicking on the Console tab. If you like keyboard shortcuts, you can also use Cmd+Option+J on a Mac to open the console, or you can use Ctrl+Shift+J on Windows.
 
 ### Developer Tools on Different Browsers
 
