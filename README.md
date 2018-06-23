@@ -27,7 +27,6 @@ A collection of summaries to Udacity's Intro to JavaScript
 
 ## What is JavaScript?
 ### Introduction to JavaScript
-
 JavaScript is a programming lanuage for the web and is the the final piece needed to make your websites come to life. It was created by Brendan Eich in 1995 to make it easier to add interactive and dynamic elements to websites. Today, the language is used for all sorts of applications, from programming a robot with an Arduino to writing a game script in Unity or even building a code editor. The opportunities with JavaScript truly are endless.
 
 ### History of JavaScript
