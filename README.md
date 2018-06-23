@@ -37,6 +37,7 @@ JavaScript was created in just 10 days by Brendan Eich back in 1995, while Eich 
 - JavaScript is a programming language. Programming languages can be used to control the behavior of a machine and to express algorithms.
 
 ### The JavaScript Console
+> The first thing you’ll need to do is open up the developer tools.
 
 ### Developer Tools on Different Browsers
 
