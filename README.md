@@ -42,7 +42,7 @@ JavaScript was created in just 10 days by Brendan Eich back in 1995, while Eich 
 Chrome Dev Tools Keyboard Shortcuts
 
 ### Developer Tools on Different Browsers
-> Did you know, every modern web browser includes its own set of developer tools? If you didn’t, that’s okay.
+> Did you know, every modern web browser includes its own set of developer tools? If you didn’t, that’s okay. Developer tools aren’t always the easiest thing to find in your browser.
 ### Console
 
 ### JavaScript Demo
