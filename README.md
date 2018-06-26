@@ -47,6 +47,7 @@ Chrome Dev Tools Keyboard Shortcuts
 Instructions
 - Google Chrome
 - Mozilla Firefox
+- Internet Explorer
 ### Console
 
 ### JavaScript Demo
