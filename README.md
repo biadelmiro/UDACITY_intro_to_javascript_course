@@ -48,6 +48,7 @@ Instructions
 - Google Chrome
 - Mozilla Firefox
 - Internet Explorer
+- Microsoft Edge
 ### Console
 
 ### JavaScript Demo
