@@ -50,6 +50,7 @@ Instructions
 - Internet Explorer
 - Microsoft Edge
 - Safari
+- Opera
 ### Console
 
 ### JavaScript Demo
