@@ -45,7 +45,8 @@ Chrome Dev Tools Keyboard Shortcuts
 > Did you know, every modern web browser includes its own set of developer tools? If you didn’t, that’s okay. Developer tools aren’t always the easiest thing to find in your browser. So we’ve decided to help you out by creating this guide to developer tools!
 
 Instructions
-- Chrome Developer
+- Google Chrome
+- Mozilla Firefox
 ### Console
 
 ### JavaScript Demo
