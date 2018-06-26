@@ -49,6 +49,7 @@ Instructions
 - Mozilla Firefox
 - Internet Explorer
 - Microsoft Edge
+- Safari
 ### Console
 
 ### JavaScript Demo
