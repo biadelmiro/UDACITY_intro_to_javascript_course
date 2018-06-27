@@ -47,7 +47,7 @@ Chrome Dev Tools Keyboard Shortcuts
 Instructions
 - [Google Chrome](#google-chrome)
 - [Mozilla Firefox](#mozilla-firefox)
-- Internet Explorer
+- [Internet Explorer](#internet-explorer)
 - Microsoft Edge
 - Safari
 - Opera
