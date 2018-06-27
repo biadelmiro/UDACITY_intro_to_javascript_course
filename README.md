@@ -49,7 +49,7 @@ Instructions
 - [Mozilla Firefox](#mozilla-firefox)
 - [Internet Explorer](#internet-explorer)
 - [Microsoft Edge](#microsoft-edge)
-- Safari
+- [Safari](#safari)
 - Opera
 
 ### Console
