@@ -48,7 +48,7 @@ Instructions
 - [Google Chrome](#google-chrome)
 - [Mozilla Firefox](#mozilla-firefox)
 - [Internet Explorer](#internet-explorer)
-- Microsoft Edge
+- [Microsoft Edge](#microsoft-edge)
 - Safari
 - Opera
 
