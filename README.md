@@ -50,7 +50,7 @@ Instructions
 - [Internet Explorer](#internet-explorer)
 - [Microsoft Edge](#microsoft-edge)
 - [Safari](#safari)
-- Opera
+- [Opera](#opera)
 
 ### Console
 
