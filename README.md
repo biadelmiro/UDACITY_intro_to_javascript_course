@@ -53,6 +53,7 @@ Instructions
 - [Opera](#opera)
 
 #### Google Chrome
+#### Mozilla Firefox
 
 ### Console
 
