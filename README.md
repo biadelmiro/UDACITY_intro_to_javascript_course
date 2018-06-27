@@ -52,6 +52,8 @@ Instructions
 - [Safari](#safari)
 - [Opera](#opera)
 
+#### Google Chrome
+
 ### Console
 
 ### JavaScript Demo
