@@ -43,9 +43,7 @@ You can access the console by opening the developer tools, which can be done by 
 To write your first line of JavaScript code, let’s start by writing your name. As you will see, just writing your name will actually result in an error. To be able to actually write your name in JavaScript without any error you need to format your name as a data type called a string put inside quotes. Why don’t we try something else? Here’s some code that creates an alert that says, Hello, Julia, how are you? And it pushes it to the browser. Now writing code directly in your browser is something you can do to test out new code snippets where you’re not really sure what they do. But it could actually get pretty annoying once you start writing larger and larger programs. For example, if you wanted to create two alerts instead of just one, it may seem simple at first, but each time you need to go to the next line, you would have to type Shift+Return instead of just the Return key. This is going to get pretty annoying pretty fast. Eventually, you’ll learn about other ways to run JavaScript files. But for now we recommend using a text editor like Atom or Sublime Text and then pasting your code in the console once you’re ready to test it.
 
 ### Developer Tools on Different Browsers
-Every modern web browser includes its own set of developer tools. Developer tools aren’t always the easiest thing to find in your browser. So we’ve decided to help you out by creating this guide to developer tools!
-
-> Did you know, every modern web browser includes its own set of developer tools? If you didn’t, that’s okay. Developer tools aren’t always the easiest thing to find in your browser. So we’ve decided to help you out by creating this guide to developer tools!
+Every modern web browser includes its own set of developer tools. Below is a guide to the various web browsers and their respective developer tools.
 
 Instructions
 - [Google Chrome](#google-chrome)
