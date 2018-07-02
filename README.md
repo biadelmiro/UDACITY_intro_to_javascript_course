@@ -59,6 +59,7 @@ Instructions
 The Chrome DevTools are a set of web authoring and debugging tools built into Google Chrome. Use the DevTools to iterate, debug and profile your site. To learn more, click here.
 
 To open Chrome DevTools, either right-click on any page element and select Inspect or open the Chrome settings menu in the top-right corner of your browser window and select More Tools > Developer Tools. Alternatively, you can use the shortcuts:
+- Command + Option + i (Mac)
 #### Mozilla Firefox
 
 ### Console
