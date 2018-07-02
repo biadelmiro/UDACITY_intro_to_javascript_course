@@ -62,7 +62,7 @@ To open Chrome DevTools, either right-click on any page element and select Inspe
 - Command + Option + i (Mac)
 - Ctrl + Shift + i (Windows/Linux).
 #### Mozilla Firefox
-
+Firefox Developer Tools allow you to examine, edit, and debug HTML, CSS, and JavaScript on the desktop and on mobile.
 ### Console
 
 ### JavaScript Demo
