@@ -56,6 +56,7 @@ Instructions
 - [Opera](#opera)
 
 #### Google Chrome
+The Chrome DevTools are a set of web authoring and debugging tools built into Google Chrome.
 #### Mozilla Firefox
 
 ### Console
