@@ -65,6 +65,8 @@ To open Chrome DevTools, either right-click on any page element and select Inspe
 Firefox Developer Tools allow you to examine, edit, and debug HTML, CSS, and JavaScript on the desktop and on mobile. Also, you can download a version of of Firefox called Firefox Developer Edition that is tailored for developers, featuring the latest Firefox features and experimental developer tools. To learn more, click here.
 
 To open Firefox Developer Tools, either right-click on any page element and select Inspect Element or open the Firefox settings menu in the top-right corner of your browser window and select Developer. Alternatively, you can use the shortcuts:
+- Command + Option + i (Mac)
+- Ctrl + Shift + i (Windows/Linux).
 ### Console
 
 ### JavaScript Demo
