@@ -70,7 +70,7 @@ To open Firefox Developer Tools, either right-click on any page element and sele
 - Ctrl + Shift + i (Windows/Linux).
 
 #### Internet Explorer
-
+If you use Internet Explorer, then you can access F12 developer tools by simply pressing F12.
 ### Console
 
 ### JavaScript Demo
