@@ -74,6 +74,7 @@ If you use Internet Explorer, then you can access F12 developer tools by simply 
 - Internet Explorer 8
 - Internet Explorer 9
 - Internet Explorer 10
+- Internet Explorer 11
 ### Console
 
 ### JavaScript Demo
