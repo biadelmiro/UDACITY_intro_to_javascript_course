@@ -71,7 +71,7 @@ To open Firefox Developer Tools, either right-click on any page element and sele
 
 #### Internet Explorer
 If you use Internet Explorer, then you can access F12 developer tools by simply pressing F12. The features vary between versions, but starting at Internet Explorer 8 remain pretty consistent. Below, we've linked to documentation for each version, but if you've upgraded to Microsoft Edge, then check the next section.
-- Internet Explorer 8
+- [Internet Explorer 8](https://msdn.microsoft.com/en-us/library/dd565628.aspx)
 - Internet Explorer 9
 - Internet Explorer 10
 - Internet Explorer 11
