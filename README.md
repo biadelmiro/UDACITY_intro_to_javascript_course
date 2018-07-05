@@ -1,5 +1,5 @@
 # Intro to JavaScript
-A collection of summaries to Udacity's Intro to JavaScrip
+A collection of summaries to Udacity's Intro to JavaScript
 
 ## Table of Contents
 1. [What is JavaScript?](#what-is-javascript)
