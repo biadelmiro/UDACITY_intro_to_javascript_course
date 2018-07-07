@@ -81,7 +81,7 @@ Microsoft Edge introduces great new improvements to the F12 developer tools seen
 
 Just like Internet Explorer, to open developer tools in Microsoft Edge simply press F12.
 
-To learn more, click here.
+To learn more, [click here](https://docs.microsoft.com/de-de/microsoft-edge/devtools-guide).
 ### Console
 
 ### JavaScript Demo
