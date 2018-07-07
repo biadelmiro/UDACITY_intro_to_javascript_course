@@ -78,6 +78,8 @@ If you use Internet Explorer, then you can access F12 developer tools by simply 
 
 #### Microsoft Edge
 Microsoft Edge introduces great new improvements to the F12 developer tools seen in Internet Explorer. The new tools are built in TypeScript, and are always running, so no reloads are required. In addition, F12 developer tools documentation is now fully available on [GitHub](https://github.com/MicrosoftDocs/edge-developer).
+
+Just like Internet Explorer, to open developer tools in Microsoft Edge simply press F12.
 ### Console
 
 ### JavaScript Demo
