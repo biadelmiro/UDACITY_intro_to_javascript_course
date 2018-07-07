@@ -83,7 +83,6 @@ Just like Internet Explorer, to open developer tools in Microsoft Edge simply pr
 
 To learn more, [click here](https://docs.microsoft.com/de-de/microsoft-edge/devtools-guide).
 
-
 #### Safari
 ### Console
 
