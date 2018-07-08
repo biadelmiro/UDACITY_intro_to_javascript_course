@@ -138,6 +138,8 @@ for (var i = 0; i < 10; i++) {
 8
 
 9
+
+This is called a loop.
 ### JavaScript Demo
 
 ### Summary
