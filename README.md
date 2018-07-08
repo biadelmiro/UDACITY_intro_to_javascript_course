@@ -117,6 +117,9 @@ for (var i = 0; i < 10; i++) {
   console.log(i);
 }
 ```
+**Prints**
+0
+1
 ### JavaScript Demo
 
 ### Summary
