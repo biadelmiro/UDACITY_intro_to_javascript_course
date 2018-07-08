@@ -112,6 +112,11 @@ The message you’ve logged is "hiya friend!". hiya friend! is a string (a seque
 
 #### Optional demo example
 Let’s use console.log to do something a little more interesting. Here’s a block of JavaScript code that loops through the numbers 0 through 9 and prints them out to the console:
+```
+for (var i = 0; i < 10; i++) {
+  console.log(i);
+}
+```
 ### JavaScript Demo
 
 ### Summary
