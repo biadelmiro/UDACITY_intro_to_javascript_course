@@ -98,7 +98,7 @@ Launch Opera Dragonfly with the following keyboard shortcuts:
 Alternatively, you can target a specific element by right-clicking in the page and selecting Inspect Element.
 
 ### Console Log
-Developer tools allow you to debug and test out your ideas directly in the browser. If your familiar with HTML or CSS, you may have used developer tools to experiment with the style of a webpage. But you can also use it with JavaScript. Developer tools are often used as a sandbox. In other words, a place to mess around with any code without any long-term consequences. You can use developer tools to debug problems you run in to or to test a piece of code you’ve just learned. If you open any website that uses JavaScript, the console will tell you if there are any warnings or errors on the page and will also display any output and print it with console.log.
+Developer tools allow you to debug and test out your ideas directly in the browser. If your familiar with HTML or CSS, you may have used developer tools to experiment with the style of a webpage. But you can also use it with JavaScript. Developer tools are often used as a sandbox. In other words, a place to mess around with any code without any long-term consequences. You can use developer tools to debug problems you run in to or to test a piece of code you’ve just learned. If you open any website that uses JavaScript, the console will tell you if there are any warnings or errors on the page and will also display any output and print it with console.log. Note that anytime you’re using the console on this course, you might see some errors or warnings from the site you’re visiting.
 ### JavaScript Demo
 
 ### Summary
