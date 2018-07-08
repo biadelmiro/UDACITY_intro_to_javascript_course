@@ -90,6 +90,8 @@ To access Safari's Web Development Tools, enable the Develop menu in Safari’s 
 
 #### Opera
 Fast, lean and powerful, Opera comes pre-packed with a fully-featured suite of developer tools. Named Opera Dragonfly, it is designed to make your job easier. To learn more, [click here](https://www.opera.com/dragonfly/).
+
+Launch Opera Dragonfly with the following keyboard shortcuts:
 ### Console
 
 ### JavaScript Demo
