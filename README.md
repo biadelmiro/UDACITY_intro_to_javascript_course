@@ -87,6 +87,8 @@ To learn more, [click here](https://docs.microsoft.com/de-de/microsoft-edge/devt
 For any Mac users, Safari includes Web Inspector, a powerful tool that makes it easy to modify, debug, and optimize a website for peak performance and compatibility on both platforms. To learn more, [click here](https://developer.apple.com/safari/tools/).
 
 To access Safari's Web Development Tools, enable the Develop menu in Safari’s Advanced preferences. Once enabled, you can right-click on any page element and select Inspect Element to open Web Development Tools or use the shortcut Command + Option + i.
+
+#### Opera
 ### Console
 
 ### JavaScript Demo
