@@ -93,6 +93,7 @@ Fast, lean and powerful, Opera comes pre-packed with a fully-featured suite of d
 
 Launch Opera Dragonfly with the following keyboard shortcuts:
 - Command + Option + i (Mac)
+- Ctrl + Shift + i (Windows/Linux).
 ### Console
 
 ### JavaScript Demo
