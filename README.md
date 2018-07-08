@@ -98,7 +98,7 @@ Launch Opera Dragonfly with the following keyboard shortcuts:
 Alternatively, you can target a specific element by right-clicking in the page and selecting Inspect Element.
 
 ### Console Log
-Developer tools allow you to debug and test out your ideas directly in the browser. If your familiar with HTML or CSS, you may have used developer tools to experiment with the style of a webpage. But you can also use it with JavaScript.
+Developer tools allow you to debug and test out your ideas directly in the browser. If your familiar with HTML or CSS, you may have used developer tools to experiment with the style of a webpage. But you can also use it with JavaScript. Developer tools are often used as a sandbox.
 ### JavaScript Demo
 
 ### Summary
