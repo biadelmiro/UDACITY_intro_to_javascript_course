@@ -96,7 +96,7 @@ Launch Opera Dragonfly with the following keyboard shortcuts:
 - Ctrl + Shift + i (Windows/Linux).
 
 Alternatively, you can target a specific element by right-clicking in the page and selecting Inspect Element.
-### Console
+### Console Log
 
 ### JavaScript Demo
 
