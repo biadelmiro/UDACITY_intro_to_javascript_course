@@ -141,7 +141,7 @@ for (var i = 0; i < 10; i++) {
 
 This is called a **loop**.
 
-Based on this loop's settings, any code written inside the curly brackets {...} will be repeated 10 times. In this case, console.log is printing out the value of i each time the loop runs.
+Based on this loop's settings, any code written inside the curly brackets {...} will be repeated 10 times. In this case, console.log is printing out the value of i each time the loop runs. Don't worry if you're not sure about what the syntax means at this point. You will learn more about how and when to use loops later.
 ### JavaScript Demo
 
 ### Summary
