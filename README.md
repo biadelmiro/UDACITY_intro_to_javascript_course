@@ -111,7 +111,7 @@ Congratulations! You performed the log action on the debugging console.
 The message you’ve logged is "hiya friend!". hiya friend! is a string (a sequence of characters).
 
 #### Optional demo example
-Let’s use console.log to do something a little more interesting.
+Let’s use console.log to do something a little more interesting. Here’s a block of JavaScript code that loops through the numbers 0 through 9 and prints them out to the console:
 ### JavaScript Demo
 
 ### Summary
