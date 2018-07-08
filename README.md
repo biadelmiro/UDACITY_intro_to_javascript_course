@@ -105,6 +105,8 @@ console.log is used to display content to the JavaScript console. Run the follow
 console.log("hiya friend!");
 ```
 **Prints:** "hiya friend!"
+
+Congratulations! You performed the log action on the debugging console.
 ### JavaScript Demo
 
 ### Summary
