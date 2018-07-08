@@ -104,7 +104,7 @@ console.log is used to display content to the JavaScript console. Run the follow
 ```
 console.log("hiya friend!");
 ```
-> **Prints:** "hiya friend!"
+**Prints:** "hiya friend!"
 ### JavaScript Demo
 
 ### Summary
