@@ -139,7 +139,7 @@ for (var i = 0; i < 10; i++) {
 
 9
 
-This is called a loop.
+This is called a **loop**.
 ### JavaScript Demo
 
 ### Summary
