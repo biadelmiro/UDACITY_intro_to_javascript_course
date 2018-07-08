@@ -109,6 +109,8 @@ console.log("hiya friend!");
 Congratulations! You performed the log action on the debugging console.
 
 The message you’ve logged is "hiya friend!". hiya friend! is a string (a sequence of characters).
+
+#### Optional demo example
 ### JavaScript Demo
 
 ### Summary
