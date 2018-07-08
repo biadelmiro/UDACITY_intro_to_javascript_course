@@ -140,6 +140,8 @@ for (var i = 0; i < 10; i++) {
 9
 
 This is called a **loop**.
+
+Based on this loop's settings, any code written inside the curly brackets {...} will be repeated 10 times.
 ### JavaScript Demo
 
 ### Summary
