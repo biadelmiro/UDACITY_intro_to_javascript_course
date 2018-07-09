@@ -146,6 +146,7 @@ Open [the following site](https://daringfireball.net/projects/markdown/) in a ne
 ```
 document.getElementsByTagName("h1")[0].style.color = "#ff0000";
 ```
+As you can see, the heading changed red.
 ### Summary
 
 ## Data Types and Variables
