@@ -143,6 +143,9 @@ Based on this loop's settings, any code written inside the curly brackets {...} 
 So you saw how to use console.log to print a message to the JavaScript console. Now, let’s see how you can use the console as a sandbox to test a new line of JavaScript in the browser.
 
 Open [the following site](https://daringfireball.net/projects/markdown/) in a new tab and in that tab also open up developer tools. Then paste the following code:
+```
+document.getElementsByTagName("h1")[0].style.color = "#ff0000";
+```
 ### Summary
 
 ## Data Types and Variables
