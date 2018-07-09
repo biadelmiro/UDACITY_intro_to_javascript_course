@@ -146,7 +146,7 @@ Open [the following site](https://daringfireball.net/projects/markdown/) in a ne
 ```
 document.getElementsByTagName("h1")[0].style.color = "#ff0000";
 ```
-As you can see, the heading changed red. Styling elements on the page is great, but you could also do that by just modifying the CSS.
+As you can see, the heading changed red. Styling elements on the page is great, but you could also do that by just modifying the CSS. What makes JavaScript so special in this case? Refresh the page, then paste this line of code in the JavaScript console.
 ### Summary
 
 ## Data Types and Variables
