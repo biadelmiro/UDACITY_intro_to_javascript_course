@@ -156,7 +156,7 @@ document.body.addEventListener('click', function () {
      myImage.style.marginLeft = "160px";
 });
 ```
-If you’re confused because nothing happened. Don’t worry. Click somewhere on the page.
+If you’re confused because nothing happened. Don’t worry. Click somewhere on the page. As you can see, an image was added to the page.
 ### Summary
 
 ## Data Types and Variables
