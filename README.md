@@ -156,6 +156,7 @@ document.body.addEventListener('click', function () {
      myImage.style.marginLeft = "160px";
 });
 ```
+If you’re confused because nothing happened. Don’t worry. Click somewhere on the page.
 ### Summary
 
 ## Data Types and Variables
