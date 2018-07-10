@@ -163,7 +163,7 @@ Before we move on to the JavaScript language itself, how about we recap some of 
 
 ## Data Types and Variables
 ### Introduction to Data Types
-Data is everywhere. It’s the grade you made on your first math test, it’s the conversation you have with a loved one and it’s the decision you made to sit down and watch this video.
+Data is everywhere. It’s the grade you made on your first math test, it’s the conversation you have with a loved one and it’s the decision you made to sit down and watch this video. All of these things can be represented as data.
 ### Numbers
 
 ### Comments
