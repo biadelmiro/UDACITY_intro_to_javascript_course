@@ -163,7 +163,7 @@ Before we move on to the JavaScript language itself, how about we recap some of 
 
 ## Data Types and Variables
 ### Introduction to Data Types
-
+Data is everywhere. 
 ### Numbers
 
 ### Comments
