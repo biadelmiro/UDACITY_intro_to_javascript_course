@@ -64,11 +64,10 @@ Every modern web browser includes its own set of developer tools. They can be se
 - Mozilla
 - Opera
 
-#### Dependent Web Browsers
-##### Mac
+#### Mac
 - Safari
 
-##### Windows
+#### Windows
 - Internet Explorer
 - Microsoft Edge
 
