@@ -86,6 +86,11 @@ Launch Opera Dragonfly with the following keyboard shortcuts:
 
 Alternatively, you can target a specific element by right-clicking in the page and selecting Inspect Element.
 
+#### Safari
+For any Mac users, Safari includes Web Inspector, a powerful tool that makes it easy to modify, debug, and optimize a website for peak performance and compatibility on both platforms. To learn more, [click here](https://developer.apple.com/safari/tools/).
+
+To access Safari's Web Development Tools, enable the Develop menu in Safari’s Advanced preferences. Once enabled, you can right-click on any page element and select Inspect Element to open Web Development Tools or use the shortcut Command + Option + i.
+
 #### Internet Explorer
 If you use Internet Explorer, then you can access F12 developer tools by simply pressing F12. The features vary between versions, but starting at Internet Explorer 8 remain pretty consistent. Below, we've linked to documentation for each version, but if you've upgraded to Microsoft Edge, then check the next section.
 - [Internet Explorer 8](https://msdn.microsoft.com/en-us/library/dd565628.aspx)
@@ -99,11 +104,6 @@ Microsoft Edge introduces great new improvements to the F12 developer tools seen
 Just like Internet Explorer, to open developer tools in Microsoft Edge simply press F12.
 
 To learn more, [click here](https://docs.microsoft.com/de-de/microsoft-edge/devtools-guide).
-
-#### Safari
-For any Mac users, Safari includes Web Inspector, a powerful tool that makes it easy to modify, debug, and optimize a website for peak performance and compatibility on both platforms. To learn more, [click here](https://developer.apple.com/safari/tools/).
-
-To access Safari's Web Development Tools, enable the Develop menu in Safari’s Advanced preferences. Once enabled, you can right-click on any page element and select Inspect Element to open Web Development Tools or use the shortcut Command + Option + i.
 
 ### Console Log
 Developer tools allow you to debug and test out your ideas directly in the browser. If your familiar with HTML or CSS, you may have used developer tools to experiment with the style of a webpage. But you can also use it with JavaScript. Developer tools are often used as a sandbox. In other words, a place to mess around with any code without any long-term consequences. You can use developer tools to debug problems you run in to or to test a piece of code you’ve just learned. If you open any website that uses JavaScript, the console will tell you if there are any warnings or errors on the page and will also display any output and print it with console.log. Note that anytime you’re using the console on this course, you might see some errors or warnings from the site you’re visiting. That’s okay, this is very common and will not affect the code that you write in this course.
