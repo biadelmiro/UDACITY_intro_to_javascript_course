@@ -57,23 +57,16 @@ alert("JavaScript is fun!");
 This is going to get pretty annoying pretty fast. Eventually, you’ll learn about other ways to run JavaScript files. But for now we recommend using a text editor like Atom or Sublime Text and then pasting your code in the console once you’re ready to test it.
 
 ### Developer Tools on Different Browsers
-Every modern web browser includes its own set of developer tools. They can be separated into three categories; independent, Mac and Windows. Independent browsers can be used regardless of operating system. Mac and Windows are dependent on their operating system. Below is a guide to the various web browsers and their respective developer tools:
+Every modern web browser includes its own set of developer tools. They can be separated into three categories; independent, Mac and Windows. Independent browsers, such as, Google Chrome, Mozilla Firefox and Opera can be used regardless of operating system. Specific browsers, such as, Safari, Internet Explorer and Microsoft Edge Mac are dependent on their respective Mac or Windows operating system. Below is a guide to the various web browsers and their respective developer tools:
 
 #### Web Browsers
-- Independent
-- Mac
-- Windows
+- [Independent](#independent)
+- [Mac](#mac)
+- [Windows](#windows)
+
 #### Independent
-- [Google Chrome](#google-chrome)
-- [Mozilla Firefox](#mozilla-firefox)
-- [Opera](#opera)
-
 #### Mac
-- [Safari](#safari)
-
 #### Windows
-- [Internet Explorer](#internet-explorer)
-- [Microsoft Edge](#microsoft-edge)
 
 #### Google Chrome
 The Chrome DevTools are a set of web authoring and debugging tools built into Google Chrome. Use the DevTools to iterate, debug and profile your site. To learn more, [click here](https://developers.google.com/web/tools/chrome-devtools/).
