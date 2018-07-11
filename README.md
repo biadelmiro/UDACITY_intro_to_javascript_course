@@ -38,11 +38,11 @@ In Google Chrome, you can access the console by opening the developer tools, whi
 
 You can write and test JavaScript code directly in the console. For example, to write your first line of code you could start by writing your name. As you will see, just writing your name will actually result in an error. To be able to actually write your name in JavaScript without an error you need to format your name as a data type called a string put inside quotes:
 ``` 
-"Julia"
+"Michael"
 ```
 Why don’t we try something else? Here’s some code that creates an alert that says, Hello, Julia, how are you? And it pushes it to the browser:
 ```
-alert("Hello, Julia! How are you?!");
+alert("Hello, Michael! How are you?!");
 ```
 Now writing code directly in your browser is something you can do to test out new code snippets where you’re not really sure what they do. But it could actually get pretty annoying once you start writing larger and larger programs. For example, if you wanted to create more than just one alert, it may seem simple at first, but each time you need to go to the next line, you would have to type Shift+Return instead of just the Return key.
 ```
