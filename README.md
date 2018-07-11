@@ -42,9 +42,19 @@ You can write and test JavaScript code directly in the console. For example, to 
 ```
 Why don’t we try something else? Here’s some code that creates an alert that says, Hello, Julia, how are you? And it pushes it to the browser:
 ```
-alert(Hello, Julia! How are you?!);
+alert("Hello, Julia! How are you?!");
 ```
-Now writing code directly in your browser is something you can do to test out new code snippets where you’re not really sure what they do. But it could actually get pretty annoying once you start writing larger and larger programs. For example, if you wanted to create two alerts instead of just one, it may seem simple at first, but each time you need to go to the next line, you would have to type Shift+Return instead of just the Return key. This is going to get pretty annoying pretty fast. Eventually, you’ll learn about other ways to run JavaScript files. But for now we recommend using a text editor like Atom or Sublime Text and then pasting your code in the console once you’re ready to test it.
+Now writing code directly in your browser is something you can do to test out new code snippets where you’re not really sure what they do. But it could actually get pretty annoying once you start writing larger and larger programs. For example, if you wanted to create more than just one alert, it may seem simple at first, but each time you need to go to the next line, you would have to type Shift+Return instead of just the Return key.
+```
+alert("Hello");
+alert(":(");
+```
+```
+alert("Hello");
+alert("This is great!");
+alert("JavaScript is fun!");
+```
+This is going to get pretty annoying pretty fast. Eventually, you’ll learn about other ways to run JavaScript files. But for now we recommend using a text editor like Atom or Sublime Text and then pasting your code in the console once you’re ready to test it.
 
 ### Developer Tools on Different Browsers
 Every modern web browser includes its own set of developer tools. Below is a guide to the various web browsers and their respective developer tools.
