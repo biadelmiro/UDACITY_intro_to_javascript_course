@@ -59,7 +59,7 @@ This is going to get pretty annoying pretty fast. Eventually, you’ll learn abo
 ### Developer Tools on Different Browsers
 Every modern web browser includes its own set of developer tools. They can be separated into two categories; independent and dependent browsers. Independent browsers can be used regardless of operating system and dependent browsers depend on which operating system you use, which are predominantly Mac or Windows. Here is a list of the most used independent and dependent web browsers used by developers:
 
-#### Independent Web Browsers
+#### Independent
 - Google Chrome
 - Mozilla
 - Opera
