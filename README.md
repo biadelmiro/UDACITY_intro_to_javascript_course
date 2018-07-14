@@ -183,6 +183,7 @@ Defining a number in JavaScript is actually pretty simple. The **Number** data t
 3
 ```
 **Returns:** 3
+There, you did it.
 ### Comments
 
 ### Quiz: First Expression (2-1)
