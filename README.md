@@ -192,6 +192,7 @@ You can also perform calculations with numbers pretty easily. Basically type out
 3 + 2.1
 ```
 **Returns:** 5.1
+Now you try!
 ### Comments
 
 ### Quiz: First Expression (2-1)
