@@ -194,6 +194,8 @@ You can also perform calculations with numbers pretty easily. Basically type out
 **Returns:** 5.1
 
 Now you try!
+
+QUESTION 1 OF 2
 ### Comments
 
 ### Quiz: First Expression (2-1)
