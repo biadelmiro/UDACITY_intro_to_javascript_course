@@ -187,7 +187,7 @@ Defining a number in JavaScript is actually pretty simple. The **Number** data t
 There, you did it.
 
 #### Arithmetic operations
-You can also perform calculations with numbers pretty easily.
+You can also perform calculations with numbers pretty easily. Basically type out an expression the way you would type it in a calculator:
 ### Comments
 
 ### Quiz: First Expression (2-1)
