@@ -59,62 +59,32 @@ This is going to get pretty annoying pretty fast. Eventually, you’ll learn abo
 ### Developer Tools on Different Browsers
 Every modern web browser includes its own set of developer tools. Developer Tools, also known as DevTools, are used to examine, edit, test and debug your code. They can be separated into three categories; independent, Mac and Windows. Independent browsers, such as, Google Chrome, Mozilla Firefox and Opera can be used regardless of operating system. Specific browsers, such as, Safari, Internet Explorer and Microsoft Edge Mac are dependent on their respective Mac or Windows operating system. Below is a guide to the various web browsers and their respective developer tools:
 
+- [Independent](#independent)
+- [Mac](#mac)
+- [Windows](#windows)
+- [Further Reading](#further-reading)
+
 #### Independent
 With most independent browsers, such as, Google Chrome, Mozilla Firefox and Opera, you can access them with a right-click on an element and then selecting Inspect Element. Alternatively, you can use the following shortcuts:
 - Command + Option + i (Mac)
 - Ctrl + Shift + i (Windows/Linux).
 
-**Further Reading:**
-- [Google Chrome](https://developers.google.com/web/tools/chrome-devtools/)
-- [Mozilla Firefox](https://developer.mozilla.org/en-US/docs/Tools)
-- [Opera](https://www.opera.com/dragonfly/)
-
 #### Mac
 Safari has the same options to access it's DevTools as with independent browsers, however, you first have to enable the Develop menu in Safari’s Advanced preferences in order to use them.
 
 #### Windows
+Internet Explorer and Microsoft Edge have the F12 DevTools, which are accessible by simply pressing F12 on the Keyboard. Testing for Internet Explorer 8, 9, 10 and 11 is arguably still best practice for web based projects, because they often present unique problems. Apparently, due to Microsoft Edge's tools having been written in TypeScript, it is always running and no reload is required. In addition, F12 developer tools documentation is now fully available on [GitHub](https://github.com/MicrosoftDocs/edge-developer).
 
-#### Google Chrome
-The Chrome DevTools are a set of web authoring and debugging tools built into Google Chrome. Use the DevTools to iterate, debug and profile your site. To learn more, [click here](https://developers.google.com/web/tools/chrome-devtools/).
-
-To open Chrome DevTools, either right-click on any page element and select Inspect or open the Chrome settings menu in the top-right corner of your browser window and select More Tools > Developer Tools. Alternatively, you can use the shortcuts:
-- Command + Option + i (Mac)
-- Ctrl + Shift + i (Windows/Linux).
-
-#### Mozilla Firefox
-Firefox Developer Tools allow you to examine, edit, and debug HTML, CSS, and JavaScript on the desktop and on mobile. Also, you can download a version of Firefox called Firefox Developer Edition that is tailored for developers, featuring the latest Firefox features and experimental developer tools. To learn more, [click here](https://developer.mozilla.org/en-US/docs/Tools).
-
-To open Firefox Developer Tools, either right-click on any page element and select Inspect Element or open the Firefox settings menu in the top-right corner of your browser window and select Developer. Alternatively, you can use the shortcuts:
-- Command + Option + i (Mac)
-- Ctrl + Shift + i (Windows/Linux).
-
-#### Opera
-Fast, lean and powerful, Opera comes pre-packed with a fully-featured suite of developer tools. Named Opera Dragonfly, it is designed to make your job easier. To learn more, [click here](https://www.opera.com/dragonfly/).
-
-Launch Opera Dragonfly with the following keyboard shortcuts:
-- Command + Option + i (Mac)
-- Ctrl + Shift + i (Windows/Linux).
-
-Alternatively, you can target a specific element by right-clicking in the page and selecting Inspect Element.
-
-#### Safari
-For any Mac users, Safari includes Web Inspector, a powerful tool that makes it easy to modify, debug, and optimize a website for peak performance and compatibility on both platforms. To learn more, [click here](https://developer.apple.com/safari/tools/).
-
-To access Safari's Web Development Tools, enable the Develop menu in Safari’s Advanced preferences. Once enabled, you can right-click on any page element and select Inspect Element to open Web Development Tools or use the shortcut Command + Option + i.
-
-#### Internet Explorer
-If you use Internet Explorer, then you can access F12 developer tools by simply pressing F12. The features vary between versions, but starting at Internet Explorer 8 remain pretty consistent. Below, we've linked to documentation for each version, but if you've upgraded to Microsoft Edge, then check the next section.
+#### Further Reading
+- [Google Chrome](https://developers.google.com/web/tools/chrome-devtools/)
+- [Mozilla Firefox](https://developer.mozilla.org/en-US/docs/Tools)
+- [Opera](https://www.opera.com/dragonfly/)
+- [Safari](https://developer.apple.com/safari/tools/)
 - [Internet Explorer 8](https://msdn.microsoft.com/en-us/library/dd565628.aspx)
 - [Internet Explorer 9](https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/samples/gg589512(v=vs.85))
 - [Internet Explorer 10](https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/dev-guides/hh673549(v=vs.85))
 - [Internet Explorer 11](https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/dev-guides/bg182636(v=vs.85))
-
-#### Microsoft Edge
-Microsoft Edge introduces great new improvements to the F12 developer tools seen in Internet Explorer. The new tools are built in TypeScript, and are always running, so no reloads are required. In addition, F12 developer tools documentation is now fully available on [GitHub](https://github.com/MicrosoftDocs/edge-developer).
-
-Just like Internet Explorer, to open developer tools in Microsoft Edge simply press F12.
-
-To learn more, [click here](https://docs.microsoft.com/de-de/microsoft-edge/devtools-guide).
+[Microsoft Edge](https://docs.microsoft.com/de-de/microsoft-edge/devtools-guide)
 
 ### Console Log
 Developer tools allow you to debug and test out your ideas directly in the browser. If your familiar with HTML or CSS, you may have used developer tools to experiment with the style of a webpage. But you can also use it with JavaScript. Developer tools are often used as a sandbox. In other words, a place to mess around with any code without any long-term consequences. You can use developer tools to debug problems you run in to or to test a piece of code you’ve just learned. If you open any website that uses JavaScript, the console will tell you if there are any warnings or errors on the page and will also display any output and print it with console.log. Note that anytime you’re using the console on this course, you might see some errors or warnings from the site you’re visiting. That’s okay, this is very common and will not affect the code that you write in this course.
