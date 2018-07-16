@@ -57,7 +57,9 @@ alert("JavaScript is fun!");
 This is going to get pretty annoying pretty fast. Eventually, you’ll learn about other ways to run JavaScript files. But for now we recommend using a text editor like Atom or Sublime Text and then pasting your code in the console once you’re ready to test it.
 
 ### Developer Tools on Different Browsers
-Every modern web browser includes its own set of developer tools. Developer Tools, also known as DevTools, are used to examine, edit, test and debug your code. They can be separated into three categories; independent, Mac and Windows. Independent browsers, such as, Google Chrome, Mozilla Firefox and Opera can be used regardless of operating system. Specific browsers, such as, Safari, Internet Explorer and Microsoft Edge Mac are dependent on their respective Mac or Windows operating system. Below is a guide to the various web browsers and their respective developer tools:
+Every modern web browser includes its own set of developer tools. Developer tools allow you to debug and test out your ideas directly in the browser. If you're familiar with HTML or CSS, you may have used them to experiment with the style of a webpage, however, you can also use it with JavaScript. They are often used as a sandbox, that is, a place to mess around with any code without any long-term consequences. You can use them to debug problems you run in to or to test a piece of code. If you open any website that uses JavaScript, the console will tell you if there are any warnings or errors on the page and will also display any output and print it with console.log. Warnings and errors are very common when visiting sites and will not affect your code.
+
+DevTools can be separated into three categories; independent, Mac and Windows. Independent browsers, such as, Google Chrome, Mozilla Firefox and Opera can be used regardless of operating system. Specific browsers, such as, Safari, Internet Explorer and Microsoft Edge Mac are dependent on their respective Mac or Windows operating system. Below is a guide to the various web browsers and their respective developer tools:
 
 - [Independent](#independent)
 - [Mac](#mac)
@@ -87,8 +89,6 @@ Internet Explorer and Microsoft Edge have the F12 DevTools, which are accessible
 - [Microsoft Edge](https://docs.microsoft.com/de-de/microsoft-edge/devtools-guide)
 
 ### Console Log
-Developer tools allow you to debug and test out your ideas directly in the browser. If your familiar with HTML or CSS, you may have used developer tools to experiment with the style of a webpage. But you can also use it with JavaScript. Developer tools are often used as a sandbox. In other words, a place to mess around with any code without any long-term consequences. You can use developer tools to debug problems you run in to or to test a piece of code you’ve just learned. If you open any website that uses JavaScript, the console will tell you if there are any warnings or errors on the page and will also display any output and print it with console.log. Note that anytime you’re using the console on this course, you might see some errors or warnings from the site you’re visiting. That’s okay, this is very common and will not affect the code that you write in this course.
-
 console.log is used to display content to the JavaScript console. Run the following code in the console:
 ```
 console.log("hiya friend!");
