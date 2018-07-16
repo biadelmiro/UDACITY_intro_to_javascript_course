@@ -57,10 +57,21 @@ alert("JavaScript is fun!");
 This is going to get pretty annoying pretty fast. Eventually, you’ll learn about other ways to run JavaScript files. But for now we recommend using a text editor like Atom or Sublime Text and then pasting your code in the console once you’re ready to test it.
 
 ### Developer Tools on Different Browsers
-Every modern web browser includes its own set of developer tools. They can be separated into three categories; independent, Mac and Windows. Independent browsers, such as, Google Chrome, Mozilla Firefox and Opera can be used regardless of operating system. Specific browsers, such as, Safari, Internet Explorer and Microsoft Edge Mac are dependent on their respective Mac or Windows operating system. Below is a guide to the various web browsers and their respective developer tools:
+Every modern web browser includes its own set of developer tools. Developer Tools, also known as DevTools, are used to examine, edit, test and debug your code. They can be separated into three categories; independent, Mac and Windows. Independent browsers, such as, Google Chrome, Mozilla Firefox and Opera can be used regardless of operating system. Specific browsers, such as, Safari, Internet Explorer and Microsoft Edge Mac are dependent on their respective Mac or Windows operating system. Below is a guide to the various web browsers and their respective developer tools:
 
 #### Independent
+With most independent browsers, such as, Google Chrome, Mozilla Firefox and Opera, you can access them with a right-click on an element and then selecting Inspect Element. Alternatively, you can use the following shortcuts:
+- Command + Option + i (Mac)
+- Ctrl + Shift + i (Windows/Linux).
+
+**Further Reading:**
+- [Google Chrome](https://developers.google.com/web/tools/chrome-devtools/)
+- [Mozilla Firefox](https://developer.mozilla.org/en-US/docs/Tools)
+- [Opera](https://www.opera.com/dragonfly/)
+
 #### Mac
+Safari has the same options to access it's DevTools as with independent browsers, however, you first have to enable the Develop menu in Safari’s Advanced preferences in order to use them.
+
 #### Windows
 
 #### Google Chrome
@@ -71,7 +82,7 @@ To open Chrome DevTools, either right-click on any page element and select Inspe
 - Ctrl + Shift + i (Windows/Linux).
 
 #### Mozilla Firefox
-Firefox Developer Tools allow you to examine, edit, and debug HTML, CSS, and JavaScript on the desktop and on mobile. Also, you can download a version of of Firefox called Firefox Developer Edition that is tailored for developers, featuring the latest Firefox features and experimental developer tools. To learn more, [click here](https://developer.mozilla.org/en-US/docs/Tools).
+Firefox Developer Tools allow you to examine, edit, and debug HTML, CSS, and JavaScript on the desktop and on mobile. Also, you can download a version of Firefox called Firefox Developer Edition that is tailored for developers, featuring the latest Firefox features and experimental developer tools. To learn more, [click here](https://developer.mozilla.org/en-US/docs/Tools).
 
 To open Firefox Developer Tools, either right-click on any page element and select Inspect Element or open the Firefox settings menu in the top-right corner of your browser window and select Developer. Alternatively, you can use the shortcuts:
 - Command + Option + i (Mac)
