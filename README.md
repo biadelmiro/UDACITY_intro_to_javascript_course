@@ -158,7 +158,9 @@ Now you try!
 
 QUESTION 1 OF 2
 
-Enter the expressions (one at a time) into the console and determine what each expression evaluates to.
+Enter the expressions (one at a time) into the console and determine what each expression evaluates to:
+
+
 ### Comments
 
 ### Quiz: First Expression (2-1)
