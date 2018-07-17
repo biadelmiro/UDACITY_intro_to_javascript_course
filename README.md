@@ -162,7 +162,7 @@ Enter the expressions (one at a time) into the console and determine what each e
 
 2 + 10 - 19 + 4 - 90 + 1
 
-
+-20 + -19 - (-10) - (-1) + 24
 ### Comments
 
 ### Quiz: First Expression (2-1)
