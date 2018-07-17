@@ -160,13 +160,13 @@ QUESTION 1 OF 2
 
 Enter the expressions (one at a time) into the console and determine what each expression evaluates to:
 
-2 + 10 - 19 + 4 - 90 + 1
+2 + 10 - 19 + 4 - 90 + 1 = -92
 
--20 + -19 - (-10) - (-1) + 24
+-20 + -19 - (-10) - (-1) + 24 = -4
 
-(10/5) * 4 - 20
+(10/5) * 4 - 20 = -12
 
-4096 % 12
+4096 % 12 = 4
 ### Comments
 
 ### Quiz: First Expression (2-1)
