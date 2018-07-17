@@ -160,6 +160,8 @@ QUESTION 1 OF 2
 
 Enter the expressions (one at a time) into the console and determine what each expression evaluates to:
 
+2 + 10 - 19 + 4 - 90 + 1
+
 
 ### Comments
 
