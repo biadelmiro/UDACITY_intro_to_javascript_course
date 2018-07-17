@@ -165,6 +165,8 @@ Enter the expressions (one at a time) into the console and determine what each e
 -20 + -19 - (-10) - (-1) + 24
 
 (10/5) * 4 - 20
+
+4096 % 12
 ### Comments
 
 ### Quiz: First Expression (2-1)
