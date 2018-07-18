@@ -175,6 +175,7 @@ Just like in mathematics, you can compare two numbers to see if one’s greater 
 ```
 5 > 10
 ```
+**Returns:** false
 ### Comments
 
 ### Quiz: First Expression (2-1)
