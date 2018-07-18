@@ -169,7 +169,7 @@ Enter the expressions (one at a time) into the console and determine what each e
 4096 % 12 = 4
 
 #### Comparing numbers
-What about comparing numbers?
+What about comparing numbers? Can you do that?
 ### Comments
 
 ### Quiz: First Expression (2-1)
