@@ -167,6 +167,8 @@ Enter the expressions (one at a time) into the console and determine what each e
 (10/5) * 4 - 20 = -12
 
 4096 % 12 = 4
+
+#### Comparing numbers
 ### Comments
 
 ### Quiz: First Expression (2-1)
