@@ -171,7 +171,7 @@ Enter the expressions (one at a time) into the console and determine what each e
 #### Comparing numbers
 What about comparing numbers? Can you do that? Well of course you can!
 
-Just like in mathematics, you can compare two numbers to see if one’s greater than, less than, or equal to the other.
+Just like in mathematics, you can compare two numbers to see if one’s greater than, less than, or equal to the other:
 ```
 5 > 10
 ```
