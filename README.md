@@ -178,7 +178,7 @@ Just like in mathematics, you can compare two numbers to see if one’s greater 
 **Returns:** false
 
 ### Comments
-You can use comments to help explain your code and make things clearer. In JavaScript, comments are marked with a double forward-slash //.
+You can use comments to help explain your code and make things clearer. In JavaScript, comments are marked with a double forward-slash //. Anything written on the same line after the // will not be executed or displayed.
 
 ### Quiz: First Expression (2-1)
 
