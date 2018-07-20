@@ -176,7 +176,9 @@ Just like in mathematics, you can compare two numbers to see if one’s greater 
 5 > 10
 ```
 **Returns:** false
+
 ### Comments
+You can use comments to help explain your code and make things clearer.
 
 ### Quiz: First Expression (2-1)
 
