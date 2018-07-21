@@ -193,6 +193,7 @@ Some of the quizzes in this course might include comments that give you hints or
 Alright, good luck!
 
 ### Quiz: First Expression (2-1)
+#### Directions:
 
 ### Strings
 
