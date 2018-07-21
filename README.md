@@ -188,7 +188,7 @@ a multi-line
 comment
 */
 ```
-
+Some of the quizzes in this course might include comments that give you hints or instructions to complete the quiz.
 ### Quiz: First Expression (2-1)
 
 ### Strings
