@@ -189,6 +189,9 @@ comment
 */
 ```
 Some of the quizzes in this course might include comments that give you hints or instructions to complete the quiz. Comments are often used to clarify and document non-obvious code. It's good practice to include code comments to improve code readability.
+
+Alright, good luck!
+
 ### Quiz: First Expression (2-1)
 
 ### Strings
