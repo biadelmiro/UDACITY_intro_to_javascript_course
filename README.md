@@ -188,7 +188,7 @@ a multi-line
 comment
 */
 ```
-Some of the quizzes in this course might include comments that give you hints or instructions to complete the quiz.
+Some of the quizzes in this course might include comments that give you hints or instructions to complete the quiz. Comments are often used to clarify and document non-obvious code.
 ### Quiz: First Expression (2-1)
 
 ### Strings
