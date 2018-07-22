@@ -195,6 +195,7 @@ Alright, good luck!
 ### Quiz: First Expression (2-1)
 #### Directions:
 Write an expression that uses at least 3 different arithmetic operators.
+The expression should equal 42.
 
 ### Strings
 
