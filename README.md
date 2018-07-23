@@ -212,7 +212,6 @@ The expression should equal 42.
 // this expression equals 4, change it to equal 42
 console.log(4 * 10 + 8 - 6);
 ```
-
 ### Strings
 
 ### String Concatination
