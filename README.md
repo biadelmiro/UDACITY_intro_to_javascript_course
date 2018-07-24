@@ -214,7 +214,7 @@ console.log(4 * 10 + 8 - 6);
 ```
 
 ### Strings
-
+Let’s take a look at the string datatype.
 ### String Concatination
 
 ### Variables
