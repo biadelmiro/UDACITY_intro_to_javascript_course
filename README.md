@@ -89,7 +89,7 @@ Internet Explorer and Microsoft Edge have the F12 DevTools, which are accessible
 - [Microsoft Edge](https://docs.microsoft.com/de-de/microsoft-edge/devtools-guide)
 
 ### Console Log
-console.log is used to display content to the JavaScript console. Run the following code in the console:
+console.log is used to print content to the JavaScript console:
 ```
 console.log("hiya friend!");
 ```
