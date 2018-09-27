@@ -217,7 +217,7 @@ Let’s take a look at the string datatype. You’ve actually used a string befo
 **Tip:** It is correct to either use “ or ‘ quotes with strings, as long as you’re consistent. The [JavaScript Udacity style guide](http://udacity.github.io/frontend-nanodegree-styleguide/javascript.html) for labs and projects suggests using single quotes to define string literals.
 
 ### String Concatination
-**Strings** are a collection of characters enclosed inside double or single quotes. You can use strings to represent data like sentences, names, addresses, and more.
+**Strings** are a collection of characters enclosed inside double or single quotes. You can use strings to represent data like sentences, names, addresses, and more. Did you know you can even add strings together?
 ### Variables
 
 ### Quiz: Converting Temperatures (2-2)
