@@ -218,6 +218,9 @@ Let’s take a look at the string datatype. You’ve actually used a string befo
 
 ### String Concatination
 **Strings** are a collection of characters enclosed inside double or single quotes. You can use strings to represent data like sentences, names, addresses, and more. Did you know you can even add strings together? In JavaScript, this is called **concatenating**. Concatenating two strings together is actually pretty simple!
+```
+"Hello," + " New York City"
+```
 ### Variables
 
 ### Quiz: Converting Temperatures (2-2)
