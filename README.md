@@ -221,6 +221,7 @@ Let’s take a look at the string datatype. You’ve actually used a string befo
 ```
 "Hello," + " New York City"
 ```
+**Returns:** "Hello, New York City"
 ### Variables
 
 ### Quiz: Converting Temperatures (2-2)
