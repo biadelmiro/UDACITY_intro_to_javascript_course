@@ -224,6 +224,10 @@ Let’s take a look at the string datatype. You’ve actually used a string befo
 **Returns:** "Hello, New York City"
 
 You will see other ways to concatenate and do even more with strings later in this course. But for now, practice using the addition + operator.
+
+QUESTION 1 OF 3
+
+
 ### Variables
 
 ### Quiz: Converting Temperatures (2-2)
