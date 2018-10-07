@@ -228,6 +228,7 @@ You will see other ways to concatenate and do even more with strings later in th
 QUESTION 1 OF 3
 
 What's the result with ```"hello" + "world"```?
+**answer** "helloworld"
 ### Variables
 
 ### Quiz: Converting Temperatures (2-2)
