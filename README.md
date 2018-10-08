@@ -228,11 +228,13 @@ You will see other ways to concatenate and do even more with strings later in th
 QUESTION 1 OF 3
 
 What's the result with ```"hello" + "world"```?
+
 **answer** "helloworld"
 
 QUESTION 2 OF 3
 
 What do you think will happen when you type ```"Hello + 5*10"``` into the JavaScript console?
+
 **answer** "Hello + 5*10"
 ### Variables
 
