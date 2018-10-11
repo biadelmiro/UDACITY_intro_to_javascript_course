@@ -199,7 +199,7 @@ QUESTION 2 OF 2
 Enter the expressions (one at a time) into the console and determine what each expression evaluates to.
 
 | Expression | Solution |
-| --- | --- |
+| :---: | --- |
 | 43 > 47 | false |
 | 12 == 17 | false |
 | 3 <= 3 | true |
