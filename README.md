@@ -198,6 +198,15 @@ QUESTION 2 OF 2
 
 Enter the expressions (one at a time) into the console and determine what each expression evaluates to.
 
+| Expression | Solution |
+| --- | --- |
+| 43 > 47 | false |
+| 12 == 17 | false |
+| 3 <= 3 | true |
+| 1 != 0 | true |
+
+**TIP:** The values ```js true``` and ```js false``` have significant importance in JavaScript. These values are called **Booleans** and are another data type in JavaScript. Later in this lesson, you’ll learn more about why Booleans are so important in programming.
+
 ### Comments
 You can use comments to help explain your code and make things clearer. In JavaScript, comments are marked with a double forward-slash //. Anything written on the same line after the // will not be executed or displayed. To have the comment span multiple lines, mark the start of your comment with a forward-slash and star, and then enclose your comment inside a star and forward-slash /* … */.
 ```
