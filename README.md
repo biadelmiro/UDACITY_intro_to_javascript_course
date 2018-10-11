@@ -186,7 +186,7 @@ Just like in mathematics, you can compare two numbers to see if one’s greater 
 Comparisons between numbers will either evaluate to true or false. Here are some more examples, so you can try it out!
 
 | Operator | Meaning |
-| :---: | :---: |
+| :---: | :--- |
 | < | Less than |
 | > | Greater than |
 | <= | Less than or equal to |
