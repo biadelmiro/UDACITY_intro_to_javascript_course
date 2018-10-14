@@ -268,6 +268,12 @@ QUESTION 2 OF 3
 What do you think will happen when you type ```"Hello + 5*10"``` into the JavaScript console?
 
 **answer** "Hello + 5*10"
+
+QUESTION 3 OF 3
+
+What do you think will happen when you type ```"Hello" + 5*10``` into the console?
+
+**answer** "Hello50"
 ### Variables
 
 ### Quiz: Converting Temperatures (2-2)
