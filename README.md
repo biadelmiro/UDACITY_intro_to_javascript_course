@@ -280,6 +280,35 @@ So you have all these numbers, strings and booleans, but what are you supposed t
 
 With variables, you no longer need to work with one-time-use data.
 
+At the beginning of this course, you declared the value of a string, but you didn't have a way to access or reuse the string later.
+```
+"Hello"; // Here's a String "Hello"
+"Hello" + " World"; // Here's a new String (also with the value "Hello") concatenated with " World"
+```
+Storing the value of a string in a variable is like packing it away for later use.
+```
+var greeting = "Hello";
+```
+Now, if you want to use "Hello" in a variety of sentences, you don't need to duplicate "Hello" strings. You can just reuse the ```greeting``` variable.
+```
+greeting + " World!";
+```
+**Returns:** Hello World!
+```
+greeting + " Mike!";
+```
+**Returns:** Hello Mike!
+You can also change the start of the greeting by reassigning a new string value to the variable ```greeting```.
+```
+greeting = "Hola";
+greeting + " World!";
+```
+**Returns:** Hola World!
+```
+greeting + " Mike!";
+```
+**Returns:** Hola Mike!
+
 ### Quiz: Converting Temperatures (2-2)
 
 ## Conditionals
