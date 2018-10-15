@@ -9,7 +9,7 @@ A collection of summaries to Udacity's Intro to JavaScript
    4. [Developer Tools on Different Browsers](#developer-tools-on-different-browsers)
    5. [Console Log](#console-log)
    6. [JavaScript Demo](#javascript-demo)
-   7. [Summary](#summary)
+   7. [Lesson 1 Summary](#lesson-1-summary)
 2. [Data Types and Variables](#data-types-and-variables)
    1. [Introduction to Data Types](#introduction-to-data-types)
    2. [Numbers](#numbers)
@@ -35,7 +35,7 @@ A collection of summaries to Udacity's Intro to JavaScript
    22. [Quiz: Out to Dinner (2-10)](#quiz-out-to-dinner-2-10)
    23. [Quiz: Mad Libs (2-11)](#quiz-mad-libs-2-11)
    24. [Quiz: One Awesome Message (2-12)](#quiz-one-awesome-message-2-12)
-   25. [Summary](#summary)
+   25. [Lesson 2 Summary](#lesson-2-summary)
 3. [Conditionals](#conditionals)
 4. [Loops](#loops)
 5. [Functions](#functions)
@@ -401,7 +401,7 @@ console.log(fahrenheit);
 ### Quiz: Out to Dinner (2-10)
 ### Quiz: Mad Libs (2-11)
 ### Quiz: One Awesome Message (2-12)
-### Summary
+### Lesson 2 Summary
 
 ## Conditionals
 ## Loops
