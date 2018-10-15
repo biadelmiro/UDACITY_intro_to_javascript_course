@@ -386,6 +386,8 @@ var fahrenheit = celsius * 1.8 + 32;
 console.log(fahrenheit);
 ```
 ### String Index
+#### Indexing
+Did you know that you can access individual characters in a string? To access an individual character, you can use the character's location in the string, called its **index**. Just put the index of the character inside square brackets (starting with ```js[0]``` as the first character) immediately after the string. For example:
 ### Escaping Strings
 ### Comparing Strings
 ### Quiz: Favorite Foods (2-3)
