@@ -399,6 +399,18 @@ or more commonly, you will see it like this, using a variable:
 var name = "James";
 name[0];
 ```
+**Returns:** "J"
+
+Characters within a string are indexed starting from 0, where the first character is at position 0, to n-1, where the last character is at position n-1 (n represents the total number of characters within a string).
+
+QUIZ QUESTION
+
+What character will be printed to the JavaScript console after running the following lines of code.
+```js
+var quote = "Stay awhile and listen!";
+console.log(quote[6]);
+```
+**Answer:** w
 
 ### Escaping Strings
 ### Comparing Strings
