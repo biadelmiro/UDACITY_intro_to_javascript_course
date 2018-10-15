@@ -19,6 +19,23 @@ A collection of summaries to Udacity's Intro to JavaScript
    6. [String Concatination](#string-concatination)
    7. [Variables](#variables)
    8. [Quiz: Converting Temperatures (2-2)](#quiz-converting-temperatures-2-2)
+   9. [String Index](#string-index)
+   10. [Escaping Strings](#escaping-strings)
+   11. [Comparing Strings](#comparing-strings)
+   12. [Quiz: Favorite Food (2-3)](#quiz-favorite-food-2-3)
+   13. [Quiz: String Equality for All (2-4)](#quiz-string-equality-for-all-2-4)
+   14. [Quiz: All Tied Up (2-5)](#quiz-all-tied-up-2-5)
+   15. [Quiz: Josa Buson (2-6)](#quiz-josa-buson-2-6)
+   16. [Booleans](#booleans)
+   17. [Quiz: Facebook Post (2-7)](#quiz-facebook-post)
+   18. [Null, Undefined and NaN](#null-undefined-and-nan)
+   19. [Equality](#equality)
+   20. [Quiz: Semicolons!(2-8)](#quiz-semicolons-2-8)
+   21. [Quiz: What's My Name?(2-9)](#quiz-whats-my-name-2-9)
+   22. [Quiz: Out to Dinner (2-10)](#quiz-out-to-dinner-2-10)
+   23. [Quiz: Mad Libs (2-11)](#quiz-mad-libs-2-11)
+   24. [Quiz: One Awesome Message (2-12)](#quiz-one-awesome-message-2-12)
+   25. [Summary](#summary)
 3. [Conditionals](#conditionals)
 4. [Loops](#loops)
 5. [Functions](#functions)
@@ -368,6 +385,23 @@ var fahrenheit = celsius * 1.8 + 32;
 
 console.log(fahrenheit);
 ```
+### String Index
+### Escaping Strings
+### Comparing Strings
+### Quiz: Favorite Foods (2-3)
+### Quiz: String Equality for All (2-4)
+### Quiz: All Tied Up (2-5)
+### Quiz: Yosa Buson (2-6)
+### Booleans
+### Quiz: Facebook Post (2-7)
+### Null, Undefined and NaN
+### Equality
+### Quiz: Semicolons! (2-8)
+### Quiz: What's My Name? (2-9)
+### Quiz: Out to Dinner (2-10)
+### Quiz: Mad Libs (2-11)
+### Quiz: One Awesome Message (2-12)
+### Summary
 
 ## Conditionals
 ## Loops
