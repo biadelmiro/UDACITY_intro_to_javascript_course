@@ -430,6 +430,13 @@ If you forget to use the backslash to escape characters, then the JavaScript eng
 #### Escaping characters
 In JavaScript, you use the backslash to **escape** other characters.
 
+*Escaping a character* tells JavaScript to ignore the character's special meaning and just use the literal value of the character. This is helpful for characters that have special meanings like in our previous example with quotes ```"…"```.
+
+Because quotes are used to signify the beginning and end of a string, you can use the backslash character to escape the quotes in order to access the literal quote character.
+```js
+"The man whispered, \"please speak to me.\""
+```
+
 ### Comparing Strings
 ### Quiz: Favorite Foods (2-3)
 ### Quiz: String Equality for All (2-4)
