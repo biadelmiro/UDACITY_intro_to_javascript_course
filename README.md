@@ -837,6 +837,7 @@ var awesomeMessage = "Hi, my name is " + firstName + ". I love " + interest + ".
 console.log(awesomeMessage);
 ```
 ### Lesson 2 Summary
+That about wraps it up for data types and variables. You should congratulate yourself on a job well done. That was a huge lesson. In this lesson, we covered all the basic data types in JavaScript, including numbers, strings, boolean, null and undefined. Also, we looked at how you can store data into variables. Don’t forget operations on numbers and strings. Right, that too. In the next lesson, we’ll build upon your new knowledge of data types and variables to learn how to write code to solve logical problems. See you there.
 
 ## Conditionals
 ## Loops
