@@ -523,6 +523,20 @@ console.log("Pizza");
 ```
 
 ### Quiz: String Equality for All (2-4)
+#### Directions:
+Fix the right side expression so it evaluates to ```true```.
+
+**Your Code:**
+```js
+/*
+ * Programming Quiz: String Equality for All (2-4)
+ */
+
+// fix the right side of the expression
+var answer = "ALL Strings are CrEaTeD equal" == "ALL Strings are CrEaTeD equal";
+console.log(answer);
+```
+
 ### Quiz: All Tied Up (2-5)
 ### Quiz: Yosa Buson (2-6)
 ### Booleans
