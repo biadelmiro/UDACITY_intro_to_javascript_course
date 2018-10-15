@@ -541,8 +541,9 @@ console.log(answer);
 #### Directions:
 Build a single string that resembles the following joke.
 
-```js
-Why couldn\'t the shoes got out and play?\nThey were all \"tied\" up!
+```
+Why couldn't the shoes got out and play?
+They were all "tied" up!
 ```
 
 ### Quiz: Yosa Buson (2-6)
