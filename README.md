@@ -588,6 +588,30 @@ You’ve now seen how you can perform basic operations, as well as comparisons o
 Dissecting a Facebook post is actually quite simple; anything written is most likely to be a String, anything numerical a Number and the Like button certainly a Boolean.
 
 ### Null, Undefined and NaN
+So far, we’ve looked at the data types number, string, and boolean. But there are a couple more we need to look at, and those are null and undefined. At first they might seem somewhat confusing, because they are pretty similar. So you might want to replay this explanation a couple of times. Null is a data type that has no value, just like how you can set a variable to a value of 10. You could explicitly set a variable to a value of null. Undefined is a data type that indicates the absence of value. It’s a bit confusing, but it’s not the same as null. Null is a value that means nothing or totally empty. But undefined actually means does not have a value, not even a value of nothing. You could declare a variable x and try to use it, and it will return undefined. It’s undefined because the variable x exists, it just doesn’t have a value yet. If you set a variable to the value of null and try to use it, it will return null. In other words, undefined will be returned to you, if you didn’t assign a value to something. Null will be returned if you purposefully assign the value to nothing.
+
+```null``` refers to the "value of nothing", while ```undefined``` refers to the "absence of value".
+
+#### What is NaN?
+
+```NaN``` stands for "Not-A-Number" and it's often returned indicating an error with number operations. For instance, if you wrote some code that performed a math calculation, and the calculation failed to produce a valid number, ```NaN``` might be returned.
+```js
+// calculating the square root of a negative number will return NaN
+Math.sqrt(-10)
+
+// trying to divide a string by 5 will return NaN
+"hello"/5
+```
+
+QUIZ QUESTION
+
+What will be printed out?
+```js
+var signedIn;
+console.log(signedIn);
+```
+**Answer:** undefined
+
 ### Equality
 ### Quiz: Semicolons! (2-8)
 ### Quiz: What's My Name? (2-9)
