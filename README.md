@@ -298,6 +298,7 @@ greeting + " World!";
 greeting + " Mike!";
 ```
 **Returns:** Hello Mike!
+
 You can also change the start of the greeting by reassigning a new string value to the variable ```greeting```.
 ```
 greeting = "Hola";
