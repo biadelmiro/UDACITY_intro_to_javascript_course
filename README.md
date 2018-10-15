@@ -493,14 +493,14 @@ QUIZ QUESTION
 
 Enter each expression into the console. Check the ones that evaluate to ```true```.
 ```js
-"green" == "blue"
-"green" == "green"
-"green" == "Green"
-"Green" == "green"
-"green" > "blue"
-"green" > "green"
-"green" > "Green"
-"Green" > "green"
+"green" == "blue" // false
+"green" == "green" // true
+"green" == "Green" // false
+"Green" == "green" // false
+"green" > "blue" // true
+"green" > "green" // false
+"green" > "Green" // true
+"Green" > "green" // false
 ```
 **Answers:**
 ```js
