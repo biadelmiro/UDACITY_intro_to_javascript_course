@@ -310,6 +310,35 @@ greeting + " Mike!";
 ```
 **Returns:** Hola Mike!
 
+#### Naming Conventions
+When you create a variable, you write the name of the variable using camelCase (the first word is lowercase, and all following words are uppercase). Also try to use a variable name that accurately, but succinctly describes what the data is about.
+```
+var totalAfterTax = 53.03; // uses camelCase if the variable name is multiple words
+var tip = 8; // uses lowercase if the variable name is one word
+```
+
+Not using camelCase for your variables names is not going to necessarily *break* anything in JavaScript. But there are recommended style guides used in all programming languages that help keep code consistent, clean, and easy-to-read. This is especially important when working on larger projects that will be accessed by multiple developers.
+
+You can read more about Google's JavaScript StyleGuide [here](https://google.github.io/styleguide/jsguide.html).
+
+QUIZ QUESTION
+
+Which of these are good variable names?
+
+var thingy = 1;
+
+var count = 1;
+
+var postLiked = false;
+
+var firstname = "Richard";
+
+**answer**
+
+var count = 1;
+
+var postLiked = false;
+
 ### Quiz: Converting Temperatures (2-2)
 
 ## Conditionals
