@@ -395,7 +395,7 @@ Did you know that you can access individual characters in a string? To access an
 
 or more commonly, you will see it like this, using a variable:
 
-```
+```js
 var name = "James";
 name[0];
 ```
