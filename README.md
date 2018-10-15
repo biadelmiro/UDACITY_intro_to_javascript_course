@@ -454,7 +454,7 @@ Quotes aren’t the only special characters that need to be escaped, there’s a
 | \t | tab |
 
 The last two characters listed in the table, newline ```\n``` and tab ```\t```, are unique because they add additional **whitespace** to your Strings. A newline character will add a line break and a tab character will advance your line to the next [tab stop](https://en.wikipedia.org/wiki/Tab_stop).
-```
+```js
 "Up up\n\tdown down"
 ```
 **Returns:**
