@@ -37,19 +37,19 @@ JavaScript was created in just 10 days by Brendan Eich back in 1995 while he was
 In Google Chrome, you can access the console by opening the developer tools, which can be done by right clicking the page and selecting inspect. Once open, navigate to the console tab. Alternatively, the keyboard shortcut is Cmd+Option+J on a Mac or Ctrl+Shift+J on Windows. For more Chrome developer tools keyboard shortcuts [click here](https://developers.google.com/web/tools/chrome-devtools/shortcuts).
 
 You can write and test JavaScript code directly in the console. For example, to write your first line of code you could start by writing your name. As you see, just writing your name will actually result in an error. To be able to actually write your name in JavaScript without an error you need to format your name as a data type called a string put inside quotes:
-``` 
+```js 
 "Michael"
 ```
 Why don’t we try something else? Here’s some code that creates an alert that says, Hello, Julia, how are you? And it pushes it to the browser:
-```
+```js
 alert("Hello, Michael! How are you?!");
 ```
 Now writing code directly in your browser is something you can do to test out new code snippets where you’re not really sure what they do. But it could actually get pretty annoying once you start writing larger and larger programs. For example, if you wanted to create more than just one alert, it may seem simple at first, but each time you need to go to the next line, you would have to type Shift+Return instead of just the Return key.
-```
+```js
 alert("Hello");
 alert(":(");
 ```
-```
+```js
 alert("Hello");
 alert("This is great!");
 alert("JavaScript is fun!");
@@ -90,7 +90,7 @@ Internet Explorer and Microsoft Edge have the F12 DevTools, which are accessible
 
 ### Console Log
 console.log is used to print content to the JavaScript console:
-```
+```js
 console.log("hiya friend!");
 ```
 **Prints:** "hiya friend!"
@@ -99,7 +99,7 @@ The message logged is a data type called a **string** (a sequence of characters)
 
 #### Optional demo example
 Let’s use console.log to do something a little more interesting. Here’s a block of JavaScript code that loops through the numbers 0 through 9 and prints them out to the console:
-```
+```js
 for (var i = 0; i < 10; i++) {
   console.log(i);
 }
@@ -114,11 +114,11 @@ Based on this loop's settings, any code written inside the curly brackets {...} 
 So you saw how to use console.log to print a message to the JavaScript console. Now, let’s see how you can use the console as a sandbox to test a new line of JavaScript in the browser.
 
 Open [the following site](https://daringfireball.net/projects/markdown/) in a new tab and in that tab also open up developer tools. Then paste the following code:
-```
+```js
 document.getElementsByTagName("h1")[0].style.color = "#ff0000";
 ```
 As you can see, the heading changed red. Styling elements on the page is great, but you could also do that by just modifying the CSS. What makes JavaScript so special in this case? Refresh the page, then paste this line of code in the JavaScript console.
-```
+```js
 document.body.addEventListener('click', function () {
      var myParent = document.getElementById("Banner"); 
      var myImage = document.createElement("img");
@@ -138,7 +138,7 @@ Data is everywhere. It’s the grade you made on your first math test, it’s th
 
 ### Numbers
 Defining a number in JavaScript is actually pretty simple. The **Number** data type includes any positive or negative integer, as well as decimals. Entering a number into the console will return it right back to you:
-```
+```js
 3
 ```
 **Returns:** 3
@@ -147,7 +147,7 @@ There, you did it.
 
 #### Arithmetic operations
 You can also perform calculations with numbers pretty easily. Basically type out an expression the way you would type it in a calculator:
-```
+```js
 3 + 2.1
 ```
 **Returns:** 5.1
@@ -170,15 +170,15 @@ Enter the expressions (one at a time) into the console and determine what each e
 What about comparing numbers? Can you do that? Well of course you can!
 
 Just like in mathematics, you can compare two numbers to see if one’s greater than, less than, or equal to the other:
-```
+```js
 5 > 10
 ```
 **Returns:** false
-```
+```js
 5 < 10
 ```
 **Returns:** true
-```
+```js
 5 == 10
 ```
 **Returns:** false
@@ -209,7 +209,7 @@ Enter the expressions (one at a time) into the console and determine what each e
 
 ### Comments
 You can use comments to help explain your code and make things clearer. In JavaScript, comments are marked with a double forward-slash //. Anything written on the same line after the // will not be executed or displayed. To have the comment span multiple lines, mark the start of your comment with a forward-slash and star, and then enclose your comment inside a star and forward-slash /* … */.
-```
+```js
 // this is a single-line comment
 
 /*
@@ -250,7 +250,7 @@ Let’s take a look at the string datatype. You’ve actually used a string befo
 
 ### String Concatination
 **Strings** are a collection of characters enclosed inside double or single quotes. You can use strings to represent data like sentences, names, addresses, and more. Did you know you can even add strings together? In JavaScript, this is called **concatenating**. Concatenating two strings together is actually pretty simple!
-```
+```js
 "Hello," + " New York City"
 ```
 **Returns:** "Hello, New York City"
@@ -281,38 +281,38 @@ So you have all these numbers, strings and booleans, but what are you supposed t
 With variables, you no longer need to work with one-time-use data.
 
 At the beginning of this course, you declared the value of a string, but you didn't have a way to access or reuse the string later.
-```
+```js
 "Hello"; // Here's a String "Hello"
 "Hello" + " World"; // Here's a new String (also with the value "Hello") concatenated with " World"
 ```
 Storing the value of a string in a variable is like packing it away for later use.
-```
+```js
 var greeting = "Hello";
 ```
 Now, if you want to use "Hello" in a variety of sentences, you don't need to duplicate "Hello" strings. You can just reuse the ```greeting``` variable.
-```
+```js
 greeting + " World!";
 ```
 **Returns:** Hello World!
-```
+```js
 greeting + " Mike!";
 ```
 **Returns:** Hello Mike!
 
 You can also change the start of the greeting by reassigning a new string value to the variable ```greeting```.
-```
+```js
 greeting = "Hola";
 greeting + " World!";
 ```
 **Returns:** Hola World!
-```
+```js
 greeting + " Mike!";
 ```
 **Returns:** Hola Mike!
 
 #### Naming Conventions
 When you create a variable, you write the name of the variable using camelCase (the first word is lowercase, and all following words are uppercase). Also try to use a variable name that accurately, but succinctly describes what the data is about.
-```
+```js
 var totalAfterTax = 53.03; // uses camelCase if the variable name is multiple words
 var tip = 8; // uses lowercase if the variable name is one word
 ```
