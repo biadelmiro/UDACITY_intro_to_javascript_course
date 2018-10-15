@@ -571,7 +571,7 @@ Each string should be printed on its own line.
 
 **Hint:** *You will need to use special characters to produce the following output. For a refresher, feel free to review the previous **Escaping Strings** lesson in this course.*
 
-Your Code:
+**Your Code:**
 ```js
 /*
  * Programming Quiz: Yosa Buson (2-6)
@@ -582,6 +582,8 @@ console.log(haiku);
 ```
 
 ### Booleans
+You’ve now seen how you can perform basic operations, as well as comparisons on numbers and strings. Whenever you compare data, the result of the comparison will always be a value of true or false. This is important, because our third primitive data type, Booleans, only includes these two values. Just think, yes or no, on and off, true or false, ones and zeroes. These are all values that really represent the same thing. And this Boolean logic is a huge part of how we think about problems. Code either runs or it doesn’t, there’s no in-between, at least not in programming. In this section, you’ll dive deeper into Booleans by comparing data of different types and learning about different ways to express equality.
+
 ### Quiz: Facebook Post (2-7)
 ### Null, Undefined and NaN
 ### Equality
