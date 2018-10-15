@@ -727,6 +727,18 @@ var thingTwo = "blue";
 console.log(thingOne + thingTwo);
 ```
 ### Quiz: What's My Name? (2-9)
+#### Directions:
+Create a variable called ```fullName``` and assign it your full name as a string.
+
+**Your Code:**
+```js
+/*
+ * Programming Quiz: What's my Name? (2-9)
+ */
+
+var fullName = "Michael Hodges";
+console.log(fullName);
+```
 ### Quiz: Out to Dinner (2-10)
 ### Quiz: Mad Libs (2-11)
 ### Quiz: One Awesome Message (2-12)
