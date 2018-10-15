@@ -458,10 +458,10 @@ The last two characters listed in the table, newline ```\n``` and tab ```\t```, 
 "Up up\n\tdown down"
 ```
 **Returns:**
-
+```
 Up up
-- down down
-
+   down down
+```
 
 ### Comparing Strings
 ### Quiz: Favorite Foods (2-3)
