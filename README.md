@@ -510,6 +510,18 @@ Enter each expression into the console. Check the ones that evaluate to ```true`
 ```
 
 ### Quiz: Favorite Foods (2-3)
+#### Directions:
+Create a string with the name of your favorite food. The first letter of the string should be capitalized.
+
+**Your Code:**
+```js
+/*
+ * Programming Quiz: Favorite Food (2-3)
+ */
+
+console.log("Pizza");
+```
+
 ### Quiz: String Equality for All (2-4)
 ### Quiz: All Tied Up (2-5)
 ### Quiz: Yosa Buson (2-6)
