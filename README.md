@@ -413,6 +413,11 @@ console.log(quote[6]);
 **Answer:** w
 
 ### Escaping Strings
+There are some cases where you might want to create a string that contains more than just numbers and letters. For example, what if you want to use quotes in a string?
+```js
+"The man whispered, "please speak to me.""
+```
+
 ### Comparing Strings
 ### Quiz: Favorite Foods (2-3)
 ### Quiz: String Equality for All (2-4)
