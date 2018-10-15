@@ -413,6 +413,7 @@ console.log(quote[6]);
 **Answer:** w
 
 ### Escaping Strings
+#### Escaping strings
 There are some cases where you might want to create a string that contains more than just numbers and letters. For example, what if you want to use quotes in a string?
 ```js
 "The man whispered, "please speak to me.""
@@ -423,6 +424,11 @@ If you try to use quotes within a string, you will receive a ```SyntaxError``` l
 Because you need to use quotes to denote the beginning and end of strings, the JavaScript engine misinterprets the meaning of your string by thinking ```"The man whispered, "``` is the string. Then, it sees the remaining ```please speak to me.""``` and returns a ```SyntaxError```.
 
 If you want to use quotes *inside a string*, and have JavaScript not misunderstand your intentions, you’ll need a different way to write quotes. Thankfully, JavaScript has a way to do this using the backslash character ( \ ).
+
+If you forget to use the backslash to escape characters, then the JavaScript engine can misinterpret your strings.
+
+#### Escaping characters
+In JavaScript, you use the backslash to **escape** other characters.
 
 ### Comparing Strings
 ### Quiz: Favorite Foods (2-3)
