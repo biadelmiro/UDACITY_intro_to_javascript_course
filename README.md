@@ -538,6 +538,14 @@ console.log(answer);
 ```
 
 ### Quiz: All Tied Up (2-5)
+#### Directions:
+Build a single string that resembles the following joke.
+
+```js
+Why couldn't the shoes go out and play?
+They were all "tied" up!
+```
+
 ### Quiz: Yosa Buson (2-6)
 ### Booleans
 ### Quiz: Facebook Post (2-7)
