@@ -231,7 +231,7 @@ The expression should equal 42.
 **Hint:** +, -, *, /, and % are possible arithmetic operators
 
 **Your Code:**
-```
+```js
 /*
  * Programming Quiz: First Expression (2-1)
  *
