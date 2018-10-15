@@ -436,6 +436,15 @@ Because quotes are used to signify the beginning and end of a string, you can us
 ```js
 "The man whispered, \"please speak to me.\""
 ```
+**Returns:** The man whispered, "please speak to me."
+
+This guarantees that the JavaScript engine doesn’t misinterpret the string and result in an error.
+
+By using the backslash to escape characters, the JavaScript engine can understand the meaning of your strings.
+
+#### Special characters
+Quotes aren’t the only special characters that need to be escaped, there’s actually [quite a few](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#Using_special_characters_in_strings). However, to keep it simple, here’s a list of some common special characters in JavaScript.
+
 
 ### Comparing Strings
 ### Quiz: Favorite Foods (2-3)
