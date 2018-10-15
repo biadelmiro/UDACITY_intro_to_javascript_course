@@ -569,7 +569,7 @@ In the east.
 ```
 Each string should be printed on its own line.
 
-**Hint:** *You will need to use special characters to produce the following output. For a refresher, feel free to review the previous **Escaping Strings** lesson in this course.*
+**Hint:** *You will need to use special characters to produce the following output. For a refresher, feel free to review the previous **Escaping Strings** lesson in this course*.
 
 **Your Code:**
 ```js
@@ -588,6 +588,7 @@ You’ve now seen how you can perform basic operations, as well as comparisons o
 Dissecting a Facebook post is actually quite simple; anything written is most likely to be a String, anything numerical a Number and the Like button certainly a Boolean.
 
 ### Null, Undefined and NaN
+#### Null and Undefined
 So far, we’ve looked at the data types number, string, and boolean. But there are a couple more we need to look at, and those are null and undefined. At first they might seem somewhat confusing, because they are pretty similar. So you might want to replay this explanation a couple of times. Null is a data type that has no value, just like how you can set a variable to a value of 10. You could explicitly set a variable to a value of null. Undefined is a data type that indicates the absence of value. It’s a bit confusing, but it’s not the same as null. Null is a value that means nothing or totally empty. But undefined actually means does not have a value, not even a value of nothing. You could declare a variable x and try to use it, and it will return undefined. It’s undefined because the variable x exists, it just doesn’t have a value yet. If you set a variable to the value of null and try to use it, it will return null. In other words, undefined will be returned to you, if you didn’t assign a value to something. Null will be returned if you purposefully assign the value to nothing.
 
 ```null``` refers to the "value of nothing", while ```undefined``` refers to the "absence of value".
@@ -613,6 +614,89 @@ console.log(signedIn);
 **Answer:** undefined
 
 ### Equality
+#### Equality
+So far, you’ve seen how you can use == and != to compare numbers and strings for equality. However, if you use == and != in situations where the data you’re comparing is mixed, it can lead to some interesting results. For example:
+```js
+"1" == 1
+```
+**Returns:** true
+
+and
+```js
+0 == false
+```
+**Returns:** true
+
+both evaluate to true. Why is that?
+
+#### Implicit type coercion
+JavaScript is known as a *loosely typed language*.
+
+Basically, this means that when you’re writing JavaScript code, you do not need to specify data types. Instead, when your code is interpreted by the JavaScript engine it will automatically be converted into the "appropriate" data type. This is called *implicit type coercion* and you’ve already seen examples like this before when you tried to concatenate strings with numbers.
+```js
+"julia" + 1
+```
+**Returns:** "julia1"
+
+In this example, JavaScript takes the string ```"julia"``` and adds the number ```1``` to it resulting in the string ```"julia1"```. In other programming languages, this code probably would have returned an error, but in JavaScript the number ```1``` is converted into the string ```"1"``` and then is concatenated to the string ```"julia"```.
+
+It’s behavior like this which makes JavaScript unique from other programming languages, but it can lead to some quirky behavior when doing operations and comparisons on mixed data types.
+
+QUESTION 1 OF 2
+
+What value do you think the result of ```"Hello" % 10``` will be?
+
+**Answer:** NaN
+
+**DEFINITION:** A **strongly typed language** is a programming language that is more likely to generate errors if data does not closely match an expected type. Because JavaScript is loosely typed, you don’t need to specify data types; however, this can lead to errors that are hard to diagnose due to implicit type coercion.
+
+**Example of strongly typed programming language code**
+```
+int count = 1;
+string name = "Julia";
+double num = 1.2932;
+float price = 2.99;
+```
+Equivalent code in JavaScript
+```js
+// equivalent code in JavaScript
+var count = 1; 
+var name = "Julia";
+```
+In the example below, JavaScript takes the string ```"1"```, converts it to ```true```, and compares it to the boolean ```true```.
+```js
+"1" == true
+```
+**Returns:** true
+
+When you use the ```==``` or ```!=``` operators, JavaScript first converts each value to the same type (if they’re not already the same type); this is why it's called "type coercion"! This is often not the behavior you want, and **it’s actually considered bad practice to use the** ```==``` **and** ```!=``` **operators when comparing values for equality**.
+
+#### Strict equality
+Instead, in JavaScript it’s better to use **strict equality** to see if numbers, strings, or booleans, etc. are identical in *type* and *value* without doing the type conversion first. To perform a strict comparison, simply add an additional equals sign ```=``` to the end of the ```==``` and ```!=``` operators.
+```js
+"1" === 1
+```
+**Returns:** false
+
+This returns false because the string ```"1"``` is not the same type *and* value as the number ```1```.
+```js
+0 === false
+```
+**Returns:** false
+
+This returns false because the number ```0``` is not the same type *and* value as the boolean ```false```.
+
+QUESTION 2 OF 2
+
+Check the expressions that evaluate to ```true```.
+```js
+"3" > 1 // true
+3 != 3 // false
+true >= 0 // true
+1 !== false // true
+"false" === 0 // false
+3 === 3 // true
+```
 ### Quiz: Semicolons! (2-8)
 ### Quiz: What's My Name? (2-9)
 ### Quiz: Out to Dinner (2-10)
