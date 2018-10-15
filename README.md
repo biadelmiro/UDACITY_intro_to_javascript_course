@@ -324,7 +324,7 @@ You can read more about Google's JavaScript StyleGuide [here](https://google.git
 QUIZ QUESTION
 
 Which of these are good variable names?
-
+```
 var thingy = 1;
 
 var count = 1;
@@ -332,13 +332,13 @@ var count = 1;
 var postLiked = false;
 
 var firstname = "Richard";
-
+```
 **Answer:**
-
+```
 var count = 1;
 
 var postLiked = false;
-
+```
 ### Quiz: Converting Temperatures (2-2)
 To convert [Celsius](https://en.wikipedia.org/wiki/Celsius) to [Fahrenheit](https://en.wikipedia.org/wiki/Fahrenheit), you can use the following formula:
 
