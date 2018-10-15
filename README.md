@@ -445,6 +445,23 @@ By using the backslash to escape characters, the JavaScript engine can understan
 #### Special characters
 Quotes aren’t the only special characters that need to be escaped, there’s actually [quite a few](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#Using_special_characters_in_strings). However, to keep it simple, here’s a list of some common special characters in JavaScript.
 
+| Code | Character |
+| :--- | :--- |
+| \\ | \ (backslash) |
+| \" | '' (double quote) |
+| \' | ' (single quote) |
+| \n | newline |
+| \t | tab |
+
+The last two characters listed in the table, newline ```\n``` and tab ```\t```, are unique because they add additional **whitespace** to your Strings. A newline character will add a line break and a tab character will advance your line to the next [tab stop](https://en.wikipedia.org/wiki/Tab_stop).
+```
+"Up up\n\tdown down"
+```
+**Returns:**
+
+Up up
+   down down
+
 
 ### Comparing Strings
 ### Quiz: Favorite Foods (2-3)
