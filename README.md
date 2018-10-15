@@ -795,7 +795,7 @@ console.log(madLib);
 ### Quiz: One Awesome Message (2-12)
 #### Directions:
 Here are two awesome messages:
-```js
+```
 Hi, my name is Julia. I love cats. In my spare time, I like to play video games.
 Hi, my name is James. I love baseball. In my spare time, I like to read.
 ```
