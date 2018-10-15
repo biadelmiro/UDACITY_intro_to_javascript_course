@@ -324,7 +324,7 @@ You can read more about Google's JavaScript StyleGuide [here](https://google.git
 QUIZ QUESTION
 
 Which of these are good variable names?
-```
+```js
 var thingy = 1;
 
 var count = 1;
@@ -334,7 +334,7 @@ var postLiked = false;
 var firstname = "Richard";
 ```
 **Answer:**
-```
+```js
 var count = 1;
 
 var postLiked = false;
