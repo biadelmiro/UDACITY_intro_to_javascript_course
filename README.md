@@ -460,6 +460,7 @@ The last two characters listed in the table, newline ```\n``` and tab ```\t```, 
 **Returns:**
 
 Up up
+
    down down
 
 
