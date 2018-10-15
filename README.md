@@ -342,6 +342,8 @@ var postLiked = false;
 ### Quiz: Converting Temperatures (2-2)
 To convert [Celsius](https://en.wikipedia.org/wiki/Celsius) to [Fahrenheit](https://en.wikipedia.org/wiki/Fahrenheit), you can use the following formula:
 
+F=C×1.8+32
+
 ## Conditionals
 ## Loops
 ## Functions
