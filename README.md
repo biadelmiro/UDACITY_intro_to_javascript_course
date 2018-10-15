@@ -462,7 +462,16 @@ The last two characters listed in the table, newline ```\n``` and tab ```\t```, 
 Up up
    down down
 ```
+QUIZ QUESTION
 
+Select the string that returns the following output:
+```js
+"The file located at "C:\\Desktop\My Documents\Roster\names.txt" contains the names on the roster."
+```
+**Answer:**
+```js
+"The file located at "C:\\Desktop\My Documents\Roster\names.txt" contains the names on the roster."
+```
 ### Comparing Strings
 ### Quiz: Favorite Foods (2-3)
 ### Quiz: String Equality for All (2-4)
