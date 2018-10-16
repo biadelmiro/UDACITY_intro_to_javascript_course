@@ -37,28 +37,28 @@ A collection of summaries to Udacity's Intro to JavaScript
    24. [Quiz: One Awesome Message (2-12)](#quiz-one-awesome-message-2-12)
    25. [Lesson 2 Summary](#lesson-2-summary)
 3. [Conditionals](#conditionals)
-   1. Intro to Conditionals
-   2. Quiz: Flowcharts (3-1)
-   3. Flowchart to Code
-   4. If...Else Statements
-   5. Else If Statements
-   6. Quiz: Even or Odd (3-2)
-   7. Quiz: Musical Groups (3-3)
-   8. Quiz: Murder Mystery (3-4)
-   9. More Complex Problems
-   10. Logical Operators
-   11. Logical AND and OR
-   12. Quiz: Checking your Balance (3-5)
-   13. Quiz: Ice Cream (3-6)
-   14. Quiz: What do I Wear? (3-7)
-   15. Advanced Conditionals
-   16. Truthy and Falsy
-   17. Ternary Operator
-   18. Quiz: Navigating the Food Chain (3-8)
-   19. Switch Statement
-   20. Falling-through
-   21. Quiz: Back to School (3-9)
-   22. Lesson 3 Summary
+   1. [Intro to Conditionals](#intro-to-conditionals)
+   2. [Quiz: Flowcharts (3-1)](#quiz-flowcharts-3-1)
+   3. [Flowchart to Code](#flowchart-to-code)
+   4. [If...Else Statements](#if-else-statements)
+   5. [Else If Statements](#else-if-statements)
+   6. [Quiz: Even or Odd (3-2)](#quiz-even-or-odd-3-2)
+   7. [Quiz: Musical Groups (3-3)](#quiz-musical-groups-3-3)
+   8. [Quiz: Murder Mystery (3-4)](#quiz-murder-mystery-3-4)
+   9. [More Complex Problems](#more-complex-problems)
+   10. [Logical Operators](#logical-operators)
+   11. [Logical AND and OR](#logical-and-or)
+   12. [Quiz: Checking your Balance (3-5)](#quiz-checking-your-balance-3-5)
+   13. [Quiz: Ice Cream (3-6)](#quiz-ice-cream-3-6)
+   14. [Quiz: What do I Wear? (3-7)](#quiz-what-do-i-wear-3-7)
+   15. [Advanced Conditionals](#advanced-conditionals)
+   16. [Truthy and Falsy](#truthy-and-falsy)
+   17. [Ternary Operator](#ternary-operator)
+   18. [Quiz: Navigating the Food Chain (3-8)](#quiz-navigating-the-food-chain-3-8)
+   19. [Switch Statement](#switch-statement)
+   20. [Falling-through](#falling-through)
+   21. [Quiz: Back to School (3-9)](#quiz-back-to-school-3-9)
+   22. [Lesson 3 Summary](#lesson-3-summary)
 4. [Loops](#loops)
 5. [Functions](#functions)
 6. [Arrays](#arrays)
