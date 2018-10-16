@@ -1455,6 +1455,8 @@ if ((shirtWidth >= 18 && shirtWidth < 20) && (shirtLength >= 28 && shirtLength <
 }
 ```
 ### Advanced Conditionals
+That just about covers the basics of conditionals and logical operators. But we’ve got a couple more things we want to show you first. For the rest of this lesson, we’ll focus on some more advanced aspects of working with conditional statements. This includes things like truth and falsey values, the ternary operator and the switch statement.
+
 ### Truthy and Falsy
 ### Ternary Operator
 ### Quiz: Navigating the Food Chain (3-8)
