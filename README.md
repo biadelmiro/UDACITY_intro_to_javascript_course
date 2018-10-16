@@ -868,7 +868,17 @@ In the last lesson, you got a basic understanding for how data is represented an
 ### Quiz: Flowcharts (3-1)
 **DEFINITION:** A **flowchart** is a visual diagram that outlines the solution to a problem through a series of logical statements. The order in which statements are evaluated and executed is called the **control flow**.
 
-![Flowchart](img/buy-the-item-cropped.jpg)
+QUESTION 1 OF 2
+
+![Flowchart 1](img/buy-the-item-cropped.jpg)
+
+Take a look at the flowchart above. What data type would best represent (Yes/No) if you have enough money to purchase the item?
+
+**Answer:** Boolean
+
+QUESTION 2 OF 2
+
+![Flowchart 2](img/approaching-the-castle-flowchart.jpg)
 ### Flowchart to Code
 ### If...Else Statements
 ### Else If Statements
