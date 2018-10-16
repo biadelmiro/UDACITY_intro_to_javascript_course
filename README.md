@@ -1286,6 +1286,21 @@ For example, if you look at `A AND B`, if `A` is *false*, then regardless of the
 This behavior is called **short-circuiting** because it describes the event when later arguments in a logical expression are not considered because the first argument already satisfies the condition.
 
 ### Quiz: Checking your Balance (3-5)
+If you're like me, finding the right size t-shirt can sometimes be a challenge. What size am I? What's the difference between S (small), M (medium), and L (large)? I usually wear L, but what if I need an XL (extra large)?
+
+Thankfully, our friends at [Teespring](https://teespring.com/) have got us covered because they've created a sizing chart to make things a lot easier.
+| Size | Width | Length | Sleeve |
+| --- | --- | --- | --- |
+| S | 18" | 28" | 8.13" |
+| M | 20" | 29" | 8.38" |
+| L | 22" | 30" | 8.63" |
+| XL | 24" | 31" | 8.88" |
+| 2XL | 26" | 33" | 9.63" |
+| 3XL | 28" | 34" | 10.13" |
+
+_T-Shirt Sizing Chart (Source: Teespring.com) _
+
+
 ### Quiz: Ice Cream (3-6)
 ### Quiz: What do I Wear? (3-7)
 ### Advanced Conditionals
