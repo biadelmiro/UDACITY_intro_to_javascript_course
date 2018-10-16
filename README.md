@@ -1289,6 +1289,7 @@ This behavior is called **short-circuiting** because it describes the event when
 If you're like me, finding the right size t-shirt can sometimes be a challenge. What size am I? What's the difference between S (small), M (medium), and L (large)? I usually wear L, but what if I need an XL (extra large)?
 
 Thankfully, our friends at [Teespring](https://teespring.com/) have got us covered because they've created a sizing chart to make things a lot easier.
+
 | Size | Width | Length | Sleeve |
 | --- | --- | --- | --- |
 | S | 18" | 28" | 8.13" |
