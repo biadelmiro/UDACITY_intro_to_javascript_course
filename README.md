@@ -1277,7 +1277,7 @@ Before you advance any further in the lesson, here’s the truth tables for logi
 
 #### Short-circuiting
 
-![Flowchart 3](img/short-circuiting.png)
+![Flowchart 4](img/short-circuiting.png)
 
 In both tables, there are specific scenarios where regardless of the value of B, the value of A is enough to satisfy the condition.
 
@@ -1286,7 +1286,49 @@ For example, if you look at `A AND B`, if `A` is *false*, then regardless of the
 This behavior is called **short-circuiting** because it describes the event when later arguments in a logical expression are not considered because the first argument already satisfies the condition.
 
 ### Quiz: Checking your Balance (3-5)
+#### Directions:
+Using the flowchart below, write the code to represent checking your balance at the ATM. The yellow diamonds represent conditional statements and the blue rectangles with rounded corners represent what should be printed to the console.
 
+![Flowchart 4](img/atm-check-balance-cropped.jpg)
+
+Use the following variables in your solution:
+- `balance` - the account balance
+- `isActive` - if account is active
+- `checkBalance` - if you want to check balance
+
+**Hint:** *The variable balance could be a value less than, greater than, or equal to 0. The variables isActive and checkBalance are booleans that can be set to true or false.*
+
+**TIP:** To print out the account balance with decimal points (i.e. 325.00), use the `.toFixed()` method and pass it the number of decimal points you want to use. For example, `balance.toFixed(2)` returns 325.00.
+
+**TIP:** Make sure to test your code with different values. For example:
+
+If `checkBalance` equals `true` and `isActive` equals `false`, then Your account is no longer active. should be printed to the console.
+
+**Your Code:**
+```js
+/*
+ * Programming Quiz - Checking Your Balance (3-5)
+ */
+
+// change the values of `balance`, `checkBalance`, and `isActive` to test your code
+var balance = 325.00;
+var checkBalance = true;
+var isActive = true;
+
+if (checkBalance) {
+    if (isActive && balance > 0) {
+        console.log("Your balance is $" + balance.toFixed(2) + ".");
+    } else if (!isActive) {
+        console.log("Your account is no longer active.");
+    } else if (balance === 0) {
+        console.log("Your account is empty.");
+    } else {
+        console.log("Your balance is negative. Please contact bank.");
+    }
+} else {
+    console.log("Thank you. Have a nice day!");
+}
+```
 ### Quiz: Ice Cream (3-6)
 ### Quiz: What do I Wear? (3-7)
 If you're like me, finding the right size t-shirt can sometimes be a challenge. What size am I? What's the difference between S (small), M (medium), and L (large)? I usually wear L, but what if I need an XL (extra large)?
