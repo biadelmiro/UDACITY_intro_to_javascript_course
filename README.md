@@ -1512,6 +1512,26 @@ Select the truthy values from the list of values:
 undefined // false
 ```
 ### Ternary Operator
+Sometimes, you might find yourself with the following type of conditional.
+```js
+var isGoing = true;
+var color;
+
+if (isGoing) {
+  color = "green";
+} else {
+  color = "red";
+}
+
+console.log(color);
+```
+**Prints:** "green"
+
+In this example, the variable `color` is being assigned to either `"green"` or `"red"` based on the value of `isGoing`. This code works, but it’s a rather lengthy way for assigning a value to a variable. Thankfully, in JavaScript there’s another way.
+
+**TIP:** Using `if(isGoing)` is the same as using `if(isGoing === true)`. Alternatively, using `if(!isGoing)` is the same as using `if(isGoing === false)`.
+
+The **ternary operator** provides you with a shortcut alternative for writing lengthy if...else statements.
 ### Quiz: Navigating the Food Chain (3-8)
 ### Switch Statement
 ### Falling-through
