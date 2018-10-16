@@ -1277,7 +1277,9 @@ Before you advance any further in the lesson, here’s the truth tables for logi
 
 #### Short-circuiting
 
+![Flowchart 3](img/short-circuiting.png)
 
+In both tables, there are specific scenarios where regardless of the value of B, the value of A is enough to satisfy the condition.
 ### Quiz: Checking your Balance (3-5)
 ### Quiz: Ice Cream (3-6)
 ### Quiz: What do I Wear? (3-7)
