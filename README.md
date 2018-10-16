@@ -931,6 +931,65 @@ You're trying to decide what to wear tomorrow. If it is going to snow, then you�
 
 ![Flowchart 3](img/what-to-wear-cropped.jpg)
 
+In JavaScript, you can represent this secondary check by using an extra if statement called an **else if statement**.
+```js
+var weather = "sunny";
+
+if (weather === "snow") {
+  console.log("Bring a coat.");
+} else if (weather === "rain") {
+  console.log("Bring a rain jacket.");
+} else {
+  console.log("Wear what you have on.");
+}
+```
+**Prints:** Wear what you have on.
+
+By adding the extra `else if` statement, you're adding an extra conditional statement.
+
+If it’s not going to snow, then the code will jump to the `else if` statement to see if it’s going to rain. If it’s not going to rain, then the code will jump to the `else` statement.
+
+The `else` statement essentially acts as the "default" condition in case all the other `if` statements are false.
+
+QUESTION 1 OF 2
+
+What will be printed to the console if the following code is run?
+```js
+var money = 100.50;
+var price = 100.50;
+
+if (money > price) {
+  console.log("You paid extra, here's your change.");
+} else if (money === price) {
+  console.log("You paid the exact amount, have a nice day!");
+} else {
+  console.log("That's not enough, you still owe me money.");
+}
+```
+**Answer:** "You paid the exact amount, have a nice day!"
+
+QUESTION 2 OF 2
+
+Looking at the following code, determine what medal Kendyll received.
+```js
+var runner = "Kendyll";
+var position = 2;
+var medal;
+
+if(position === 1) {
+  medal = "gold";
+} else if(position === 2) {
+  medal = "silver";
+} else if(position === 3) {
+  medal = "bronze";
+} else {
+  medal = "pat on the back";
+}
+
+console.log(runner + " received a " + medal + " medal.");
+```
+**Answer:** Kendyll received a silver medal.
+
 ### Quiz: Even or Odd (3-2)
 ### Quiz: Musical Groups (3-3)
 ### Quiz: Murder Mystery (3-4)
