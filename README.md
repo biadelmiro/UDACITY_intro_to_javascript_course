@@ -1155,6 +1155,8 @@ if (solved) {
 }
 ```
 ### More Complex Problems
+Sometimes problems are not always as simple as buying something from the store, in fact, most problems are a lot more complex. With most problems, there’s more things to consider before you can actually solve the problem. For example, me deciding what I want to do this weekend. What were you planning on doing this weekend? Well, I was thinking I would hang out with my friend Colt. And if he’s not busy and the weather is nice so I was thinking we could go to the park. That sounds like fun. I think, this is the perfect time for us to transition into more complex logical expressions. It is? Well yeah, think about it. For your plans to happen, there are two conditions that need to be true. Colt has not to be busy and the weather needs to be nice. If both of these things happen, then, you and Colt are going to the park. Okay, I see where you’re going. In JavaScript, we can represent more complex problems by combining logical expressions with special operators called logical operators. Check it out.
+
 ### Logical Operators
 ### Logical AND and OR
 ### Quiz: Checking your Balance (3-5)
