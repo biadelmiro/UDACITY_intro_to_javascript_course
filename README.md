@@ -920,11 +920,15 @@ if (a > b) {
 
 A couple of important things to notice about `if...else` statements.
 
-The value inside the `if` statement is always *converted* to true or false. Depending on the value, the code inside the `if` statement is run or the code inside the `else` statement is run, but not both. The code inside the `if` and `else` statements are surrounded by **curly braces** `js{...}` to separate the conditions and indicate which code should be run.
+The value inside the `if` statement is always *converted* to true or false. Depending on the value, the code inside the `if` statement is run or the code inside the `else` statement is run, but not both. The code inside the `if` and `else` statements are surrounded by **curly braces** `{...}` to separate the conditions and indicate which code should be run.
 
 **TIP:** When coding, sometimes you may only want to use an `if` statement. However, if you try to use only an `else` statement, then you will receive the error `SyntaxError: Unexpected token else`. You’ll see this error because `else` statements need an `if` statement in order to work. You can’t have an `else` statement without first having an `if` statement.
 
 ### Else If Statements
+In some situations, two conditionals aren’t enough. Consider the following situation.
+
+You're trying to decide what to wear tomorrow. If it is going to snow, then you’ll want to wear a coat. If it's not going to snow and it's going to rain, then you’ll want to wear a jacket. And if it's not going to snow or rain, then you’ll just wear what you have on.
+
 ### Quiz: Even or Odd (3-2)
 ### Quiz: Musical Groups (3-3)
 ### Quiz: Murder Mystery (3-4)
