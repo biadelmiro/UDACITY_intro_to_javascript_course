@@ -37,6 +37,28 @@ A collection of summaries to Udacity's Intro to JavaScript
    24. [Quiz: One Awesome Message (2-12)](#quiz-one-awesome-message-2-12)
    25. [Lesson 2 Summary](#lesson-2-summary)
 3. [Conditionals](#conditionals)
+   1. Intro to Conditionals
+   2. Quiz: Flowcharts (3-1)
+   3. Flowchart to Code
+   4. If...Else Statements
+   5. Else If Statements
+   6. Quiz: Even or Odd (3-2)
+   7. Quiz: Musical Groups (3-3)
+   8. Quiz: Murder Mystery (3-4)
+   9. More Complex Problems
+   10. Logical Operators
+   11. Logical AND and OR
+   12. Quiz: Checking your Balance (3-5)
+   13. Quiz: Ice Cream (3-6)
+   14. Quiz: What do I Wear? (3-7)
+   15. Advanced Conditionals
+   16. Truthy and Falsy
+   17. Ternary Operator
+   18. Quiz: Navigating the Food Chain (3-8)
+   19. Switch Statement
+   20. Falling-through
+   21. Quiz: Back to School (3-9)
+   22. Lesson 3 Summary
 4. [Loops](#loops)
 5. [Functions](#functions)
 6. [Arrays](#arrays)
@@ -840,6 +862,30 @@ console.log(awesomeMessage);
 That about wraps it up for data types and variables. You should congratulate yourself on a job well done. That was a huge lesson. In this lesson, we covered all the basic data types in JavaScript, including numbers, strings, boolean, null and undefined. Also, we looked at how you can store data into variables. Don’t forget operations on numbers and strings. Right, that too. In the next lesson, we’ll build upon your new knowledge of data types and variables to learn how to write code to solve logical problems. See you there.
 
 ## Conditionals
+### Intro to Conditionals
+In the last lesson, you got a basic understanding for how data is represented and stored in the variables. But what good is that data if you can’t put it to use? When you’re writing code, the main goal is to solve a problem. The steps your code takes to solve a problem is known as an algorithm. Ultimately, for any code that you write, you will be breaking down a problem into an algorithm that is executed by a computer. Let me try explaining it another way. Let’s imagine you’re the computer. Do you remember the last time you had to decide whether to purchase something? How did you solve that problem? Besides figuring out if you really wanted or needed the item, your decision to purchase the item was ultimately dependent on whether or not you had enough money to purchase it. So you ask yourself, self, do I have enough money to purchase this item? If you answered, yes, then you purchase the item. But if you answered, no, then you didn’t purchase the item. The process you went through in your head to solve that problem, and the steps you took in order to do so, is really what’s at the heart of writing code. And that’s what you’ll be learning in this lesson. Up next, you’ll see a flowchart. A flowchart is just a diagram for how to solve a problem. Try to look at it, and try to answer the next question.
+
+### Quiz: Flowcharts (3-1)
+### Flowchart to Code
+### If...Else Statements
+### Else If Statements
+### Quiz: Even or Odd (3-2)
+### Quiz: Musical Groups (3-3)
+### Quiz: Murder Mystery (3-4)
+### More Complex Problems
+### Logical Operators
+### Logical AND and OR
+### Quiz: Checking your Balance (3-5)
+### Quiz: Ice Cream (3-6)
+### Quiz: What do I Wear? (3-7)
+### Advanced Conditionals
+### Truthy and Falsy
+### Ternary Operator
+### Quiz: Navigating the Food Chain (3-8)
+### Switch Statement
+### Falling-through
+### Quiz: Back to School (3-9)
+### Lesson 3 Summary
 ## Loops
 ## Functions
 ## Arrays
