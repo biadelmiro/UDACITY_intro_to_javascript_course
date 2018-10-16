@@ -879,6 +879,10 @@ Take a look at the flowchart above. What data type would best represent (Yes/No)
 QUESTION 2 OF 2
 
 ![Flowchart 2](img/approaching-the-castle-flowchart.jpg)
+
+Here’s a different flowchart for approaching the castle gates. If you decide to storm the castle, what is the immediate resulting outcome?
+
+**Answer:** A dragon appears and attacks!
 ### Flowchart to Code
 ### If...Else Statements
 ### Else If Statements
