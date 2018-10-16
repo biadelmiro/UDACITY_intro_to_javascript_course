@@ -1193,9 +1193,9 @@ By combining two boolean values together with a logical operator, you create a *
 
 | Operator | Meaning | Example | How it works |
 | --- | --- | --- | --- |
-| `&&`| Logical AND | `value1 && value2`| Returns `true` if **both** `value1` **and** `value2` evaluate to `true`. |
-| `||` | Logical OR | `value1 || value2` | Returns `true` if **either** `value1` **or** `value2` (**or even both!**) evaluates to `true`. |
-| `!`| Logical NOT | !value1 | Returns the **opposite** of `value1`. If `value1` is `true`, then `!value1` is `false`.
+| `&&`| Logical<br/>AND | `value1 &&<br/>value2`| Returns `true` if **both** `value1` **and** `value2` evaluate<br/>to `true`. |
+| `||` | Logical<br/>OR | `value1 ||<br/>value2` | Returns `true` if **either** `value1` **or** `value2` (**or even<br/>both!**) evaluates to `true`. |
+| `!`| Logical<br/>NOT | !value1 | Returns the **opposite** of `value1`. If `value1` is `true`,<br/>then `!value1` is `false`.
 
 By using logical operators, you can create more complex conditionals like Julia’s weekend example. Instead of:
 ```js
