@@ -866,6 +866,8 @@ That about wraps it up for data types and variables. You should congratulate you
 In the last lesson, you got a basic understanding for how data is represented and stored in the variables. But what good is that data if you can’t put it to use? When you’re writing code, the main goal is to solve a problem. The steps your code takes to solve a problem is known as an algorithm. Ultimately, for any code that you write, you will be breaking down a problem into an algorithm that is executed by a computer. Let me try explaining it another way. Let’s imagine you’re the computer. Do you remember the last time you had to decide whether to purchase something? How did you solve that problem? Besides figuring out if you really wanted or needed the item, your decision to purchase the item was ultimately dependent on whether or not you had enough money to purchase it. So you ask yourself, self, do I have enough money to purchase this item? If you answered, yes, then you purchase the item. But if you answered, no, then you didn’t purchase the item. The process you went through in your head to solve that problem, and the steps you took in order to do so, is really what’s at the heart of writing code. And that’s what you’ll be learning in this lesson. Up next, you’ll see a flowchart. A flowchart is just a diagram for how to solve a problem. Try to look at it, and try to answer the next question.
 
 ### Quiz: Flowcharts (3-1)
+**DEFINITION:** A **flowchart** is a visual diagram that outlines the solution to a problem through a series of logical statements. The order in which statements are evaluated and executed is called the **control flow**.
+![Flowchart](img/buy-the-item-cropped.jpg)
 ### Flowchart to Code
 ### If...Else Statements
 ### Else If Statements
