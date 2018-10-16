@@ -1192,7 +1192,7 @@ Similar to mathematical expressions that use `+`, `-`, `*`, `/` and `%`, there a
 By combining two boolean values together with a logical operator, you create a *logical expression* that returns another boolean value. Here’s a table describing the different logical operators:
 
 | Operator | Meaning | Example | How it works |
-| --- | --- | --- | --- |
+| :--- | :--- | :--- | :--- |
 | `&&`| Logical<br/>AND | `value1 &&`<br/>`value2`| Returns `true` if **both** `value1` **and** `value2` evaluate<br/>to `true`. |
 | `\|\|` | Logical<br/>OR | `value1 \|\|`<br/>`value2` | Returns `true` if **either** `value1` **or** `value2` (**or even<br/>both!**) evaluates to `true`. |
 | `!`| Logical<br/>NOT | `!value1 | Returns the **opposite** of `value1`. If `value1` is `true`,<br/>then `!value1` is `false`.
@@ -1252,6 +1252,32 @@ false && false // false
 ```
 
 ### Logical AND and OR
+#### Truth Tables
+Before you go any further, let’s take a quick moment to look at the truth tables for Logical AND and Logical OR. Now truth tables are just a way of representing all the possible combinations of inputs for a logical expression. Here I have the truth tables for Logical AND and Logical OR. The way to read these tables is the first two columns, A and B, are representative of Boolean values. When both of these values are combined, the third column represents what the resulting outcome would be for Logical AND and Logical OR. Now what is interesting about these tables, and you might have noticed this already is that in some combinations, the value of B has no impact on the result of the logical expression. Let me highlight these tables in another way so you can see what I mean. There we go. So, if you look at these rows, you’ll notice that regardless of the value of B, the value of A is the value that’s actually determining the result of the logical expression. For logical AND, if the the value of A is false, the value of B doesn’t matter. The combined value will always be false. And for Logical OR, if the value for A is true, then the value of B doesn’t matter because the combined value will always be true. And this makes sense, just think about it. In our previous example, where we were trying to decide if Julia was going to the park, two conditions needed to be true. Colt had to not be busy and the weather had to be nice. If the value for the variable Colt happened to be anything other than not busy, it wouldn’t have mattered if the weather was going to be nice. Julia would not have gone to the park because both conditions weren’t true. This type of behavior is called short circuiting, because later arguments in a logical expression are not considered because the first argument already satisfies the condition. For logical AND, if the first value is false, you don’t need to see what the later argument is going to be. The entire expression will always evaluate to false. And for logical OR, if the first value is true, you don’t need to see what the later arguments are going to be because the entire expression will always evaluate to true.
+
+Before you advance any further in the lesson, here’s the truth tables for logical AND ( `&&` ) and logical OR ( `||` ).
+
+#### && (AND)
+| A | B | A && B |
+| :--- | :--- | :--- |
+| `true` | `true` | `true` |
+| `true` | `false` | `false` |
+| `false` | `true` | `false` |
+| `false` | `false` | `false` |
+
+#### || (OR)
+| A | B | A \|\| B |
+| :--- | :--- | :--- |
+| `true` | `true` | `true` |
+| `true` | `false` | `true` |
+| `false` | `true` | `true` |
+| `false` | `false` | `false` |
+
+**Truth tables** are used to represent the result of all the possible combinations of inputs in a logical expression. `A` represents the boolean value on the left-side of the expression and `B` represents the boolean value on the right-side of the expression.
+
+#### Short-circuiting
+
+
 ### Quiz: Checking your Balance (3-5)
 ### Quiz: Ice Cream (3-6)
 ### Quiz: What do I Wear? (3-7)
