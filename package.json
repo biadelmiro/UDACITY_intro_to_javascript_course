@@ -1,0 +1,19 @@
+{
+  "name": "udacity-intro-to-javascript-course",
+  "version": "1.0.0",
+  "description": "A collection of summaries to Udacity's Intro to JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michihodges/UDACITY-intro-to-javascript-course.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michihodges/UDACITY-intro-to-javascript-course/issues"
+  },
+  "homepage": "https://github.com/michihodges/UDACITY-intro-to-javascript-course#readme"
+}
