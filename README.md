@@ -991,6 +991,12 @@ console.log(runner + " received a " + medal + " medal.");
 **Answer:** Kendyll received a silver medal.
 
 ### Quiz: Even or Odd (3-2)
+#### Directions:
+Write an if...else statement that:
+- prints `"even"` if the number is an even number
+- prints `"odd"` if the number is an odd number
+
+**Hint:** Use the `%` ([modulo](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Remainder_())) operator to determine if a number is even or odd. The modulo operater takes two numbers and returns the remainder when the first number is divided by the second one:
 ### Quiz: Musical Groups (3-3)
 ### Quiz: Murder Mystery (3-4)
 ### More Complex Problems
