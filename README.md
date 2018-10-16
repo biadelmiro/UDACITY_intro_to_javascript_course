@@ -929,6 +929,8 @@ In some situations, two conditionals aren’t enough. Consider the following sit
 
 You're trying to decide what to wear tomorrow. If it is going to snow, then you’ll want to wear a coat. If it's not going to snow and it's going to rain, then you’ll want to wear a jacket. And if it's not going to snow or rain, then you’ll just wear what you have on.
 
+![Flowchart 3](img/what-to-wear-cropped.jpg)
+
 ### Quiz: Even or Odd (3-2)
 ### Quiz: Musical Groups (3-3)
 ### Quiz: Murder Mystery (3-4)
