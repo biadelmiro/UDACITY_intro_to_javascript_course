@@ -47,7 +47,7 @@ A collection of summaries to Udacity's Intro to JavaScript
    8. [Quiz: Murder Mystery (3-4)](#quiz-murder-mystery-3-4)
    9. [More Complex Problems](#more-complex-problems)
    10. [Logical Operators](#logical-operators)
-   11. [Logical AND and OR](#logical-and-or)
+   11. [Logical AND and OR](#logical-and-and-or)
    12. [Quiz: Checking your Balance (3-5)](#quiz-checking-your-balance-3-5)
    13. [Quiz: Ice Cream (3-6)](#quiz-ice-cream-3-6)
    14. [Quiz: What do I Wear? (3-7)](#quiz-what-do-i-wear-3-7)
