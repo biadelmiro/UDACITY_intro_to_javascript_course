@@ -1455,9 +1455,62 @@ if ((shirtWidth >= 18 && shirtWidth < 20) && (shirtLength >= 28 && shirtLength <
 }
 ```
 ### Advanced Conditionals
-That just about covers the basics of conditionals and logical operators. But we’ve got a couple more things we want to show you first. For the rest of this lesson, we’ll focus on some more advanced aspects of working with conditional statements. This includes things like truth and falsey values, the ternary operator and the switch statement.
+That just about covers the basics of conditionals and logical operators. But we’ve got a couple more things we want to show you first. For the rest of this lesson, we’ll focus on some more advanced aspects of working with conditional statements. This includes things like truth and falsy values, the ternary operator and the switch statement.
 
 ### Truthy and Falsy
+Every value in JavaScript has an inherent boolean value. When that value is evaluated in the context of a boolean expression, the value will be transformed into that inherent boolean value.
+
+The paragraph above is pretty dense with information. You should probably re-read it again! ☝️
+
+#### Falsy values
+A value is **falsy** if it converts to `false` when evaluated in a boolean context. For example, an empty String `""` is falsy because, `""` evaluates to `false`. You already know if...else statements, so let's use them to test the truthy-ness of `""`.
+
+**Returns:** "the value is falsy"
+
+Here’s the list of all of the falsy values:
+1. the Boolean value `false`
+2. the `null` type
+3. the `undefined` type
+4. the number `0`
+5. the empty string `""`
+6. the odd value `NaN` (stands for "not a number", check out the `NaN` [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN) article)
+
+That's right, there are only *six* falsy values in all of JavaScript!
+
+#### Truthy values
+A value is **truthy** if it converts to `true` when evaluated in a boolean context. For example, the number `1` is truthy because, `1` evaluates to `true`. Let's use an if...else statement again to test this out:
+```js
+if (1) {
+    console.log("the value is truthy");
+} else {
+    console.log("the value is falsy");
+}
+```
+**Returns:** "the value is truthy"
+
+Here are some other examples of truthy values:
+```js
+true
+42
+"pizza"
+"0"
+"null"
+"undefined"
+{}
+[]
+```
+**Essentially, if it's not in the list of falsy values, then it's truthy!**
+
+QUIZ QUESTION
+
+Select the truthy values from the list of values:
+```js
+"" // false
+"null" // true
+-5 // true
+0.0 // false
+undefined // false
+```
 ### Ternary Operator
 ### Quiz: Navigating the Food Chain (3-8)
 ### Switch Statement
