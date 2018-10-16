@@ -867,7 +867,6 @@ In the last lesson, you got a basic understanding for how data is represented an
 
 ### Quiz: Flowcharts (3-1)
 **DEFINITION:** A **flowchart** is a visual diagram that outlines the solution to a problem through a series of logical statements. The order in which statements are evaluated and executed is called the **control flow**.
-
 ![Flowchart](img/buy-the-item-cropped.jpg)
 ### Flowchart to Code
 ### If...Else Statements
