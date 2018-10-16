@@ -1298,7 +1298,7 @@ Thankfully, our friends at [Teespring](https://teespring.com/) have got us cover
 | 2XL | 26" | 33" | 9.63" |
 | 3XL | 28" | 34" | 10.13" |
 
-_T-Shirt Sizing Chart (Source: Teespring.com) _
+T-Shirt Sizing Chart (Source: Teespring.com)
 
 
 ### Quiz: Ice Cream (3-6)
