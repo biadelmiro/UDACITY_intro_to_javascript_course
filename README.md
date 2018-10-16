@@ -1158,6 +1158,47 @@ if (solved) {
 Sometimes problems are not always as simple as buying something from the store, in fact, most problems are a lot more complex. With most problems, there’s more things to consider before you can actually solve the problem. For example, me deciding what I want to do this weekend. What were you planning on doing this weekend? Well, I was thinking I would hang out with my friend Colt. And if he’s not busy and the weather is nice so I was thinking we could go to the park. That sounds like fun. I think, this is the perfect time for us to transition into more complex logical expressions. It is? Well yeah, think about it. For your plans to happen, there are two conditions that need to be true. Colt has not to be busy and the weather needs to be nice. If both of these things happen, then, you and Colt are going to the park. Okay, I see where you’re going. In JavaScript, we can represent more complex problems by combining logical expressions with special operators called logical operators. Check it out.
 
 ### Logical Operators
+Here’s the logical expression used to represent Julia’s weekend plans:
+```js
+var colt = "not busy";
+var weather = "nice";
+
+if (colt === "not busy" && weather === "nice") {
+  console.log("go to the park");
+}
+```
+**Prints:** "go to the park"
+
+Notice the `&&` in the code above.
+
+The `&&` symbol is the logical AND operator, and it is used to combine two logical expressions into one larger logical expression. If **both** smaller expressions are *true*, then the entire expression evaluates to *true*. If **either one** of the smaller expressions is *false*, then the whole logical expression is *false*.
+
+Another way to think about it is when the `&&` operator is placed between the two statements, the code literally reads, "if Colt is not busy *AND* the weather is nice, then go to the park".
+
+#### Logical expressions
+**Logical expressions** are similar to mathematical expressions, except logical expressions evaluate to either *true* or *false*.
+```js
+11 != 12
+```
+**Returns:** true
+
+You’ve already seen logical expressions when you write comparisons. A comparison is just a simple logical expression.
+
+Similar to mathematical expressions that use `+`, `-`, `*`, `/` and `%`, there are logical operators `&&`, `||` and `!` that you can use to create more complex logical expressions.
+
+#### Logical operators
+**Logical operators** can be used in conjunction with boolean values (`true` and `false`) to create complex logical expressions.
+
+By combining two boolean values together with a logical operator, you create a *logical expression* that returns another boolean value. Here’s a table describing the different logical operators:
+
+| Operator | Meaning | Example | How it works |
+| --- | --- | --- | --- |
+| `&&`| Logical AND | `value1 && value2`| Returns `true` if **both** `value1` **and** `value2` evaluate to `true`. |
+| `||` | Logical OR | `value1 || value2` | Returns `true` if **either** `value1` **or** `value2` (**or even both!**) evaluates to `true`. |
+| `!`| Logical NOT | !value1 | Returns the **opposite** of `value1`. If `value1` is `true`, then `!value1` is `false`.
+
+By using logical operators, you can create more complex conditionals like Julia’s weekend example.
+
 ### Logical AND and OR
 ### Quiz: Checking your Balance (3-5)
 ### Quiz: Ice Cream (3-6)
