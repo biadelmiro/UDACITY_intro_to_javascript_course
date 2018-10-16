@@ -1197,7 +1197,59 @@ By combining two boolean values together with a logical operator, you create a *
 | `||` | Logical OR | `value1 || value2` | Returns `true` if **either** `value1` **or** `value2` (**or even both!**) evaluates to `true`. |
 | `!`| Logical NOT | !value1 | Returns the **opposite** of `value1`. If `value1` is `true`, then `!value1` is `false`.
 
-By using logical operators, you can create more complex conditionals like Julia’s weekend example.
+By using logical operators, you can create more complex conditionals like Julia’s weekend example. Instead of:
+```js
+var colt = "not busy";
+var weather = "nice";
+
+if (colt === "not busy") {
+   if (weather === "nice") {
+      console.log("go to the park");
+   }
+}
+```
+You can do:
+```js
+var colt = "not busy";
+var weather = "nice";
+
+if (colt === "not busy" && weather === "nice") {
+   console.log("go to the park");
+}
+```
+**TIP:** Logical expressions are evaluated from left to right. Similar to mathematical expressions, logical expressions can also use parentheses to signify parts of the expression that should be evaluated first.
+
+QUESTION 1 OF 3
+
+What value of [BLANK] would make the following expression evaluate to `false`. Notice the `!` right at the beginning!
+```js
+!([BLANK] === 4) && "STRing" === "STRing"
+```
+**Returns:** false
+
+**Answer:** 4
+
+QUESTION 2 OF 3
+
+Select the operator that would make the following expression evaluate to true.
+```js
+3 < -10 [BLANK] "James" !== "james"
+```
+**Returns:** true
+
+**Answer:** ||
+
+QUESTION 3 OF 3
+
+Evaluate the following logical expressions. Check the ones that evaluate to `true`.
+```js
+true || false // true
+false && false // false
+!true // false
+(13 > -7) || (false == 0) // true
+(10 === "10") && (1 <= 2) // false
+(3 != 6 % 3) && !(24 > 45) && (!false) // true
+```
 
 ### Logical AND and OR
 ### Quiz: Checking your Balance (3-5)
