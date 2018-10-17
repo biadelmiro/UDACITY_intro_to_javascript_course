@@ -1,5 +1,5 @@
 # Intro to JavaScript
-An complete overview of UDACITY's Intro to JavaScript course
+A complete overview of UDACITY's Intro to JavaScript course
 
 ## Table of Contents
 1. [What is JavaScript?](#what-is-javascript)
