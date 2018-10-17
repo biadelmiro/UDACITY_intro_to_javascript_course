@@ -60,6 +60,22 @@ An complete overview of UDACITY's Intro to JavaScript course
    21. [Quiz: Back to School (3-9)](#quiz-back-to-school-3-9)
    22. [Lesson 3 Summary](#lesson-3-summary)
 4. [Loops](#loops)
+   1. [Intro to Loops](#intro-to-loops)
+   2. [While Loops](#while-loops)
+   3. [Parts of a While Loop](#parts-of-a-while-loop)
+   4. [Quiz: JuliaJames (4-1)](#quiz-juliajames-4-1)
+   5. [Quiz: 99 Bottles of Juice (4-2)](#quiz-99-bottles-of-juice-4-2)
+   6. [Quiz: Countdown, Liftoff! (4-3)](#quiz-countdown-liftoff-4-3)
+   7. [For Loops](#for-loops)
+   8. [Parts of a For Loop](#parts-of-a-for-loop)
+   9. [Nested Loops](#nested-loops)
+   10. [Increment and Decrement](#increment-and-decrement)
+   11. [Quiz: Changing the Loop (4-4)](#quiz-changing-the-loop-4-4)
+   12. [Quiz: Fix the Error 1 (4-5)](#quiz-fix-the-error-1-4-5)
+   13. [Quiz: Fix the Error 2 (4-6)](#quiz-fix-the-error-2-4-6)
+   14. [Quiz: Factorials! (4-7)](#quiz-factorials-4-7)
+   15. [Quiz: Find my Seat (4-8)](#quiz-find-my-seat-4-8)
+   16. [Lesson 4 Summary](#lesson-4-summary)
 5. [Functions](#functions)
 6. [Arrays](#arrays)
 7. [Objects](#objects)
@@ -1867,6 +1883,24 @@ console.log("In 2015, a person with " + education + " earned an average of $" + 
 Wow, we covered a lot of material. Yeah, we did. As you continue through the rest of this course, remember what you learned in this lesson. First, breaking down problems into their logical steps is the first sign of a good programmer. As you face new challenges, stop to think about how you could break the problem down into smaller steps. Second, using conditional statements and logical operators will be paramount to your success as a JavaScript programmer. By telling your code when and how to run, you can create algorithms to solve even the most complex problems. And finally, remember the advanced techniques you learned towards the end of this lesson. Things like truth and falsy, the ternary operator and switch statements will pop up more often as you begin to work with more advanced code. That’s it for now. We’ll be waiting for you in the next lesson.
 
 ## Loops
+### Intro to Loops
+In the previous lesson, you saw how you can control the flow of the program with conditional statements. Basically, if certain condition is true, execute this block of code. Otherwise, execute this other block of code. But there are often times when you want to execute a block of code, not once, but maybe a hundred times, or more. Maybe you’re a teacher who needs to calculate the grades for all of your students. You might have 170 of them, or maybe you have 300 Facebook friends, and you want to calculate the number of mutual friends for each friend. Or maybe you just want to count to a million because who wouldn’t want to count to a million? Writing code to do these kinds of tasks could result in hundreds, thousands or millions of lines of code, all doing pretty much the same thing. In this lesson, you will learn how to use JavaScript loops to repeatedly execute a block of code.
+
+### While Loops
+### Parts of a While Loop
+### Quiz: JuliaJames (4-1)
+### Quiz: 99 Bottles of Juice (4-2)
+### Quiz: Countdown, Liftoff! (4-2)
+### For Loops
+### Parts of a For Loop
+### Nested Loops
+### Increment and Decrement
+### Quiz: Changing the Loop (4-4)
+### Quiz: Fix the Error 1 (4-5)
+### Quiz: Fix the Error 2 (4-6)
+### Quiz: Factorials! (4-7)
+### Quiz: Find my Seat (4-8)
+### Lesson 4 Summary
 ## Functions
 ## Arrays
 ## Objects
