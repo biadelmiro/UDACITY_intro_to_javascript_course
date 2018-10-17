@@ -1532,6 +1532,45 @@ In this example, the variable `color` is being assigned to either `"green"` or `
 **TIP:** Using `if(isGoing)` is the same as using `if(isGoing === true)`. Alternatively, using `if(!isGoing)` is the same as using `if(isGoing === false)`.
 
 The **ternary operator** provides you with a shortcut alternative for writing lengthy if...else statements.
+```js
+conditional ? (if condition is true) : (if condition is false)
+```
+To use the ternary operator, first provide a conditional statement on the left-side of the `?`. Then, between the `?` and `:` write the code that would run if the condition is `true` and on the right-hand side of the `:` write the code that would run if the condition is `false`. For example, you can rewrite the example code above as:
+```js
+var isGoing = true;
+var color = isGoing ? "green" : "red";
+console.log(color);
+```
+**Prints:** "green"
+
+This code not only replaces the conditional, but it also handles the variable assignment for `color`.
+
+If you breakdown the code, the condition `isGoing` is placed on the left side of the `?`. Then, the first expression, after the `?`, is what will be run if the condition is *true* and the second expression after the, `:`, is what will be run if the condition is *false*.
+```js
+// default
+var color;
+
+if (isGoing) {
+   color = "green";
+} else {
+   color = "red";
+}
+
+// ternary operator
+var color = isGoing ? "green" : "red";
+```
+
+QUIZ QUESTION
+
+What will be printed to the console if the following code is run?
+```js
+var adult = true;
+var preorder = true;
+
+console.log("It costs $" + (adult ? "40.00" : "20.00") + " to attend the concert. Pick up your tickets at the " + (preorder ? "will call" : "gate") + ".");
+```
+**Answer:** It costs $40.00 to attend the concert. Pick up your tickets at the will call.
+
 ### Quiz: Navigating the Food Chain (3-8)
 ### Switch Statement
 ### Falling-through
