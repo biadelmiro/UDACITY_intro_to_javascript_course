@@ -1615,9 +1615,257 @@ var category = (!eatsPlants && eatsAnimals) ? "carnivore" : (eatsPlants && !eats
 console.log(category);
 ```
 ### Switch Statement
+As you continue to write more and more conditional statements, sometimes you might run into code that looks like this. Basically each one of these conditional statements is checking for a specific value in one variable, and if that’s true then the code inside the if statement will be ran. Just to show you how this works, let’s run this code and see what its output back to us. All right, so because the variable option is set to 3 we get print it back you selected option 3, so not terribly complicated. Now what if I told you there’s another way to achieve the same result without using any conditional statements. Well, in fact, there just so happens to be another way and that is by using a switch statement. Now a switch statement only works in situations like this where you have  a bunch of chained if statements based on the value of the same variable. Let me rewrite this code using a switch statement and then I’ll explain how it works. I’ll keep the conditional statement version here on this side so you can see the difference. Okay, so what I’ve done is I’ve wrapped all my code inside of a switch statement. And just like it reads, I want to switch which piece of code is ran based on the variable option. The other thing I’ve done is I have replaced each if statement with a case clause where the value the variable option needs to be in order to run the code that is contained underneath it. Basically, if the value of option is say, 3 when our code reaches the switch statement, it’s going to look to see if a case like that exists. If it does, and in this case it does, then it transfers control of that case, and continues executing. If it doesn’t, then it bypasses the switch statement completely. Just to show you how this works, let’s run this code, and see what is output back to us . Look at that. Instead of just printing you selected option 3 we also got option 4, option 5 and option 6, so why is this happening? Well it’s important to understand exactly what is going on when you use a switch statement. Remember, once our code reaches a switch statement, it looks to see if in case for the variable we are switching on exists. If it does, then it transfers control to that case and continues executing. But what it doesn’t do is prevent any of the cases below it from not running. This behavior is called falling through. You see, you can think of a switch statement almost like jumping you to a line of code, based on the value of a variable. So in this case, option is set to 3 so we jump to the case 3, and then we continue running our code. That’s why the other print statements get executed. If you actually want to stop after a case is ran, then you will need to use the keyword break. A break statement can be used to exit our switch statement so that no other cases are ran. If I add break statements to each case and then ran this code again, you see that we only get back you selected option 3. Also, technically I don’t need the break statement here on the last case because this is the last case in a switch statement. So there’s a couple of things to take away from this. Switch statements only work in situations where you want to execute statements of code based on the value of some variable. It’s just another alternative and you might see it come up from time to time. Another thing worth mentioning is that you can use a switch statement on any type of data, not just numbers. Also, there are even some scenarios where you might want to leverage the falling through behavior of a switch statement. We’ll look at that more closely in the next section.
+
+If you find yourself repeating `else if` statements in your code, where each condition is based on the same value, then it might be time to use a switch statement.
+```js
+if (option === 1) {
+  console.log("You selected option 1.");
+} else if (option === 2) {
+  console.log("You selected option 2.");
+} else if (option === 3) {
+  console.log("You selected option 3.");
+} else if (option === 4) {
+  console.log("You selected option 4.");
+} else if (option === 5) {
+  console.log("You selected option 5.");
+} else if (option === 6) {
+  console.log("You selected option 6.");
+}
+```
+A **switch statement** is an another way to chain multiple `else if` statements that are based on the same value **without using conditional statements**. Instead, you just *switch* which piece of code is executed based on a value.
+```js
+switch (option) {
+  case 1:
+    console.log("You selected option 1.");
+  case 2:
+    console.log("You selected option 2.");
+  case 3:
+    console.log("You selected option 3.");
+  case 4:
+    console.log("You selected option 4.");
+  case 5:
+    console.log("You selected option 5.");
+  case 6:
+    console.log("You selected option 6.");
+}
+```
+Here, each `else if` statement (`option === [value]`) has been replaced with a `case` clause (`case: [value]`) and those clauses have been wrapped inside the switch statement.
+
+When the switch statement first evaluates, it looks for the first `case` clause whose expression evaluates to the same value as the result of the expression passed to the switch statement. Then, it transfers control to that `case` clause, executing the associated statements.
+
+So, if you set `option` equal to `3`...
+```js
+var option = 3;
+
+switch (option) {
+  ...
+}
+```
+**Prints:**
+You selected option 3.<br/>You selected option 4.<br/>You selected option 5.<br/>You selected option 6.
+
+...then the switch statement prints out options 3, 4, 5, and 6.
+
+But that’s not exactly like the original if...else code at the top? So what’s missing?
+
+#### Break statement
+The break statement can be used to terminate a switch statement and transfer control to the code following the terminated statement. By adding a `break` to each `case` clause, you fix the issue of the switch statement *falling-through* to other case clauses.
+```js
+var option = 3;
+
+switch (option) {
+  case 1:
+    console.log("You selected option 1.");
+    break;
+  case 2:
+    console.log("You selected option 2.");
+    break;
+  case 3:
+    console.log("You selected option 3.");
+    break;
+  case 4:
+    console.log("You selected option 4.");
+    break;
+  case 5:
+    console.log("You selected option 5.");
+    break;
+  case 6:
+    console.log("You selected option 6.");
+    break; // technically, not needed
+}
+```
+**Prints:** You selected option 3.
+
+QUIZ QUESTION
+
+What will be the result from the following switch statement?
+```js
+var month = 2;
+
+switch(month) {
+  case 1:
+  case 3:
+  case 5:
+  case 7:
+  case 8:
+  case 10:
+  case 12:
+    days = 31;
+    break;
+  case 4:
+  case 6:
+  case 9:
+  case 11:
+    days = 30;
+    break;
+  case 2:
+    days = 28;
+}
+
+console.log("There are " + days + " days in this month.");
+```
+**Answer:** There are 28 days in this month.
+
 ### Falling-through
+In some situations, you might want to leverage the "falling-through" behavior of switch statements to your advantage.
+
+For example, when your code follows a hierarchical-type structure.
+```js
+var tier = "nsfw deck";
+var output = "You’ll receive "
+
+switch (tier) {
+  case "deck of legends":
+    output += "a custom card, ";
+  case "collector's deck":
+    output += "a signed version of the Exploding Kittens deck, ";
+  case "nsfw deck":
+    output += "one copy of the NSFW (Not Safe for Work) Exploding Kittens card game and ";
+  default:
+    output += "one copy of the Exploding Kittens card game.";
+}
+
+console.log(output);
+```
+**Prints:** You’ll receive one copy of the NSFW (Not Safe for Work) Exploding Kittens card game and one copy of the Exploding Kittens card game.
+
+In this example, based on the [successful Exploding Kittens Kickstarter campaign](https://www.kickstarter.com/projects/elanlee/exploding-kittens/description) (a hilarious card game created by Elan Lee), each successive tier builds on the next by adding more to the output. Without any break statements in the code, after the switch statement jumps to the `"nsfw deck"`, it continues to fall-through until reaching the end of the switch statement.
+
+Also, notice the `default` case.
+```js
+var tier = "none";
+var output = "You’ll receive ";
+
+switch (tier) {
+  ... 
+  default:
+    output += "one copy of the Exploding Kittens card game.";
+}
+
+console.log(output);
+```
+**Prints:** You’ll receive one copy of the Exploding Kittens card game.
+
+You can add a `default` case to a switch statement and it will be executed when none of the values match the value of the switch expression.
+
+QUIZ QUESTION
+
+If `winner` is equal to 3, then what will be output to the console?
+```js
+var prize = "";
+
+switch (winner) {
+  case 1:
+    prize += "a trip for two to the Bahamas and ";
+  case 2:
+    prize += "a four piece furniture set.";
+    break;
+  case 3:
+    prize += "a smartwatch and ";
+  default:
+    prize += "tickets to the circus.";
+}
+
+console.log("You've won " + prize);
+```
+**Answer:** You won a smartwatch and tickets to the circus.
+
 ### Quiz: Back to School (3-9)
+In 2015, the U.S. Bureau of Labor Statistics [conducted research](https://www.bls.gov/emp/chart-unemployment-earnings-education.htm) to reveal how average salary is directly related to the number of years spent in school. In their findings, they found that people with:
+- `no high school diploma` earned an average of **$25,636/year**,
+- `a high school diploma` earned an average of **$35,256/year**,
+- `an Associate's degree` earned an average of **$41,496/year**,
+- `a Bachelor's degree` earned an average of **$59,124/year**,
+- `a Master's degree` earned an average of **$69,732/year**,
+- `a Professional degree` earned an average of **$89,960/year**,
+- `and a Doctoral degree` earned an average of **$84,396/year**.
+
+**NOTE:** Wondering what the average salary would be for a person with a Nanodegree from Udacity? That's a hard question to answer, but that doesn't mean we haven't tried to quantify the value of our Nanodegrees. [Read more about Nanodegrees from resident Udacity writer, Chris Watkins, here](https://blog.udacity.com/2016/07/nanodegree-101.html)
+
+#### Directions:
+Write a switch statement to set the average `salary` of a person based on their type of completed education.
+
+Afterwards, print the following to the console.
+```
+In 2015, a person with __________ earned an average of __________/year.
+```
+Fill in the blanks with the type of education and the expected average salary. Make sure to use correct grammar in your printed statement, **and watch out for any extra or missing characters** (including spaces and punctuation marks). For help, refer to the findings above.
+```
+In 2015, a person with a Bachelor's degree earned an average of $59,124/year.
+```
+**TIP:** To print out the average salary with commas (i.e. 59,124), use the `toLocaleString()` method and pass it the locale "en-US". For example, `salary.toLocaleString("en-US")`.
+
+**TIP:** Make sure to test your code with different values. For example:
+
+If `education` equals `"an Associate's degree"`, then the string `"In 2015, a person with an Associate's degree earned an average of $41,496/year."` should be printed to the console.
+
+**Your Code:**
+```js
+/*
+ * Programming Quiz: Back to School (3-9)
+ *
+ * Write a switch statement to set the average salary of a person based on their type of completed education.
+ *
+ */
+
+// change the value of `education` to test your code
+var education = "a Doctoral degree";
+
+// set the value of this based on a person's education
+var salary = 0;
+
+// your code goes here
+switch (education) {
+    case "no high school diploma":
+        salary = 25636;
+        break;
+    case "a high school diploma":
+        salary = 35256;
+        break;
+    case "an Associate's degree":
+        salary = 41496;
+        break;
+    case "a Bachelor's degree":
+        salary = 59124;
+        break;
+    case "a Master's degree":
+        salary = 69732;
+        break;
+    case "a Professional degree":
+        salary = 89960;
+        break;
+    case "a Doctoral degree":
+        salary = 84396;
+        break;
+}
+
+salary = salary.toLocaleString("en-US");
+console.log("In 2015, a person with " + education + " earned an average of $" + salary + "/year.");
+```
 ### Lesson 3 Summary
+Wow, we covered a lot of material. Yeah, we did. As you continue through the rest of this course, remember what you learned in this lesson. First, breaking down problems into their logical steps is the first sign of a good programmer. As you face new challenges, stop to think about how you could break the problem down into smaller steps. Second, using conditional statements and logical operators will be paramount to your success as a JavaScript programmer. By telling your code when and how to run, you can create algorithms to solve even the most complex problems. And finally, remember the advanced techniques you learned towards the end of this lesson. Things like truth and falsy, the ternary operator and switch statements will pop up more often as you begin to work with more advanced code. That’s it for now. We’ll be waiting for you in the next lesson.
+
 ## Loops
 ## Functions
 ## Arrays
