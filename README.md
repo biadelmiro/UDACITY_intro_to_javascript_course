@@ -2126,6 +2126,8 @@ while (countdown >= 0) {
 ```
 
 ### For Loops
+When using a while loop, it’s very easy to accidentally forget one of the three main pieces of a loop. Remember, a loop should always include when to start, when to stop and how to get to the next item. Forgetting any of these three pieces will create an infinite loop that crashes your browser. I should know. While creating this lesson, I crashed my browser many times. Well, that was a great pun, Julia. Why, thank you, James. In fact, a lot of programmers will probably tell you not to use while loops because there’s another type of loop that will give you more control over the looping process. Next up, the for-loop.
+
 ### Parts of a For Loop
 ### Nested Loops
 ### Increment and Decrement
