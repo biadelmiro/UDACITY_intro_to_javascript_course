@@ -1887,6 +1887,29 @@ Wow, we covered a lot of material. Yeah, we did. As you continue through the res
 In the previous lesson, you saw how you can control the flow of the program with conditional statements. Basically, if certain condition is true, execute this block of code. Otherwise, execute this other block of code. But there are often times when you want to execute a block of code, not once, but maybe a hundred times, or more. Maybe you’re a teacher who needs to calculate the grades for all of your students. You might have 170 of them, or maybe you have 300 Facebook friends, and you want to calculate the number of mutual friends for each friend. Or maybe you just want to count to a million because who wouldn’t want to count to a million? Writing code to do these kinds of tasks could result in hundreds, thousands or millions of lines of code, all doing pretty much the same thing. In this lesson, you will learn how to use JavaScript loops to repeatedly execute a block of code.
 
 ### While Loops
+Remember how I said loops could be used to count to a million? We’ll we’re not going to do that. We’re going to count to 10,000 instead, starting with x equals 1.
+```js
+var x = 1;
+console.log(x + „mississippi“);
+
+1 mississippi!
+```
+Hey look, we’re already done, 1 mississippi! We’re on our way to 10,000 already. Just so you know, counting to 10,000 is a tough task, like many tough tasks, it’s good to work on them incrementally. Let’s increase the value of x by 1.
+```js
+var x = x + 1;
+console.log(x + „mississippi!“);
+
+2 mississippi!
+```
+This is awesome. See, we’re making progress. In no time, we’ll be all the way to 10,000. Yay, look how far you’ve gotten. Okay, let’s keep going. Hey, wait a minute! This is all the same code. So repeating the same code over and over and over again is definitely not going to be the best option for us, if we want to print out all the numbers between 1 and 10,000. There has to be a better way. And you know what? There is a better way, loops. Using a loop will let you iterate over values and repeatedly run a block of code. In this case, the block of code you want to repeat, is incrementing the value of x using console.log to print out the message. The only piece you really need to start your loop is right here but, but we’ll need to tweak it a bit. Now, this code shows x starting at the value of 1, and then it prints out the value of x and finally, x is incremented. And because we want to do these two steps all the way until we reach 100,000, we’ll wrap that code in a loop. This particular type of loop is called a while loop. As long as this condition is true, the loop will print out the number and increment the value of x by 1. And then it will restart if the condition at the top of the loop is still true. So congratulations, in just five lines of code you can count to 10,000 and pretty much any number you’d like to count to.
+```js
+var x = 1;
+while (x <= 10000) {
+	console.log(x + „ mississippi!“);
+	x = x + 1;
+}
+```
+
 ### Parts of a While Loop
 ### Quiz: JuliaJames (4-1)
 ### Quiz: 99 Bottles of Juice (4-2)
