@@ -1911,7 +1911,113 @@ while (x <= 10000) {
 ```
 
 ### Parts of a While Loop
+There are many different kinds of loops, but they all essentially do the same thing: they repeat an action some number of times.
+
+Three main pieces of information that any loop should have are:
+1. **When to start:** The code that sets up the loop — defining the starting value of a variable for instance.
+2. **When to stop:** The logical condition to test whether the loop should continue.
+3. **How to get to the next item:** The incrementing or decrementing step — for example, `x = x * 3` or `x = x - 1`
+
+Here's a basic while loop example that includes all three parts.
+```js
+var start = 0; // when to start
+while (start < 10) { // when to stop
+  console.log(start);
+  start = start + 2; // how to get to the next item
+}
+```
+**Prints:** 0<br/>2<br/>4<br/>6<br/>8
+
+If a loop is missing any of these three things, then you might find yourself in trouble. For instance, a missing stop condition can result in a loop that never ends!
+
+**Don't run this code!**
+```js
+while (true) {
+  console.log("true is never false, so I will never stop!");
+}
+```
+If you did try to run that code in the console, you probably crashed your browser tab.
+
+**WARNING:** You’re probably reading this because you didn't heed our warnings about running that infinite loop in the console. If your browser tab has crashed or has become frozen/unresponsive, there are a couple ways to fix this. If you are using Firefox, the browser will popup a notification about your script being unresponsive, and will give you the option to kill the script (do that). If you're using Chrome, go to the taskbar and select Window > Task Manager. You can end the process for the particular tab you ran the script in through the task manager. If you’re not using Firefox or Chrome, download Firefox or Chrome ;).
+
+Here's an example where a loop is missing how to get to the next item; the variable x is never incremented. x will remain 0 throughout the program, so the loop will never end.
+
+*Don't run this code!*
+```js
+var x = 0;
+
+while (x < 1) {
+  console.log('Oops! x is never incremented from 0, so i will ALWAYS be less than 1');
+}
+```
+This code will also crash your browser tab, so we don't recommend running it.
+
+QUESTION 1 OF 2
+
+How many times will the while loop run?
+```js
+var x = 10;
+while (x <= 25) {
+  console.log('Printing out x = ' + x);
+  x = x + 2;
+}
+```
+**Answer:** 8
+
+QUESTION 2 OF 2
+
+Here's a while loop that is supposed to print out the values of x from 0 to 5, but there's a bug. What is missing?
+```js
+while (x < 6) {
+  console.log('Printing out x = ' + x);
+}
+```
+**Answer:**<br/>
+x never increments<br/>
+x is never assigned a start value
+
 ### Quiz: JuliaJames (4-1)
+"Fizzbuzz" is a famous interview question used in programming interviews. It goes something like this:
+- Loop through the numbers 1 to 100
+- If the number is divisible by 3, print `"Fizz"`
+- If the number is divisible by 5, print `"Buzz"`
+- If the number is divisible by both 3 and 5, print `"FizzBuzz"`
+- If the number is **not** divisible by 3 or 5, print the number
+
+**TIP:** A number `x` is divisible by a number `y` if the answer to `x / y` has a remainder of 0. For example, 10 is divisible by 2 because `10 / 2 = 5` with no remainder. You can check if a number is divisible by another number by checking if `x % y === 0`.
+
+We're going to have you program your own version of FizzBuzz called "JuliaJames" (yes, imaginative, right?) Keep in mind that in an interview, you would want to write efficient code with very little duplication. We don't want you to worry about that for this question. Just focus on practicing using loops.
+
+#### Directions:
+Write a `while` loop that:
+- Loop through the numbers 1 to 20
+- If the number is divisible by 3, print `"Julia"`
+- If the number is divisible by 5, print `"James"`
+- If the number is divisible by 3 and 5, print `"JuliaJames"`
+- If the number is **not** divisible by 3 or 5, print the number
+
+**Your Code:**
+```js
+/*
+ * Programming Quiz: JuliaJames (4-1)
+ */
+
+var x = 1;
+
+while (x <= 20) {
+    if (x % 3 === 0 && x % 5 === 0) {
+        console.log("JuliaJames");
+    } else if (x % 3 === 0) {
+        console.log("Julia");
+    } else if (x % 5 === 0) {
+        console.log("James");
+    } else {
+        console.log(x);
+    }
+    x ++;
+}
+```
+
 ### Quiz: 99 Bottles of Juice (4-2)
 ### Quiz: Countdown, Liftoff! (4-2)
 ### For Loops
