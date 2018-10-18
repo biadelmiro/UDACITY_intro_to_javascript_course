@@ -2129,6 +2129,28 @@ while (countdown >= 0) {
 When using a while loop, it’s very easy to accidentally forget one of the three main pieces of a loop. Remember, a loop should always include when to start, when to stop and how to get to the next item. Forgetting any of these three pieces will create an infinite loop that crashes your browser. I should know. While creating this lesson, I crashed my browser many times. Well, that was a great pun, Julia. Why, thank you, James. In fact, a lot of programmers will probably tell you not to use while loops because there’s another type of loop that will give you more control over the looping process. Next up, the for-loop.
 
 ### Parts of a For Loop
+For loops are the most common type of loop in JavaScript. What makes them different than the earlier while loop is that for loops force you to specifically define the starting point and stopping point of your loop. As well as how your loop is going to proceed to the next step. Now you might be saying to yourself, how is that any different from a while loop? In a while loop, I had to specify all of those same things. Well ,the difference is in a for loop, you have to define all that upfront in the for statement. In this example, I have a for loop that prints out the value zero through five. Let’s look at how it’s set up. For a standard for loop, it requires the same three pieces of information as before and each of these pieces are separated by a semicolon. The first piece is your starting point. For this example, we have a variable i that is set to zero. The second piece is your stopping point. This is going to tell us when we want our loot to stop. In this case, we want the loop to stop executing once our variable i is no longer less than six. If I can no longer satisfy that condition, then our loop will exit. The third and final piece of our for loop is how our loop should proceed to the next step. In this example, we say that each time our loop runs, We want to increase the value of i by one. Alright, so that’s the setup. For this next part, I’m going to walk you through each iteration of our for loop. Normally, you don’t really think about or notice how each iteration of a loop runs, because your code executes so fast. So what I’m doing here, sort of slowing it down for you, so you can see how the code is going to be interpreted, as it’s being ran. I’ve also added this table, so you can see the value of i throughout the lifetime of the loop. If you’re ever writing loops and your loop isn’t behaving exactly how you might expect, doing an exercise like this can be really helpful. At the end, I’ll paste this code into the console so you can see it running at full speed. Okay, so when our loop starts, i is set to zero. Then we check the condition to see if i is less than six. If that condition is true, then we go into our loop. So, in this statement we’re just going to print out the value of i. So printing out i equals 0. Awesome. So we just finished our first step of the loop and now, we need to go look and see how we’ve defined to get to the next step. So, our code jumps back up and it looks and it says, okay, we’re going to increment i by one, so i is now one. Let’s check our condition again to make sure that we want to jump into the loop. And if i is less than six, which it is again, it’s going to evaluate to true and we’re going to jump back into the loop or run the statement again. And now, we got printing out i equals 1.And we’re just going to continue this process until the condition i is less than six is no longer true. So look, we’ll increment i by one. Now it’s two. We’ll look at our condition. It evaluates to true again, and we print out the value. So I can just keep running through this, and eventually, we will get to the very end where i is going to be six and six is not less than six. So, here we go. We’re at four. Now, we’re moving to five. The condition’s still true. We print out the value. Okay, we get to the end. Now we increment the value one more time, now it’s six. And when we go to check our condition, it evaluates to false. And we jump out of the loop. Now just to show you our for loop running in full speed, here I’ve got it pasted in the console. And when I hit enter, boom, we’ve got printing out zero, one, two, three, four, five. And once we get to six, the condition doesn’t hold true and we jump out of the loop.
+
+The `for loop` explicitly forces you to define the start point, stop point, and each step of the loop. In fact, you'll get an `Uncaught SyntaxError: ( Unexpected token )` if you leave out any of the three required pieces.
+```js
+for ( start; stop; step ) {
+  // do this thing
+}
+```
+Here's an example of a for loop that prints out the values from 0 to 5. Notice the semicolons separating the different statements of the for loop: `var i = 0; i < 6; i = i + 1`
+```js
+for (var i = 0; i < 6; i = i + 1) {
+  console.log("Printing out i = " + i);
+}
+```
+**Prints:**
+Printing out i = 0<br/>
+Printing out i = 1<br/>
+Printing out i = 2<br/>
+Printing out i = 3<br/>
+Printing out i = 4<br/>
+Printing out i = 5
+
 ### Nested Loops
 ### Increment and Decrement
 ### Quiz: Changing the Loop (4-4)
