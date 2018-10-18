@@ -2019,7 +2019,112 @@ while (x <= 20) {
 ```
 
 ### Quiz: 99 Bottles of Juice (4-2)
+#### Directions:
+Write a loop that prints out the following song. Starting at 99, and ending at 1 bottle.
+```js
+99 bottles of juice on the wall! 99 bottles of juice! Take one down, pass it around... 98 bottles of juice on the wall!
+98 bottles of juice on the wall! 98 bottles of juice! Take one down, pass it around... 97 bottles of juice on the wall!
+...
+2 bottles of juice on the wall! 2 bottles of juice! Take one down, pass it around... 1 bottle of juice on the wall!
+1 bottle of juice on the wall! 1 bottle of juice! Take one down, pass it around... 0 bottles of juice on the wall!
+```
+**Some Notes:**
+1. Note the pluralization of the word "bottle" when you go from 2 bottles to 1 bottle.
+2. Your text editor may try to autocorrect your ellipses (`...`) to the ellipses *character* (`…`). Do not use the ellipses *character* for this quiz; use three consecutive periods instead.
+
+**Your Code:**
+```js
+/*
+ * Programming Quiz: 99 Bottles of Juice (4-2)
+ *
+ * Use the following `while` loop to write out the song "99 bottles of juice".
+ * Log the your lyrics to the console.
+ *
+ * Note
+ *   - Each line of the lyrics needs to be logged to the same line.
+ *   - The pluralization of the word "bottle" changes from "2 bottles" to "1 bottle" to "0 bottles".
+ */
+
+var num = 99;
+
+while (num >= 1) {
+    if (num === 2) {
+        console.log(num + " bottles of juice on the wall! " + num + " bottles of juice! Take one down, pass it around... " + (num - 1) + " bottle of juice on the wall!");
+    } else if (num === 1) {
+        console.log(num + " bottle of juice on the wall! " + num + " bottle of juice! Take one down, pass it around... " + (num - 1) + " bottles of juice on the wall!");
+    } else {
+        console.log(num + " bottles of juice on the wall! " + num + " bottles of juice! Take one down, pass it around... " + (num - 1) + " bottles of juice on the wall!");
+    }
+    num --;
+}
+```
+
 ### Quiz: Countdown, Liftoff! (4-2)
+
+NASA's countdown to launch [includes checkpoints](https://www.nasa.gov/mission_pages/shuttle/launch/countdown101.html) where NASA engineers complete certain technical tasks. During the final minute, NASA has 6 tasks to complete:
+- Orbiter transfers from ground to internal power (T-50 seconds)
+- Ground launch sequencer is go for auto sequence start (T-31 seconds)
+- Activate launch pad sound suppression system (T-16 seconds)
+- Activate main engine hydrogen burnoff system (T-10 seconds)
+- Main engine start (T-6 seconds)
+- Solid rocket booster ignition and liftoff! (T-0 seconds)
+
+**NOTE:** "T-50 seconds" read as "T-minus 50 seconds".
+
+#### Directions:
+Write a `while` loop that counts down from 60 seconds and:
+- If there's a task being completed, it prints out the task
+- If there is no task being completed, it prints out the time as `T-x seconds`
+
+Use the task and time descriptions described above.
+
+**Your Code:**
+
+Your output should look like the following:
+```js
+T-60 seconds
+T-59 seconds
+T-58 seconds
+...
+T-51 seconds
+Orbiter transfers from ground to internal power
+T-49 seconds
+...
+T-3 seconds
+T-2 seconds
+T-1 seconds
+Solid rocket booster ignition and liftoff!
+```
+
+```js
+/*
+ * Programming Quiz: Countdown, Liftoff! (4-3)
+ * 
+ * Using a while loop, print out the countdown output above.
+ */
+
+var countdown = 60;
+
+while (countdown >= 0) {
+    if (countdown === 50) {
+        console.log("Orbiter transfers from ground to internal power");
+    } else if (countdown === 31) {
+        console.log("Ground launch sequencer is go for auto sequence start");
+    } else if (countdown === 16) {
+        console.log("Activate launch pad sound suppression system");
+    } else if (countdown === 10) {
+        console.log("Activate main engine hydrogen burnoff system");
+    } else if (countdown === 6) {
+        console.log("Main engine start");
+    } else if (countdown === 0) {
+        console.log("Solid rocket booster ignition and liftoff!");
+    } else {
+        console.log("T-" + countdown + " seconds");
+    }
+    countdown --;
+}
+```
+
 ### For Loops
 ### Parts of a For Loop
 ### Nested Loops
