@@ -2152,6 +2152,7 @@ Printing out i = 4<br/>
 Printing out i = 5
 
 ### Nested Loops
+Just like conditional statements, you can nest loops inside of each other. This doesn’t add anything new to your loops per se, just an extra layer of complexity. Here I have an example of a nested loop. If you look at the first for loop there’s another loop nested inside of it. Similar to what I did in the for loops video, I want to take some time to walk through each step of this code so you can see exactly what is happening. Because nested loops add another layer of complexity, seeing this code step through this way should help you in visualizing what is actually happening when this code is being interpreted and ran. Again, I’m going to add the table here so that you can see the values of x and y while we go through the loop. Okay, so here we go. When our first loop starts, the value of x is set to zero. Next, we check the condition to see if x is less than 3. And because that evaluates to true, we jump into the loop. But now, we’ve got another loop. So, just like we did with the first for loop, again we’re going to set the variable of y = 0. We’re going to check our condition, is zero less than 2? Yes, it is. So that’s true. And then we jump into this loop. And we’re going to print out the value of x and y. So that’s a zero, zero.
 ### Increment and Decrement
 ### Quiz: Changing the Loop (4-4)
 ### Quiz: Fix the Error 1 (4-5)
