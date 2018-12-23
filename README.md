@@ -85,7 +85,7 @@ A complete overview of UDACITY's Intro to JavaScript course
 - JavaScript is a programming language for the web
 - It is the the final piece needed to make your websites come to life
 - It was created to make it easier to add interactive and dynamic elements to websites
-- Today, the language can be used to program a robot, write a game script or build a code editor
+- It can also be used to program a robot, write a game script or build a code editor
 - It has grown to be one of the most popular languages in the world
 
 ### History of JavaScript
