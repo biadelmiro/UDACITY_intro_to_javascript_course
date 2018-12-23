@@ -82,7 +82,11 @@ A complete overview of UDACITY's Intro to JavaScript course
 
 ## What is JavaScript?
 ### Introduction to JavaScript
-JavaScript is a programming language for the web and is the the final piece needed to make your websites come to life. It was created to make it easier to add interactive and dynamic elements to websites. Today, the language is used for all sorts of applications, from programming a robot with an Arduino to writing a game script in Unity or even building a code editor. It has grown to be one of the most popular languages in the world and is considered one of the three foundational pillars of front end web development.
+- JavaScript is a programming language for the web
+- It is the the final piece needed to make your websites come to life
+- It was created to make it easier to add interactive and dynamic elements to websites
+- Today, the language is used for all sorts of applications, such as, programming a robot, writing a game script or building a code editor
+- It has grown to be one of the most popular languages in the world
 
 ### History of JavaScript
 JavaScript was created in just 10 days by Brendan Eich back in 1995 while he was working on Netscape Navigator which was one of the Internet’s first web browsers. Nowadays, mostly Google Chrome, Mozilla Firefox, Apple Safari and Microsoft Edge are used to surf the web. Prior to Eich’s creation of JavaScript, websites just existed as pages of HTML and CSS with the occasional plug-in or Java applet. JavaScript was originally called LiveScript, but was changed to JavaScript as a marketing decision in order to ride on the coattails of Java's popularity at the time. As the language evolved, competing versions of the language emerged. So JavaScript was eventually taken to Ecma International to be standardized. Today, the language itself is still referred to as JavaScript, however, recent versions are referenced by their ECMAScript version number, such as, ES5 or ES6. Even more recently, the standards body has transitioned to a year-based number to promote a more consistent release cycle with ES2016, ES2017, etc.
