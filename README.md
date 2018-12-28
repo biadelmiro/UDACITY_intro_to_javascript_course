@@ -92,7 +92,9 @@ A complete overview of UDACITY's Intro to JavaScript course
 - JavaScript was created in just 10 days by Brendan Eich back in 1995
 - Prior to JavaScript, websites just existed as pages of HTML and CSS with the occasional plug-in or Java applet
 - It was originally called LiveScript, but was changed to JavaScript due to Java's popularity at the time
-As the language evolved, competing versions of the language emerged. So JavaScript was eventually taken to Ecma International to be standardized. Today, the language itself is still referred to as JavaScript, however, recent versions are referenced by their ECMAScript version number, such as, ES5 or ES6. Even more recently, the standards body has transitioned to a year-based number to promote a more consistent release cycle with ES2016, ES2017, etc.
+- Due to competing versions emerging, JavaScript was taken to Ecma International to be standardized
+- Recent versions can also be referenced by their ECMAScript version number, such as, ES5 or ES6
+- Even more recently, it uses a year-based number to promote a more consistent release cycle with ES2016, ES2017, etc.
 
 ### The JavaScript Console
 
