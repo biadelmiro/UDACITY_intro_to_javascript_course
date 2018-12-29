@@ -96,7 +96,7 @@ A complete overview of UDACITY's Intro to JavaScript course
 - Recent versions can also be referenced by their ECMAScript version number, such as, ES5 or ES6
 - Even more recently, it uses a year-based number to promote a more consistent release cycle with ES2016, ES2017, etc.
 
-### The JavaScript Console
+### The JavaScript Console using Google Chrome
 
 In Google Chrome, you can access the console by opening the developer tools, which can be done by right clicking the page and selecting inspect. Once open, navigate to the console tab. Alternatively, the keyboard shortcut is Cmd+Option+J on a Mac or Ctrl+Shift+J on Windows. For more Chrome developer tools keyboard shortcuts [click here](https://developers.google.com/web/tools/chrome-devtools/shortcuts).
 
