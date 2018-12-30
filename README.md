@@ -96,9 +96,10 @@ A complete overview of UDACITY's Intro to JavaScript course
 - Recent versions can also be referenced by their ECMAScript version number, such as, ES5 or ES6
 - Even more recently, it uses a year-based number to promote a more consistent release cycle with ES2016, ES2017, etc.
 
-### The JavaScript Console using Google Chrome
+### The JavaScript Console
 
-In Google Chrome, you can access the console by opening the developer tools, which can be done by right clicking the page and selecting inspect. Once open, navigate to the console tab. Alternatively, the keyboard shortcut is Cmd+Option+J on a Mac or Ctrl+Shift+J on Windows. For more Chrome developer tools keyboard shortcuts [click here](https://developers.google.com/web/tools/chrome-devtools/shortcuts).
+- You can access the console by opening the developer tools by right clicking the page and selecting inspect
+- Once open, navigate to the console tab. Alternatively, the keyboard shortcut is Cmd+Option+J on a Mac or Ctrl+Shift+J on Windows. For more Chrome developer tools keyboard shortcuts [click here](https://developers.google.com/web/tools/chrome-devtools/shortcuts).
 
 You can write and test JavaScript code directly in the console. For example, to write your first line of code you could start by writing your name. As you see, just writing your name will actually result in an error. To be able to actually write your name in JavaScript without an error you need to format your name as a data type called a string put inside quotes:
 ```js 
