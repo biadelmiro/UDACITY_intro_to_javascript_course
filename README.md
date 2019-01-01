@@ -99,30 +99,31 @@ A complete overview of UDACITY's Intro to JavaScript course
 ### The JavaScript Console
 
 - You can access the console by opening the developer tools by usually right clicking the page and selecting inspect
-- Once open, navigate to the console tab
 - Alternatively, the keyboard shortcut is Cmd+Option+J on a Mac or Ctrl+Shift+J on Windows
 - For more Chrome developer tools keyboard shortcuts [click here](https://developers.google.com/web/tools/chrome-devtools/shortcuts)
+- Once open, navigate to the console tab
 - You can write and test JavaScript code directly in the console
 
-- To write your first line of code you could start by writing your name. As you see, just writing your name will actually result in an error. To be able to actually write your name in JavaScript without an error you need to format your name as a data type called a string put inside quotes:
+Examples:
+
 ```js 
 "Michael"
 ```
-Why don’t we try something else? Here’s some code that creates an alert that says, Hello, Julia, how are you? And it pushes it to the browser:
+
 ```js
 alert("Hello, Michael! How are you?!");
 ```
-Now writing code directly in your browser is something you can do to test out new code snippets where you’re not really sure what they do. But it could actually get pretty annoying once you start writing larger and larger programs. For example, if you wanted to create more than just one alert, it may seem simple at first, but each time you need to go to the next line, you would have to type Shift+Return instead of just the Return key.
+
 ```js
 alert("Hello");
 alert(":(");
 ```
+
 ```js
 alert("Hello");
 alert("This is great!");
 alert("JavaScript is fun!");
 ```
-This is going to get pretty annoying pretty fast. Eventually, you’ll learn about other ways to run JavaScript files. But for now we recommend using a text editor like Atom or Sublime Text and then pasting your code in the console once you’re ready to test it.
 
 ### Developer Tools on Different Browsers
 Every modern web browser includes its own set of developer tools. Developer tools allow you to debug and test out your ideas directly in the browser. If you're familiar with HTML or CSS, you may have used them to experiment with the style of a webpage, however, you can also use them with JavaScript. They are often used as a sandbox, that is, a place to mess around with any code without any long-term consequences. You can use them to debug problems you run in to or to test a piece of code. If you open any website that uses JavaScript, the console will tell you if there are any warnings or errors on the page and will also display any output and print it with console.log. Warnings and errors are very common when visiting sites and will not affect your code.
