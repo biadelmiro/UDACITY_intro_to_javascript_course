@@ -96,7 +96,7 @@ A complete overview of UDACITY's Intro to JavaScript course
 - Recent versions can also be referenced by their ECMAScript version number, such as, ES5 or ES6
 - More recently, it uses a year-based number to promote a more consistent release cycle with ES2016, ES2017, etc.
 
-### The JavaScript Console
+### The JavaScript Console in Google Chrome
 
 - You can access the console by opening the developer tools by usually right clicking the page and selecting inspect
 - Alternatively, the keyboard shortcut is Cmd+Option+J on a Mac or Ctrl+Shift+J on Windows
@@ -125,8 +125,11 @@ alert("This is great!");
 alert("JavaScript is fun!");
 ```
 
-### Developer Tools on Different Browsers
-Every modern web browser includes its own set of developer tools. Developer tools allow you to debug and test out your ideas directly in the browser. If you're familiar with HTML or CSS, you may have used them to experiment with the style of a webpage, however, you can also use them with JavaScript. They are often used as a sandbox, that is, a place to mess around with any code without any long-term consequences. You can use them to debug problems you run in to or to test a piece of code. If you open any website that uses JavaScript, the console will tell you if there are any warnings or errors on the page and will also display any output and print it with console.log. Warnings and errors are very common when visiting sites and will not affect your code.
+### Developer Tools
+- Every modern web browser includes its own set of developer tools
+- They are often used as a sandbox, that is, a place to mess around with any code without any long-term consequences
+- If you open any website that uses JavaScript, the console will tell you if there are any warnings or errors on the page and will also display any output and print it with console.log. 
+- Warnings and errors are very common when visiting sites and will not affect your code.
 
 DevTools can be separated into three categories; independent, Mac and Windows. Independent browsers, such as, Google Chrome, Mozilla Firefox and Opera can be used regardless of operating system. Specific browsers, such as, Safari, Internet Explorer and Microsoft Edge Mac are dependent on their respective Mac or Windows operating system. Below is a guide to the various web browsers and their respective developer tools:
 
