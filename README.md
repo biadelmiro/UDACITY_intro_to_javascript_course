@@ -94,7 +94,7 @@ A complete overview of UDACITY's Intro to JavaScript course
 - It was originally called LiveScript, but was changed to JavaScript due to Java's popularity at the time
 - Due to competing versions emerging, JavaScript was taken to Ecma International to be standardized
 - Recent versions can also be referenced by their ECMAScript version number, such as, ES5 or ES6
-- Even more recently, it uses a year-based number to promote a more consistent release cycle with ES2016, ES2017, etc.
+- More recently, it uses a year-based number to promote a more consistent release cycle with ES2016, ES2017, etc.
 
 ### The JavaScript Console
 
