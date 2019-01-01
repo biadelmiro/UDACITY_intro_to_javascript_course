@@ -98,7 +98,7 @@ A complete overview of UDACITY's Intro to JavaScript course
 
 ### The JavaScript Console
 
-- You can access the console by opening the Chrome developer tools by usually right clicking the page and selecting inspect
+- You can access the console by opening the developer tools by usually right clicking the page and selecting inspect
 - Once open, navigate to the console tab
 - Alternatively, the keyboard shortcut is Cmd+Option+J on a Mac or Ctrl+Shift+J on Windows
 - For more Chrome developer tools keyboard shortcuts [click here](https://developers.google.com/web/tools/chrome-devtools/shortcuts).
