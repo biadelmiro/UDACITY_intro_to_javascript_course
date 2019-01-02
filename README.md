@@ -101,7 +101,7 @@ A complete overview of UDACITY's Intro to JavaScript course
 - They are often used as a sandbox, that is, a place to mess around with any code without any long-term consequences
 - The console will inform you of any warnings or errors written in JavaScript and print any output with console.log. 
 - Warnings and errors are very common when visiting sites and will not affect your code.
-- The main browsers used are; Google Chrome, Mozilla Firefox, Opera, Safari, Microsoft Edge and Internet Explorer 8 to 11
+- The main browsers used are; Google Chrome, Mozilla Firefox, Opera, Safari, Microsoft Edge and Internet Explorer 8 - 11
 - General access
 - Safari
 - Edge
