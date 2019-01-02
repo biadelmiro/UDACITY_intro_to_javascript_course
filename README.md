@@ -101,6 +101,10 @@ A complete overview of UDACITY's Intro to JavaScript course
 - They are often used as a sandbox, that is, a place to mess around with any code without any long-term consequences
 - The console will inform you of any warnings or errors written in JavaScript and print any output with console.log. 
 - Warnings and errors are very common when visiting sites and will not affect your code.
+- The main browsers used are; Google Chrome, Mozilla Firefox, Opera, Safari, Microsoft Edge and Internet Explorer 8 to 11
+- General access
+- Safari
+- Edge
 
 DevTools can be separated into three categories; independent, Mac and Windows. Independent browsers, such as, Google Chrome, Mozilla Firefox and Opera can be used regardless of operating system. Specific browsers, such as, Safari, Internet Explorer and Microsoft Edge Mac are dependent on their respective Mac or Windows operating system. Below is a guide to the various web browsers and their respective developer tools:
 
