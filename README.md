@@ -5,7 +5,7 @@ A complete overview of UDACITY's Intro to JavaScript course
 1. [What is JavaScript?](#what-is-javascript)
    1. [Introduction to JavaScript](#introduction-to-javascript)
    2. [History of JavaScript](#history-of-javascript)
-   3. [The JavaScript Console](#the-javascript-console)
+   3. [The JavaScript Console using Google Chrome](#the-javascript-console-using-google-chrome)
    4. [Developer Tools on Different Browsers](#developer-tools-on-different-browsers)
    5. [Console Log](#console-log)
    6. [JavaScript Demo](#javascript-demo)
@@ -96,7 +96,7 @@ A complete overview of UDACITY's Intro to JavaScript course
 - Recent versions can also be referenced by their ECMAScript version number, such as, ES5 or ES6
 - More recently, it uses a year-based number to promote a more consistent release cycle with ES2016, ES2017, etc.
 
-### The JavaScript Console in Google Chrome
+### The JavaScript Console using Google Chrome
 
 - You can access the console by opening the developer tools by usually right clicking the page and selecting inspect
 - Alternatively, the keyboard shortcut is Cmd+Option+J on a Mac or Ctrl+Shift+J on Windows
