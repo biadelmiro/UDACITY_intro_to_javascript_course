@@ -103,7 +103,7 @@ A complete overview of UDACITY's Intro to JavaScript course
 - Warnings and errors are very common when visiting sites and will not affect your code
 - The main browsers are; Google Chrome, Mozilla Firefox, Opera, Safari, Microsoft Edge and Internet Explorer 8 to 11
 - You can generally access the developer tools with a right-click on the page and then selecting Inspect Element
-- Alternatively, you can use the shortcuts; Command + Option + i (Mac) or Ctrl + Shift + i (Windows/Linux)
+- Alternatively, you can use the shortcuts; Command + Option + i (Mac) or Ctrl + Shift + i (Windows)
 - With Safari you need to first enable them in the Advanced Preferences
 - With Windows you can press the F12 key on the keyboard as a shortcut
 
@@ -117,15 +117,15 @@ A complete overview of UDACITY's Intro to JavaScript course
 - [Internet Explorer 10](https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/dev-guides/hh673549(v=vs.85))
 - [Internet Explorer 11](https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/dev-guides/bg182636(v=vs.85))
 - [Microsoft Edge](https://docs.microsoft.com/de-de/microsoft-edge/devtools-guide)
-- [GitHub](https://github.com/MicrosoftDocs/edge-developer)
+- [Microsoft Edge on GitHub](https://github.com/MicrosoftDocs/edge-developer)
 
 ### The JavaScript Console
 
-- You can access the console by opening the developer tools by usually right clicking the page and selecting inspect
-- Alternatively, the keyboard shortcut is Cmd+Option+J on a Mac or Ctrl+Shift+J on Windows
-- For more Chrome developer tools keyboard shortcuts [click here](https://developers.google.com/web/tools/chrome-devtools/shortcuts)
+- You can access the console by either using the instructions or shortcuts previously mentioned
+- Alternatively, if using Chrome, you can use the shortcut Cmd+Option+J (Mac) or Ctrl+Shift+J (Windows)
 - Once open, navigate to the console tab
 - You can write and test JavaScript code directly in the console
+- For more Chrome developer tools keyboard shortcuts [click here](https://developers.google.com/web/tools/chrome-devtools/shortcuts)
 
 Examples:
 
