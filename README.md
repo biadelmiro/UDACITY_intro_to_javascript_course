@@ -6,7 +6,7 @@ A complete overview of UDACITY's Intro to JavaScript course
    1. [Introduction to JavaScript](#introduction-to-javascript)
    2. [History of JavaScript](#history-of-javascript)
    3. [The JavaScript Console using Google Chrome](#the-javascript-console-using-google-chrome)
-   4. [Developer Tools on Different Browsers](#developer-tools-on-different-browsers)
+   4. [Developer Tools](#developer-tools)
    5. [Console Log](#console-log)
    6. [JavaScript Demo](#javascript-demo)
    7. [Lesson 1 Summary](#lesson-1-summary)
