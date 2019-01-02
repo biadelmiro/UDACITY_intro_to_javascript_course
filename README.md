@@ -128,7 +128,7 @@ alert("JavaScript is fun!");
 ### Developer Tools
 - Every modern web browser includes its own set of developer tools
 - They are often used as a sandbox, that is, a place to mess around with any code without any long-term consequences
-- If you open any website that uses JavaScript, the console will tell you if there are any warnings or errors on the page and will also display any output and print it with console.log. 
+- When opening a website using JavaScript, the console will tell you of any warnings or errors on the page and will also display any output and print it with console.log. 
 - Warnings and errors are very common when visiting sites and will not affect your code.
 
 DevTools can be separated into three categories; independent, Mac and Windows. Independent browsers, such as, Google Chrome, Mozilla Firefox and Opera can be used regardless of operating system. Specific browsers, such as, Safari, Internet Explorer and Microsoft Edge Mac are dependent on their respective Mac or Windows operating system. Below is a guide to the various web browsers and their respective developer tools:
