@@ -106,13 +106,6 @@ A complete overview of UDACITY's Intro to JavaScript course
 - Safari
 - Edge
 
-DevTools can be separated into three categories; independent, Mac and Windows. Independent browsers, such as, Google Chrome, Mozilla Firefox and Opera can be used regardless of operating system. Specific browsers, such as, Safari, Internet Explorer and Microsoft Edge Mac are dependent on their respective Mac or Windows operating system. Below is a guide to the various web browsers and their respective developer tools:
-
-- [Independent](#independent)
-- [Mac](#mac)
-- [Windows](#windows)
-- [Further Reading](#further-reading)
-
 #### Independent
 With most independent browsers, such as, Google Chrome, Mozilla Firefox and Opera, you can access them with a right-click on an element and then selecting Inspect Element. Alternatively, you can use the following shortcuts:
 - Command + Option + i (Mac)
