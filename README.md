@@ -6,9 +6,10 @@ A complete overview of UDACITY's Intro to JavaScript course
    1. [Introduction to JavaScript](#introduction-to-javascript)
    2. [History of JavaScript](#history-of-javascript)
    3. [Developer Tools](#developer-tools)
-   4. [Console Log](#console-log)
-   5. [JavaScript Demo](#javascript-demo)
-   6. [Lesson 1 Summary](#lesson-1-summary)
+   4. [The JavaScript Console](#the-javascript-console)
+   5. [Console Log](#console-log)
+   6. [JavaScript Demo](#javascript-demo)
+   7. [Lesson 1 Summary](#lesson-1-summary)
 2. [Data Types and Variables](#data-types-and-variables)
    1. [Introduction to Data Types](#introduction-to-data-types)
    2. [Numbers](#numbers)
@@ -118,7 +119,7 @@ A complete overview of UDACITY's Intro to JavaScript course
 - [Microsoft Edge](https://docs.microsoft.com/de-de/microsoft-edge/devtools-guide)
 - [GitHub](https://github.com/MicrosoftDocs/edge-developer)
 
-### The JavaScript Console using Google Chrome
+### The JavaScript Console
 
 - You can access the console by opening the developer tools by usually right clicking the page and selecting inspect
 - Alternatively, the keyboard shortcut is Cmd+Option+J on a Mac or Ctrl+Shift+J on Windows
