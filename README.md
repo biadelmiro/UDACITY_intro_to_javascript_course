@@ -96,35 +96,6 @@ A complete overview of UDACITY's Intro to JavaScript course
 - Recent versions can also be referenced by their ECMAScript version number, such as, ES5 or ES6
 - More recently, it uses a year-based number to promote a more consistent release cycle with ES2016, ES2017, etc.
 
-### The JavaScript Console using Google Chrome
-
-- You can access the console by opening the developer tools by usually right clicking the page and selecting inspect
-- Alternatively, the keyboard shortcut is Cmd+Option+J on a Mac or Ctrl+Shift+J on Windows
-- For more Chrome developer tools keyboard shortcuts [click here](https://developers.google.com/web/tools/chrome-devtools/shortcuts)
-- Once open, navigate to the console tab
-- You can write and test JavaScript code directly in the console
-
-Examples:
-
-```js 
-"Michael"
-```
-
-```js
-alert("Hello, Michael! How are you?!");
-```
-
-```js
-alert("Hello");
-alert(":(");
-```
-
-```js
-alert("Hello");
-alert("This is great!");
-alert("JavaScript is fun!");
-```
-
 ### Developer Tools
 - Every modern web browser includes its own set of developer tools
 - They are often used as a sandbox, that is, a place to mess around with any code without any long-term consequences
@@ -159,6 +130,35 @@ Internet Explorer and Microsoft Edge have the F12 DevTools, which are accessible
 - [Internet Explorer 10](https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/dev-guides/hh673549(v=vs.85))
 - [Internet Explorer 11](https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/dev-guides/bg182636(v=vs.85))
 - [Microsoft Edge](https://docs.microsoft.com/de-de/microsoft-edge/devtools-guide)
+
+### The JavaScript Console using Google Chrome
+
+- You can access the console by opening the developer tools by usually right clicking the page and selecting inspect
+- Alternatively, the keyboard shortcut is Cmd+Option+J on a Mac or Ctrl+Shift+J on Windows
+- For more Chrome developer tools keyboard shortcuts [click here](https://developers.google.com/web/tools/chrome-devtools/shortcuts)
+- Once open, navigate to the console tab
+- You can write and test JavaScript code directly in the console
+
+Examples:
+
+```js 
+"Michael"
+```
+
+```js
+alert("Hello, Michael! How are you?!");
+```
+
+```js
+alert("Hello");
+alert(":(");
+```
+
+```js
+alert("Hello");
+alert("This is great!");
+alert("JavaScript is fun!");
+```
 
 ### Console Log
 console.log is used to print content to the JavaScript console:
