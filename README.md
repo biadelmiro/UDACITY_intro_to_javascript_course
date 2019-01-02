@@ -6,10 +6,9 @@ A complete overview of UDACITY's Intro to JavaScript course
    1. [Introduction to JavaScript](#introduction-to-javascript)
    2. [History of JavaScript](#history-of-javascript)
    3. [Developer Tools](#developer-tools)
-   4. [The JavaScript Console using Google Chrome](#the-javascript-console-using-google-chrome)
-   5. [Console Log](#console-log)
-   6. [JavaScript Demo](#javascript-demo)
-   7. [Lesson 1 Summary](#lesson-1-summary)
+   4. [Console Log](#console-log)
+   5. [JavaScript Demo](#javascript-demo)
+   6. [Lesson 1 Summary](#lesson-1-summary)
 2. [Data Types and Variables](#data-types-and-variables)
    1. [Introduction to Data Types](#introduction-to-data-types)
    2. [Numbers](#numbers)
@@ -99,23 +98,13 @@ A complete overview of UDACITY's Intro to JavaScript course
 ### Developer Tools
 - Every modern web browser includes its own set of developer tools
 - They are often used as a sandbox, that is, a place to mess around with any code without any long-term consequences
-- The console will inform you of any warnings or errors written in JavaScript and print any output with console.log. 
-- Warnings and errors are very common when visiting sites and will not affect your code.
+- The console will inform you of any warnings or errors written in JavaScript and print any output with console.log 
+- Warnings and errors are very common when visiting sites and will not affect your code
 - The main browsers are; Google Chrome, Mozilla Firefox, Opera, Safari, Microsoft Edge and Internet Explorer 8 to 11
-- General access
-- Safari
-- Edge
-
-#### Independent
-With most independent browsers, such as, Google Chrome, Mozilla Firefox and Opera, you can access them with a right-click on an element and then selecting Inspect Element. Alternatively, you can use the following shortcuts:
-- Command + Option + i (Mac)
-- Ctrl + Shift + i (Windows/Linux).
-
-#### Mac
-Safari has the same options to access it's DevTools as with independent browsers, however, you first have to enable the Develop menu in Safari’s Advanced preferences in order to use them.
-
-#### Windows
-Internet Explorer and Microsoft Edge have the F12 DevTools, which are accessible by simply pressing F12 on the Keyboard. Testing for Internet Explorer 8, 9, 10 and 11 is arguably still best practice for web based projects, because they often present unique problems. Apparently, due to Microsoft Edge's tools having been written in TypeScript, it is always running and no reload is required. In addition, F12 developer tools documentation is now fully available on [GitHub](https://github.com/MicrosoftDocs/edge-developer).
+- You can generally access the developer tools with a right-click on the page and then selecting Inspect Element
+- Alternatively, you can use the shortcuts; Command + Option + i (Mac) or Ctrl + Shift + i (Windows/Linux)
+- With Safari you need to first enable them in the Advanced Preferences
+- With Windows you can press the F12 key on the keyboard as a shortcut
 
 #### Further Reading
 - [Google Chrome](https://developers.google.com/web/tools/chrome-devtools/)
@@ -127,6 +116,7 @@ Internet Explorer and Microsoft Edge have the F12 DevTools, which are accessible
 - [Internet Explorer 10](https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/dev-guides/hh673549(v=vs.85))
 - [Internet Explorer 11](https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/dev-guides/bg182636(v=vs.85))
 - [Microsoft Edge](https://docs.microsoft.com/de-de/microsoft-edge/devtools-guide)
+- [GitHub](https://github.com/MicrosoftDocs/edge-developer)
 
 ### The JavaScript Console using Google Chrome
 
