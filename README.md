@@ -149,7 +149,8 @@ alert("JavaScript is fun!");
 ```
 
 ### Console Log
-console.log is used to print content to the JavaScript console:
+- console.log is used to print content to the JavaScript console:
+
 ```js
 console.log("hiya friend!");
 ```
