@@ -149,11 +149,15 @@ alert("JavaScript is fun!");
 ```
 
 ### Console Log
-- console.log is used to print content to the JavaScript console:
+
+- console.log is used to print content to the JavaScript console
+
+Example:
 
 ```js
 console.log("hiya friend!");
 ```
+
 **Prints:** "hiya friend!"
 
 The message logged is a data type called a **string** (a sequence of characters).
