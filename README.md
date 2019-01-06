@@ -151,14 +151,13 @@ alert("JavaScript is fun!");
 ### Console Log
 
 - console.log is used to print content to the JavaScript console
+- In the following example, the **string** data type is used
 
 Example:
 
 ```js
 console.log("hiya friend!");
 ```
-
-- The message logged is a data type called a **string** (a sequence of characters)
 
 #### Optional demo example
 Let’s use console.log to do something a little more interesting. Here’s a block of JavaScript code that loops through the numbers 0 through 9 and prints them out to the console:
