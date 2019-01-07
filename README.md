@@ -160,6 +160,7 @@ console.log("hiya friend!");
 ```
 
 #### Optional demo example
+
 Let’s use console.log to do something a little more interesting. Here’s a block of JavaScript code that loops through the numbers 0 through 9 and prints them out to the console:
 ```js
 for (var i = 0; i < 10; i++) {
