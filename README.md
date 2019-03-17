@@ -173,7 +173,12 @@ for (var i = 0; i < 10; i++) {
 ```
 **Prints:** 0 1 2 3 4 5 6 7 8 9
 
-Based on this loop's settings, any code written inside the curly brackets {...} will be repeated 10 times. In this case, console.log is printing out the value of i each time the loop runs. Don't worry if you're not sure about what the syntax means at this point. You will learn more about how and when to use loops later.
+Based on this loop's settings:
+
+- Any code written inside the curly brackets {...} will be repeated 10 times
+- In this case, console.log is printing out the value of i each time the loop runs
+- Don't worry if you're not sure about what the syntax means at this point
+- You will learn more about how and when to use loops later
 
 ### JavaScript Demo
 So you saw how to use console.log to print a message to the JavaScript console. Now, let’s see how you can use the console as a sandbox to test a new line of JavaScript in the browser.
