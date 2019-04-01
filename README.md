@@ -181,7 +181,8 @@ Based on this loop's settings:
 - You will learn more about how and when to use loops later
 
 ### JavaScript Demo
-So you saw how to use console.log to print a message to the JavaScript console. Now, let’s see how you can use the console as a sandbox to test a new line of JavaScript in the browser.
+- So you saw how to use console.log to print a message to the JavaScript console
+- Now, let’s see how you can use the console as a sandbox to test a new line of JavaScript in the browser
 
 Open [the following site](https://daringfireball.net/projects/markdown/) in a new tab and in that tab also open up developer tools. Then paste the following code:
 ```js
