@@ -206,7 +206,10 @@ Before we move on to the JavaScript language itself, how about we recap some of 
 - This allows browsers to run and execute JavaScript code
 - Next, you got practice using the JavaScript console
 - The JavaScript console allows you to print strings and execute lines of JavaScript code on the fly, right inside of your browser
-- And finally, you wrapped up with some exercises where you use JavaScript to add styles and animations to a web page. Hopefully, you’re beginning to see the power of JavaScript. And you’re ready to dive in and explore the language.
+- And finally, you wrapped up with some exercises where you use JavaScript to add styles and animations to a web page. 
+
+
+Hopefully, you’re beginning to see the power of JavaScript. And you’re ready to dive in and explore the language.
 
 ## Data Types and Variables
 ### Introduction to Data Types
