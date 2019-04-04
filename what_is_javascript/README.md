@@ -1,7 +1,6 @@
 # Intro to JavaScript
-What is JavaScript?
+## What is JavaScript?
 
-## Table of Contents
 1. [Introduction to JavaScript](#introduction-to-javascript)
 2. [History of JavaScript](#history-of-javascript)
 3. [Developer Tools](#developer-tools)
