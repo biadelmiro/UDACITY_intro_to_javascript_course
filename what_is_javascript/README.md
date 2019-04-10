@@ -22,3 +22,14 @@
 - Due to competing versions emerging, JavaScript was taken to Ecma International to be standardized
 - Recent versions can also be referenced by their ECMAScript version number, such as, ES5 or ES6
 - More recently, it uses a year-based number to promote a more consistent release cycle with ES2016, ES2017, etc.
+
+## Developer Tools
+- Every modern web browser includes its own set of developer tools
+- They are often used as a sandbox, that is, a place to mess around with any code without any long-term consequences
+- The console will inform you of any warnings or errors written in JavaScript and print any output with console.log 
+- Warnings and errors are very common when visiting sites and will not affect your code
+- The main browsers are; Google Chrome, Mozilla Firefox, Opera, Safari, Microsoft Edge and Internet Explorer 8 to 11
+- You can generally access the developer tools with a right-click on the page and then selecting Inspect Element
+- Alternatively, you can use the shortcuts; Command + Option + i (Mac) or Ctrl + Shift + i (Windows)
+- With Safari you need to first enable them in the Advanced Preferences
+- With Windows you can press the F12 key on the keyboard as a shortcut
