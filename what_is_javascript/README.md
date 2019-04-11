@@ -33,3 +33,15 @@
 - Alternatively, you can use the shortcuts; Command + Option + i (Mac) or Ctrl + Shift + i (Windows)
 - With Safari you need to first enable them in the Advanced Preferences
 - With Windows you can press the F12 key on the keyboard as a shortcut
+
+### Further Reading
+- [Google Chrome](https://developers.google.com/web/tools/chrome-devtools/)
+- [Mozilla Firefox](https://developer.mozilla.org/en-US/docs/Tools)
+- [Opera](https://www.opera.com/dragonfly/)
+- [Safari](https://developer.apple.com/safari/tools/)
+- [Internet Explorer 8](https://msdn.microsoft.com/en-us/library/dd565628.aspx)
+- [Internet Explorer 9](https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/samples/gg589512(v=vs.85))
+- [Internet Explorer 10](https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/dev-guides/hh673549(v=vs.85))
+- [Internet Explorer 11](https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/dev-guides/bg182636(v=vs.85))
+- [Microsoft Edge](https://docs.microsoft.com/de-de/microsoft-edge/devtools-guide)
+- [Microsoft Edge on GitHub](https://github.com/MicrosoftDocs/edge-developer)
