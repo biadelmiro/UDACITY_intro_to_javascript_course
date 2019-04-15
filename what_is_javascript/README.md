@@ -45,3 +45,32 @@
 - [Internet Explorer 11](https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/dev-guides/bg182636(v=vs.85))
 - [Microsoft Edge](https://docs.microsoft.com/de-de/microsoft-edge/devtools-guide)
 - [Microsoft Edge on GitHub](https://github.com/MicrosoftDocs/edge-developer)
+
+## The JavaScript Console
+
+- You can access the console by either using the instructions or shortcuts previously mentioned
+- Alternatively, if using Chrome, you can use the shortcut Cmd+Option+J (Mac) or Ctrl+Shift+J (Windows)
+- Once open, navigate to the console tab
+- You can write and test JavaScript code directly in the console
+- For more Chrome developer tools keyboard shortcuts [click here](https://developers.google.com/web/tools/chrome-devtools/shortcuts)
+
+Examples:
+
+```js 
+"Michael"
+```
+
+```js
+alert("Hello, Michael! How are you?!");
+```
+
+```js
+alert("Hello");
+alert(":(");
+```
+
+```js
+alert("Hello");
+alert("This is great!");
+alert("JavaScript is fun!");
+```
