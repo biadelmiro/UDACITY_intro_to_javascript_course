@@ -74,3 +74,14 @@ alert("Hello");
 alert("This is great!");
 alert("JavaScript is fun!");
 ```
+
+## Console Log
+
+- console.log is used to print content to the JavaScript console
+- In the following example, the **string** data type is used
+
+Example:
+
+```js
+console.log("hiya friend!");
+```
