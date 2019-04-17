@@ -86,7 +86,7 @@ Example:
 console.log("hiya friend!");
 ```
 
-#### Optional demo example
+### Optional demo example
 
 - console.log can also be used inside of a loop
 - Let's create a **loop** that loops through from 0 to 9 and prints them to the console
