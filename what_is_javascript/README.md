@@ -85,3 +85,24 @@ Example:
 ```js
 console.log("hiya friend!");
 ```
+
+#### Optional demo example
+
+- console.log can also be used inside of a loop
+- Let's create a **loop** that loops through from 0 to 9 and prints them to the console
+
+Example:
+
+```js
+for (var i = 0; i < 10; i++) {
+  console.log(i);
+}
+```
+**Prints:** 0 1 2 3 4 5 6 7 8 9
+
+Based on this loop's settings:
+
+- Any code written inside the curly brackets {...} will be repeated 10 times
+- Console.log prints out the value of i each time the loop runs
+- Don't worry if you're not sure about what the syntax means at this point
+- You will learn more about how and when to use loops later
