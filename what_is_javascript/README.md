@@ -106,3 +106,23 @@ Based on this loop's settings:
 - Console.log prints out the value of i each time the loop runs
 - Don't worry if you're not sure about what the syntax means at this point
 - You will learn more about how and when to use loops later
+
+## JavaScript Demo
+- So you saw how to use console.log to print a message to the JavaScript console
+- Now, let’s see how you can use the console as a sandbox to test a new line of JavaScript in the browser
+
+Open [the following site](https://daringfireball.net/projects/markdown/) in a new tab and in that tab also open up developer tools. Then paste the following code:
+```js
+document.getElementsByTagName("h1")[0].style.color = "#ff0000";
+```
+As you can see, the heading changed red. Styling elements on the page is great, but you could also do that by just modifying the CSS. What makes JavaScript so special in this case? Refresh the page, then paste this line of code in the JavaScript console.
+```js
+document.body.addEventListener('click', function () {
+     var myParent = document.getElementById("Banner"); 
+     var myImage = document.createElement("img");
+     myImage.src = 'https://thecatapi.com/api/images/get?format=src&type=gif';
+     myParent.appendChild(myImage);
+     myImage.style.marginLeft = "160px";
+});
+```
+If you’re confused because nothing happened. Don’t worry. Click somewhere on the page. As you can see, an image was added to the page.
