@@ -128,8 +128,7 @@ document.body.addEventListener('click', function () {
 If you’re confused because nothing happened. Don’t worry. Click somewhere on the page. As you can see, an image was added to the page.
 
 ### Summary
-Before we move on to the JavaScript language itself, how about we recap some of the things you just learned?
-- First, you learned that all major browsers come with built-in JavaScript engines
+- All major browsers come with built-in JavaScript engines
 - This allows browsers to run and execute JavaScript code
 - Next, you got practice using the JavaScript console
 - The JavaScript console allows you to print strings and execute lines of JavaScript code on the fly, right inside of your browser
