@@ -9,19 +9,10 @@
 7. [Summary](#summary)
 
 ## Introduction to JavaScript
-- JavaScript is a programming language for the web
-- It is the the final piece needed to make your websites come to life
-- The language was created to make it easier to add interactive and dynamic elements to websites
-- It can also be used to program a robot, write a game script or build a code editor
-- It has grown to be one of the most popular languages in the world
+JavaScript is a programming language for the web and is the the final piece needed to make your websites come to life. The language was created to make it easier to add interactive and dynamic elements to websites, however, it can also be used to program a robot, write a game script or build a code editor. Since it's conception, JavaScriptIt has grown to be one of the most popular languages in the world.
 
 ## History of JavaScript
-- JavaScript was created in just 10 days by Brendan Eich back in 1995
-- Prior to JavaScript, websites just existed as pages of HTML and CSS with the occasional plug-in or Java applet
-- It was originally called LiveScript, but was changed to JavaScript due to Java's popularity at the time
-- Due to competing versions emerging, JavaScript was taken to Ecma International to be standardized
-- Recent versions can also be referenced by their ECMAScript version number, such as, ES5 or ES6
-- More recently, it uses a year-based number to promote a more consistent release cycle with ES2016, ES2017, etc.
+JavaScript was created in just 10 days by Brendan Eich back in 1995. Prior to JavaScript, websites existed as pages of HTML and CSS with the occasional plug-in or Java applet. Originally called LiveScript, JavaScript changed it's name due to Java's popularity at the time. As the language grew, competing versions emerged which was when it was taken to Ecma International to be standardized. Recent versions can be referenced by their version number, such as, ES5 or ES6 and even more recent versions now use a year-based number to promote a more consistent release cycle with ES2016, ES2017, etc.
 
 ## Developer Tools
 - Every modern web browser includes its own set of developer tools
