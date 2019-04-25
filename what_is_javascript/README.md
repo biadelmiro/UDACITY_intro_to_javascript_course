@@ -9,7 +9,7 @@
 7. [Summary](#summary)
 
 ## Introduction to JavaScript
-JavaScript is a programming language for the web and is the the final piece needed to make your websites come to life. The language was created to make it easier to add interactive and dynamic elements to websites, however, it can also be used to program a robot, write a game script or build a code editor. Since it's conception, JavaScriptIt has grown to be one of the most popular languages in the world.
+JavaScript is a programming language for the web and is the the final piece needed to make your websites come to life. The language was created to make it easier to add interactive and dynamic elements to websites, however, it can also be used to program a robot, write a game script or build a code editor. Since it's conception, JavaScript has grown to be one of the most popular languages in the world.
 
 ## History of JavaScript
 JavaScript was created in just 10 days by Brendan Eich back in 1995. Prior to JavaScript, websites existed as pages of HTML and CSS with the occasional plug-in or Java applet. Originally called LiveScript, JavaScript changed it's name due to Java's popularity at the time. As the language grew, competing versions emerged which was when it was taken to Ecma International to be standardized. Recent versions can be referenced by their version number, such as, ES5 or ES6 and even more recent versions now use a year-based number to promote a more consistent release cycle with ES2016, ES2017, etc.
