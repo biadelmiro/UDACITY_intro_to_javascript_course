@@ -31,7 +31,7 @@ Every modern web browser includes its own set of developer tools that are often 
 
 ## The JavaScript Console
 
-You can access the console by either using the instructions or shortcuts previously mentioned in the Developer Tools and navigating to the console tab. Alternatively, if using Chrome, you can use the shortcut Cmd+Option+J (Mac) or Ctrl+Shift+J (Windows). You can write and test JavaScript code directly in the console. For more Chrome developer tools keyboard shortcuts [click here](https://developers.google.com/web/tools/chrome-devtools/shortcuts)
+You can access the console by either using the instructions or shortcuts previously mentioned in the Developer Tools and navigating to the console tab. Alternatively, if using Chrome, you can use the shortcut Cmd+Option+J (Mac) or Ctrl+Shift+J (Windows). You can write and test JavaScript code directly in the console. For more Chrome developer tools keyboard shortcuts [click here](https://developers.google.com/web/tools/chrome-devtools/shortcuts).
 
 Examples:
 
