@@ -33,14 +33,15 @@ Every modern web browser includes its own set of developer tools that are often 
 
 You can access the console by either using the instructions or shortcuts previously mentioned in the Developer Tools and navigating to the console tab. Alternatively, if using Chrome, you can use the shortcut Cmd+Option+J (Mac) or Ctrl+Shift+J (Windows). You can write and test JavaScript code directly in the console. For more Chrome developer tools keyboard shortcuts [click here](https://developers.google.com/web/tools/chrome-devtools/shortcuts).
 
-### Examples:
+### Examples
+Type the following into the console to test and see what happens:
 
 ```js 
-"Michael"
+"Name"
 ```
 
 ```js
-alert("Hello, Michael! How are you?!");
+alert("Hi there! How are you?!");
 ```
 
 ```js
@@ -55,11 +56,9 @@ alert("JavaScript is fun!");
 ```
 
 ## Console Log
+console.log is used to print content to the JavaScript console. In the following example, the **string** data type is used
 
-- console.log is used to print content to the JavaScript console
-- In the following example, the **string** data type is used
-
-Example:
+### Example:
 
 ```js
 console.log("hiya friend!");
