@@ -37,7 +37,7 @@ You can access the console by either using the instructions or shortcuts previou
 Type the following into the console to test and see what happens:
 
 ```js 
-"Name"
+"Your Name"
 ```
 
 ```js
@@ -58,7 +58,8 @@ alert("JavaScript is fun!");
 ## Console Log
 console.log is used to print content to the JavaScript console. In the following example, the **string** data type is used
 
-### Example:
+### Example
+Here you will see the difference between simply writing a string to printing a string with console.log:
 
 ```js
 console.log("hiya friend!");
