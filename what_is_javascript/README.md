@@ -59,18 +59,14 @@ alert("JavaScript is fun!");
 console.log is used to print content to the JavaScript console. In the following example, the **string** data type is used
 
 ### Example
-Here you will see the difference between simply writing a string to printing a string with console.log:
+Here you will see the difference between simply writing a string and printing a string with console.log:
 
 ```js
 console.log("hiya friend!");
 ```
 
 ### Optional demo example
-
-- console.log can also be used inside of a loop
-- Let's create a **loop** that loops through from 0 to 9 and prints them to the console
-
-Example:
+console.log can also be used inside of a loop. Here is a **loop** that loops through from 0 to 9 and prints them to the console:
 
 ```js
 for (var i = 0; i < 10; i++) {
