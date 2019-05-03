@@ -75,12 +75,7 @@ for (var i = 0; i < 10; i++) {
 ```
 **Prints:** 0 1 2 3 4 5 6 7 8 9
 
-Based on this loop's settings:
-
-- Any code written inside the curly brackets {...} will be repeated 10 times
-- Console.log prints out the value of i each time the loop runs
-- Don't worry if you're not sure about what the syntax means at this point
-- You will learn more about how and when to use loops later
+Based on this loop's settings you will see that any code written inside the curly brackets {...} will be repeated 10 times and console.log prints out the value of i each time the loop runs. Don't about what the syntax means for now - you'll learn more about how and when to use loops later.
 
 ## JavaScript Demo
 - So you saw how to use console.log to print a message to the JavaScript console
