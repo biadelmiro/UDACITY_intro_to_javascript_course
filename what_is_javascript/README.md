@@ -2,7 +2,7 @@
 
 1. [Introduction to JavaScript](#introduction-to-javascript)
 2. [History of JavaScript](#history-of-javascript)
-3. [Developer Tools](#developer-tools)
+3. [Developer Tools and the JavaScript Console](#developer-tools-and-the-javascript-console)
 4. [The JavaScript Console](#the-javascript-console)
 5. [Console Log](#console-log)
 6. [JavaScript Demo](#javascript-demo)
@@ -14,10 +14,11 @@ JavaScript is a programming language for the web and is the the final piece need
 ## History of JavaScript
 JavaScript was created in just 10 days by Brendan Eich back in 1995. Prior to JavaScript, websites existed as pages of HTML and CSS with the occasional plug-in or Java applet. Originally called LiveScript, JavaScript changed it's name due to Java's popularity at the time. As the language grew, competing versions emerged which was when it was taken to Ecma International to be standardized. Recent versions can be referenced by their version number, such as, ES5 or ES6 and even more recent versions now use a year-based number to promote a more consistent release cycle with ES2016, ES2017, etc.
 
-## Developer Tools
+## Developer Tools and the JavaScript Console
+### Developer Tools
 Every modern web browser includes its own set of developer tools that are often used as a sandbox you can mess around in without any consequences. The console informs you of any warnings or errors written in JavaScript as well as prints any output with console.log. Note, warnings and errors are very common when visiting sites and will not affect your code. The main browsers used today are; Google Chrome, Mozilla Firefox, Opera, Safari, Microsoft Edge and Internet Explorer 8 to 11. You can generally access the developer tools with a right-click on the page and then selecting Inspect Element. Alternatively, you can use the shortcuts; Command + Option + i (Mac) or Ctrl + Shift + i (Windows). With Safari you need to first enable them in the Advanced Preferences and with Windows you can just press the F12 key on the keyboard.
 
-### Further Reading
+#### Further Reading
 - [Google Chrome](https://developers.google.com/web/tools/chrome-devtools/)
 - [Mozilla Firefox](https://developer.mozilla.org/en-US/docs/Tools)
 - [Opera](https://www.opera.com/dragonfly/)
@@ -29,8 +30,7 @@ Every modern web browser includes its own set of developer tools that are often 
 - [Microsoft Edge](https://docs.microsoft.com/de-de/microsoft-edge/devtools-guide)
 - [Microsoft Edge on GitHub](https://github.com/MicrosoftDocs/edge-developer)
 
-## The JavaScript Console
-
+### The JavaScript Console
 You can access the console by either using the instructions or shortcuts previously mentioned in the Developer Tools and navigating to the console tab. Alternatively, if using Chrome, you can use the shortcut Cmd+Option+J (Mac) or Ctrl+Shift+J (Windows). You can write and test JavaScript code directly in the console. For more Chrome developer tools keyboard shortcuts [click here](https://developers.google.com/web/tools/chrome-devtools/shortcuts).
 
 ### Examples
