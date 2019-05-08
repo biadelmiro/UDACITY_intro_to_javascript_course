@@ -99,8 +99,7 @@ document.body.addEventListener('click', function () {
 If you’re confused because nothing happened. Don’t worry. Click somewhere on the page. As you can see, an image was added to the page.
 
 ### Summary
-- All major browsers come with built-in JavaScript engines
-- This allows browsers to run and execute JavaScript code
+- All major browsers come with built-in JavaScript engines allowing browsers to run and execute JavaScript code
 - Next, you got practice using the JavaScript console
 - The JavaScript console allows you to print strings and execute lines of JavaScript code on the fly, right inside of your browser
 - And finally, you wrapped up with some exercises where you use JavaScript to add styles and animations to a web page.
