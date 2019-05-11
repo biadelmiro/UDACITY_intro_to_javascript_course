@@ -2216,7 +2216,7 @@ for (x < 10; x++) {
 }
 ```
 
-** Your Code: **
+**Your Code:**
 
 ```js
 /*
