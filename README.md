@@ -2182,7 +2182,7 @@ Just like conditional statements, you can nest loops inside of each other. This 
 With loops you often need to increase or decrease the value of a variable in order to step through the loop. For instance, with this loop we’re using x = x + 1 to increase the value of x by 1 before it starts the next iteration of the loop. With JavaScript and many other programming languages there’s actually an increment operator that gives you a short cut for doing the exact same thing and it’s written in two different ways. You have x++ and you have ++x. X++ is actually the same as x = x + 1, however, what it is going to do is return the original value of x before it increments it. You can read this as return x then increments it and just to show you what that means and how that looks let’s just do this over the console in the JavaScript console. So if I was to create a variable called x and let’s set it to 0. If I increment it using the operator it returns back 0 and you’re like, what the heck? I thought it was supposed to go up by 1? Well, what’s actually happening is that it returns the value back to us and then it increments it. So if we look at the value of x now it’s 1. So it has been incremented. It just sort of did it after the fact. Now, ++x is going to work the same way. It’s going to increment by 1, but it’s going to do it and then return the value back to us.
 
 ### Quiz: Changing the Loop (4-4)
-**Directions:**
+#### Directions:
 Rewrite the following `while` loop as a `for` loop:
 
 ```js
@@ -2207,6 +2207,28 @@ for (var x = 9; x >= 1; x--) {
 }
 ```
 ### Quiz: Fix the Error 1 (4-5)
+#### Directions:
+Here is a `for` loop that's supposed to print the numbers 5 through 9. Fix the error!
+
+```js
+for (x < 10; x++) {
+  console.log(x);
+}
+```
+
+** Your Code: **
+
+```js
+/*
+ * Programming Quiz: Fix the Error 1 (4-5)
+ */
+
+// fix the for loop
+for (var x = 5; x < 10; x++) {
+    console.log(x);
+}
+```
+
 ### Quiz: Fix the Error 2 (4-6)
 ### Quiz: Factorials! (4-7)
 ### Quiz: Find my Seat (4-8)
