@@ -2230,6 +2230,28 @@ for (var x = 5; x < 10; x++) {
 ```
 
 ### Quiz: Fix the Error 2 (4-6)
+#### Directions
+The `for` loop below has an error. Fix it!
+
+```js
+for (var k = 0 k < 200 k++) {
+  console.log(k);
+}
+```
+
+**Your Code:**
+
+```js
+/*
+ * Programming Quiz: Fix the Error 2 (4-6)
+ */
+
+// fix the for loop
+for (var k = 0; k < 200; k++) {
+    console.log(k);
+}
+```
+
 ### Quiz: Factorials! (4-7)
 ### Quiz: Find my Seat (4-8)
 ### Lesson 4 Summary
