@@ -100,5 +100,5 @@ If you’re confused because nothing happened. Don’t worry. Click somewhere on
 
 ### Summary
 - All major browsers come with built-in JavaScript engines allowing browsers to run and execute JavaScript code
-- The JavaScript console allows you to print strings and execute lines of JavaScript code on the fly, right inside of your browser
+- The JavaScript console allows you to print strings and execute lines of JavaScript code right inside of your browser
 - Finally, you wrapped up with some exercises where you use JavaScript to add styles and animations to a web page.
