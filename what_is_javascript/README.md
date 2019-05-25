@@ -16,8 +16,6 @@ JavaScript was created in just 10 days by Brendan Eich back in 1995. Prior to Ja
 
 ## Developer Tools and the JavaScript Console
 ### Developer Tools
-Developer Tools and the JavaScript Console are essentially the same thing.
-
 Every modern web browser includes its own set of developer tools that are often used as a sandbox you can mess around in without any consequences. The console informs you of any warnings or errors written in JavaScript as well as prints any output with console.log. Note, warnings and errors are very common when visiting sites and will not affect your code. The main browsers used today are; Google Chrome, Mozilla Firefox, Opera, Safari, Microsoft Edge and Internet Explorer 8 to 11. You can generally access the developer tools with a right-click on the page and then selecting Inspect Element. Alternatively, you can use the shortcuts; Command + Option + i (Mac) or Ctrl + Shift + i (Windows). With Safari you need to first enable them in the Advanced Preferences and with Windows you can just press the F12 key on the keyboard.
 
 #### Further Reading
