@@ -3,7 +3,7 @@
 1. [Introduction to JavaScript](#introduction-to-javascript)
 2. [History of JavaScript](#history-of-javascript)
 3. [The JavaScript Console](#the-javascript-console)
-4. [Developer Tools and the JavaScript Console](#developer-tools-and-the-javascript-console)
+4. [Developer Tools](#developer-tools)
 5. [Console Log](#console-log)
 6. [JavaScript Demo](#javascript-demo)
 7. [Summary](#summary)
