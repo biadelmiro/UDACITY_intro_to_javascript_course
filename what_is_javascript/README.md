@@ -23,7 +23,8 @@
 - Recent versions are referenced by their version number, such as, ES5 or ES6 and even more recent versions now use a year-based number to promote a more consistent release cycle with ES2016, ES2017, etc.
 
 ## The JavaScript Console
-If using Chrome, you can use the shortcut Cmd+Option+J (Mac) or Ctrl+Shift+J (Windows) to directly access the JavaScript Console. Alternatively, you can use the shortcut Command+Option+I (Mac) or Ctrl+Shift+I (Windows) to access the Developer Tools panel in which the Console already is and click on the tab Console if not already there.
+- With Chrome, you can use the shortcut Cmd+Option+J (Mac) or Ctrl+Shift+J (Windows) to directly access the JavaScript Console.
+- Alternatively, you can use the shortcut Cmd+Option+I (Mac) or Ctrl+Shift+I (Windows) to access the Developer Tools panel in which the Console already is and click on the tab Console if not already there.
 
 Type the following into the console to test and see what happens:
 
