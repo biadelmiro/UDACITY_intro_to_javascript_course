@@ -3,7 +3,7 @@
 1. [Introduction to JavaScript](#introduction-to-javascript)
 2. [History of JavaScript](#history-of-javascript)
 3. [The JavaScript Console](#the-javascript-console)
-4. [Developer Tools](#developer-tools)
+4. [Developer Tools on Different Browsers](#developer-tools-on-different browsers)
 5. [Console Log](#console-log)
 6. [JavaScript Demo](#javascript-demo)
 7. [Summary](#summary)
@@ -24,7 +24,7 @@
 
 ## The JavaScript Console
 - With Chrome, you can use the shortcut Cmd+Option+J (Mac) or Ctrl+Shift+J (Windows) to directly access the JavaScript Console.
-- Alternatively, you can use the shortcut Cmd+Option+I (Mac) or Ctrl+Shift+I (Windows) to access the Developer Tools panel in which the Console already is and click on the tab Console if not already there.
+- Alternatively, you can use the shortcut Cmd+Option+I (Mac) or Ctrl+Shift+I (Windows) to access the Developer Tools panel and if necessary navigate to it.
 
 Type the following into the console to test and see what happens:
 
@@ -47,6 +47,10 @@ alert("This is great!");
 alert("JavaScript is fun!");
 ```
 
+
+## Developer Tools on Different Browsers
+Every modern web browser includes its own set of developer tools that are often used as a sandbox you can mess around in without any consequences. The console informs you of any warnings or errors written in JavaScript as well as prints any output with console.log. Note, warnings and errors are very common when visiting sites and will not affect your code. The main browsers used today are; Google Chrome, Mozilla Firefox, Opera, Safari, Microsoft Edge and Internet Explorer 8 to 11. You can generally access the developer tools with a right-click on the page and then selecting Inspect Element. Alternatively, you can use the shortcuts; Command + Option + i (Mac) or Ctrl + Shift + i (Windows). With Safari you need to first enable them in the Advanced Preferences and with Windows you can just press the F12 key on the keyboard.
+
 ## Console Log
 console.log is used to print content to the JavaScript console. In the following example, the **string** data type is used
 
@@ -68,21 +72,6 @@ for (var i = 0; i < 10; i++) {
 **Prints:** 0 1 2 3 4 5 6 7 8 9
 
 Based on this loop's settings you will see that any code written inside the curly brackets {...} will be repeated 10 times and console.log prints out the value of i each time the loop runs. Don't about what the syntax means for now - you'll learn more about how and when to use loops later.
-
-## Developer Tools
-Every modern web browser includes its own set of developer tools that are often used as a sandbox you can mess around in without any consequences. The console informs you of any warnings or errors written in JavaScript as well as prints any output with console.log. Note, warnings and errors are very common when visiting sites and will not affect your code. The main browsers used today are; Google Chrome, Mozilla Firefox, Opera, Safari, Microsoft Edge and Internet Explorer 8 to 11. You can generally access the developer tools with a right-click on the page and then selecting Inspect Element. Alternatively, you can use the shortcuts; Command + Option + i (Mac) or Ctrl + Shift + i (Windows). With Safari you need to first enable them in the Advanced Preferences and with Windows you can just press the F12 key on the keyboard.
-
-#### Further Reading
-- [Google Chrome](https://developers.google.com/web/tools/chrome-devtools/)
-- [Mozilla Firefox](https://developer.mozilla.org/en-US/docs/Tools)
-- [Opera](https://www.opera.com/dragonfly/)
-- [Safari](https://developer.apple.com/safari/tools/)
-- [Internet Explorer 8](https://msdn.microsoft.com/en-us/library/dd565628.aspx)
-- [Internet Explorer 9](https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/samples/gg589512(v=vs.85))
-- [Internet Explorer 10](https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/dev-guides/hh673549(v=vs.85))
-- [Internet Explorer 11](https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/dev-guides/bg182636(v=vs.85))
-- [Microsoft Edge](https://docs.microsoft.com/de-de/microsoft-edge/devtools-guide)
-- [Microsoft Edge on GitHub](https://github.com/MicrosoftDocs/edge-developer)
 
 ## JavaScript Demo
 So you saw how to use console.log to print a message to the JavaScript console. Now, let’s see how you can use the console as a sandbox to test a new line of JavaScript in the browser
