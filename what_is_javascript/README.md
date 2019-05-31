@@ -50,9 +50,12 @@ alert("JavaScript is fun!");
 
 ## Developer Tools on Different Browsers
 - Every modern web browser includes its own set of Developer Tools.
-- The JavaScript Console in the Developer Tools is used as a sandbox where you can test code without any consequences.
-- The Console informs you of any warnings or errors and prints any output with console.log. 
-- Warnings and errors are very common. The main browsers used today are; Google Chrome, Mozilla Firefox, Opera, Safari, Microsoft Edge and Internet Explorer 8 to 11. You can generally access the developer tools with a right-click on the page and then selecting Inspect Element. Alternatively, you can use the shortcuts; Command + Option + i (Mac) or Ctrl + Shift + i (Windows). With Safari you need to first enable them in the Advanced Preferences and with Windows you can just press the F12 key on the keyboard.
+- Developer Tools are used as a sandbox to test code without any consequences.
+- The Console informs you of any warnings or errors and prints any output with console.log (warnings and errors are very common). 
+- The main browsers used today are; Google Chrome, Mozilla Firefox, Opera, Safari, Microsoft Edge and Internet Explorer 8 to 11.
+- You can use the shortcuts; Cmd+Option+I (Mac) or Ctrl+Shift+I (Windows).
+- With Safari you need to first enable them in the Advanced Preferences.
+- With Windows you can simply press the F12 key on the keyboard.
 
 ## Console Log
 console.log is used to print content to the JavaScript console. In the following example, the **string** data type is used
