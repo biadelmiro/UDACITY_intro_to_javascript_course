@@ -16,7 +16,7 @@
 - Since it's conception, JavaScript has grown to be one of the most popular languages in the world.
 
 ## History of JavaScript
-- JavaScript was created in just 10 days by Brendan Eich when he was still working at Netscape back in 1995.
+- JavaScript was created in just 10 days by Brendan at Netscape back in 1995.
 - Prior to JavaScript, websites existed as pages of HTML and CSS with the occasional plug-in or Java applet.
 - Originally called LiveScript, JavaScript changed it's name due to Java's popularity at the time.
 - As the language grew, competing versions emerged which was when it was taken to Ecma International to be standardized.
