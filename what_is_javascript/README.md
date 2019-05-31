@@ -26,7 +26,7 @@
 - With Chrome, you can use the shortcut Cmd+Option+J (Mac) or Ctrl+Shift+J (Windows) to directly access the JavaScript Console.
 - Alternatively, you can use the shortcut Cmd+Option+I (Mac) or Ctrl+Shift+I (Windows) to access the Developer Tools panel and navigate to the JavaScript Console.
 
-Type the following into the console to test and see what happens:
+Type the following into the console and see what happens:
 
 ```js 
 "Your Name"
