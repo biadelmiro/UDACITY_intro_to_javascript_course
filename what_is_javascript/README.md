@@ -49,7 +49,7 @@ alert("JavaScript is fun!");
 
 
 ## Developer Tools on Different Browsers
-- Every modern web browser includes its own set of Developer Tools.
+- Every modern web browser is based on a JavaScript engine and includes its own set of Developer Tools.
 - Developer Tools are used as a sandbox to test code without any consequences.
 - The Console informs you of any warnings or errors and prints any output with console.log (warnings and errors are very common). 
 - The main browsers used today are; Google Chrome, Mozilla Firefox, Opera, Safari, Microsoft Edge and Internet Explorer 8 to 11.
