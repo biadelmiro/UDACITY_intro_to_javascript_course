@@ -58,7 +58,8 @@ alert("JavaScript is fun!");
 - With Windows you can simply press the F12 key on the keyboard.
 
 ## Console Log
-console.log is used to print content to the JavaScript console. In the following example, the **string** data type is used
+- console.log is used to print content to the JavaScript console.
+- In the following example, the **string** data type is used
 
 ### Example
 Here you will see the difference between simply writing a string and printing a string with console.log:
