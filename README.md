@@ -2,15 +2,7 @@
 A complete overview of UDACITY's Intro to JavaScript course
 
 ## Table of Contents
-1. [What is JavaScript?](#what-is-javascript)
-   1. [Introduction to JavaScript](#introduction-to-javascript)
-   2. [History of JavaScript](#history-of-javascript)
-   3. [Developer Tools](#developer-tools)
-   4. [The JavaScript Console](#the-javascript-console)
-   5. [Console Log](#console-log)
-   6. [JavaScript Demo](#javascript-demo)
-   7. [Lesson 1 Summary](#lesson-1-summary)
-2. [Data Types and Variables](#data-types-and-variables)
+1. [Data Types and Variables](#data-types-and-variables)
    1. [Introduction to Data Types](#introduction-to-data-types)
    2. [Numbers](#numbers)
    3. [Comments](#comments)
@@ -36,7 +28,7 @@ A complete overview of UDACITY's Intro to JavaScript course
    23. [Quiz: Mad Libs (2-11)](#quiz-mad-libs-2-11)
    24. [Quiz: One Awesome Message (2-12)](#quiz-one-awesome-message-2-12)
    25. [Lesson 2 Summary](#lesson-2-summary)
-3. [Conditionals](#conditionals)
+2. [Conditionals](#conditionals)
    1. [Intro to Conditionals](#intro-to-conditionals)
    2. [Quiz: Flowcharts (3-1)](#quiz-flowcharts-3-1)
    3. [Flowchart to Code](#flowchart-to-code)
@@ -59,7 +51,7 @@ A complete overview of UDACITY's Intro to JavaScript course
    20. [Falling-through](#falling-through)
    21. [Quiz: Back to School (3-9)](#quiz-back-to-school-3-9)
    22. [Lesson 3 Summary](#lesson-3-summary)
-4. [Loops](#loops)
+3. [Loops](#loops)
    1. [Intro to Loops](#intro-to-loops)
    2. [While Loops](#while-loops)
    3. [Parts of a While Loop](#parts-of-a-while-loop)
@@ -76,140 +68,9 @@ A complete overview of UDACITY's Intro to JavaScript course
    14. [Quiz: Factorials! (4-7)](#quiz-factorials-4-7)
    15. [Quiz: Find my Seat (4-8)](#quiz-find-my-seat-4-8)
    16. [Lesson 4 Summary](#lesson-4-summary)
-5. [Functions](#functions)
-6. [Arrays](#arrays)
-7. [Objects](#objects)
-
-## What is JavaScript?
-### Introduction to JavaScript
-- JavaScript is a programming language for the web
-- It is the the final piece needed to make your websites come to life
-- It was created to make it easier to add interactive and dynamic elements to websites
-- It can also be used to program a robot, write a game script or build a code editor
-- It has grown to be one of the most popular languages in the world
-
-### History of JavaScript
-- JavaScript was created in just 10 days by Brendan Eich back in 1995
-- Prior to JavaScript, websites just existed as pages of HTML and CSS with the occasional plug-in or Java applet
-- It was originally called LiveScript, but was changed to JavaScript due to Java's popularity at the time
-- Due to competing versions emerging, JavaScript was taken to Ecma International to be standardized
-- Recent versions can also be referenced by their ECMAScript version number, such as, ES5 or ES6
-- More recently, it uses a year-based number to promote a more consistent release cycle with ES2016, ES2017, etc.
-
-### Developer Tools
-- Every modern web browser includes its own set of developer tools
-- They are often used as a sandbox, that is, a place to mess around with any code without any long-term consequences
-- The console will inform you of any warnings or errors written in JavaScript and print any output with console.log 
-- Warnings and errors are very common when visiting sites and will not affect your code
-- The main browsers are; Google Chrome, Mozilla Firefox, Opera, Safari, Microsoft Edge and Internet Explorer 8 to 11
-- You can generally access the developer tools with a right-click on the page and then selecting Inspect Element
-- Alternatively, you can use the shortcuts; Command + Option + i (Mac) or Ctrl + Shift + i (Windows)
-- With Safari you need to first enable them in the Advanced Preferences
-- With Windows you can press the F12 key on the keyboard as a shortcut
-
-#### Further Reading
-- [Google Chrome](https://developers.google.com/web/tools/chrome-devtools/)
-- [Mozilla Firefox](https://developer.mozilla.org/en-US/docs/Tools)
-- [Opera](https://www.opera.com/dragonfly/)
-- [Safari](https://developer.apple.com/safari/tools/)
-- [Internet Explorer 8](https://msdn.microsoft.com/en-us/library/dd565628.aspx)
-- [Internet Explorer 9](https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/samples/gg589512(v=vs.85))
-- [Internet Explorer 10](https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/dev-guides/hh673549(v=vs.85))
-- [Internet Explorer 11](https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/dev-guides/bg182636(v=vs.85))
-- [Microsoft Edge](https://docs.microsoft.com/de-de/microsoft-edge/devtools-guide)
-- [Microsoft Edge on GitHub](https://github.com/MicrosoftDocs/edge-developer)
-
-### The JavaScript Console
-
-- You can access the console by either using the instructions or shortcuts previously mentioned
-- Alternatively, if using Chrome, you can use the shortcut Cmd+Option+J (Mac) or Ctrl+Shift+J (Windows)
-- Once open, navigate to the console tab
-- You can write and test JavaScript code directly in the console
-- For more Chrome developer tools keyboard shortcuts [click here](https://developers.google.com/web/tools/chrome-devtools/shortcuts)
-
-Examples:
-
-```js 
-"Michael"
-```
-
-```js
-alert("Hello, Michael! How are you?!");
-```
-
-```js
-alert("Hello");
-alert(":(");
-```
-
-```js
-alert("Hello");
-alert("This is great!");
-alert("JavaScript is fun!");
-```
-
-### Console Log
-
-- console.log is used to print content to the JavaScript console
-- In the following example, the **string** data type is used
-
-Example:
-
-```js
-console.log("hiya friend!");
-```
-
-#### Optional demo example
-
-- console.log can also be used inside of a loop
-- Let's create a **loop** that loops through from 0 to 9 and prints them to the console
-
-Example:
-
-```js
-for (var i = 0; i < 10; i++) {
-  console.log(i);
-}
-```
-**Prints:** 0 1 2 3 4 5 6 7 8 9
-
-Based on this loop's settings:
-
-- Any code written inside the curly brackets {...} will be repeated 10 times
-- Console.log prints out the value of i each time the loop runs
-- Don't worry if you're not sure about what the syntax means at this point
-- You will learn more about how and when to use loops later
-
-### JavaScript Demo
-- So you saw how to use console.log to print a message to the JavaScript console
-- Now, let’s see how you can use the console as a sandbox to test a new line of JavaScript in the browser
-
-Open [the following site](https://daringfireball.net/projects/markdown/) in a new tab and in that tab also open up developer tools. Then paste the following code:
-```js
-document.getElementsByTagName("h1")[0].style.color = "#ff0000";
-```
-As you can see, the heading changed red. Styling elements on the page is great, but you could also do that by just modifying the CSS. What makes JavaScript so special in this case? Refresh the page, then paste this line of code in the JavaScript console.
-```js
-document.body.addEventListener('click', function () {
-     var myParent = document.getElementById("Banner"); 
-     var myImage = document.createElement("img");
-     myImage.src = 'https://thecatapi.com/api/images/get?format=src&type=gif';
-     myParent.appendChild(myImage);
-     myImage.style.marginLeft = "160px";
-});
-```
-If you’re confused because nothing happened. Don’t worry. Click somewhere on the page. As you can see, an image was added to the page.
-
-### Summary
-Before we move on to the JavaScript language itself, how about we recap some of the things you just learned?
-- First, you learned that all major browsers come with built-in JavaScript engines
-- This allows browsers to run and execute JavaScript code
-- Next, you got practice using the JavaScript console
-- The JavaScript console allows you to print strings and execute lines of JavaScript code on the fly, right inside of your browser
-- And finally, you wrapped up with some exercises where you use JavaScript to add styles and animations to a web page. 
-
-
-Hopefully, you’re beginning to see the power of JavaScript. And you’re ready to dive in and explore the language.
+4. [Functions](#functions)
+5. [Arrays](#arrays)
+6. [Objects](#objects)
 
 ## Data Types and Variables
 ### Introduction to Data Types
