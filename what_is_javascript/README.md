@@ -59,10 +59,12 @@ alert("JavaScript is fun!");
 
 ## Console Log
 - console.log is used to print content to the JavaScript console.
-- In the following example, the **string** data type is used
 
-### Example
-Here you will see the difference between simply writing a string and printing a string with console.log:
+In the following example, the **string** data type is used where you will see the difference between simply writing a string and printing a string with console.log:
+
+```js
+"hiya friend!"
+```
 
 ```js
 console.log("hiya friend!");
