@@ -58,7 +58,7 @@ alert("JavaScript is fun!");
 - With Windows you can simply press the F12 key on the keyboard.
 
 ## Console Log
-- console.log is used to print content to the JavaScript console.
+console.log is used to print content to the JavaScript console.
 
 In the following example, the **string** data type is used where you will see the difference between simply writing a string and printing a string with console.log:
 
@@ -71,7 +71,9 @@ console.log("hiya friend!");
 ```
 
 ### Optional demo example
-console.log can also be used inside of a loop. Here is a **loop** that loops through from 0 to 9 and prints them to the console:
+console.log can also be used inside of a loop.
+
+Here is a **loop** that loops through from 0 to 9 and prints them to the console:
 
 ```js
 for (var i = 0; i < 10; i++) {
@@ -80,7 +82,7 @@ for (var i = 0; i < 10; i++) {
 ```
 **Prints:** 0 1 2 3 4 5 6 7 8 9
 
-Based on this loop's settings you will see that any code written inside the curly brackets {...} will be repeated 10 times and console.log prints out the value of i each time the loop runs. Don't about what the syntax means for now - you'll learn more about how and when to use loops later.
+Based on this loop's settings you will see that any code written inside the curly brackets {...} which will be repeated 10 times and console.log prints out the value of i each time the loop runs. You'll learn more about how and when to use loops later.
 
 ## JavaScript Demo
 So you saw how to use console.log to print a message to the JavaScript console. Now, let’s see how you can use the console as a sandbox to test a new line of JavaScript in the browser
