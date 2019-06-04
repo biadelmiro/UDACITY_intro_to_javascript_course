@@ -1,5 +1,5 @@
 # Intro to JavaScript
-A complete overview of UDACITY's Intro to JavaScript course
+A concise overview of UDACITY's Intro to JavaScript course
 
 ## Table of Contents
 1. [Data Types and Variables](#data-types-and-variables)
