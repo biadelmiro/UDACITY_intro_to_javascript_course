@@ -54,7 +54,7 @@ alert("JavaScript is fun!");
 - The Console informs you of any warnings or errors and prints any output with console.log (warnings and errors are very common). 
 - The main browsers used today are; Google Chrome, Mozilla Firefox, Opera, Safari, Microsoft Edge and Internet Explorer 8 to 11.
 - You can use the shortcuts; Cmd+Option+I (Mac) or Ctrl+Shift+I (Windows).
-- With Safari you need to first enable them in the Advanced Preferences.
+- With Safari you need to first enable the Developer Tools in the Advanced Preferences.
 - With Windows you can simply press the F12 key on the keyboard.
 
 ## Console Log
