@@ -1,3 +1,5 @@
+# Data Types and Variables
+
 1. [Data Types and Variables](#data-types-and-variables)
    1. [Introduction to Data Types](#introduction-to-data-types)
    2. [Numbers](#numbers)
