@@ -41,4 +41,5 @@
 - And when you look at your bank account, what do you see?
 - An account number, an account balance, dates of each transaction and the name of the company that you made a purchase from.
 - It’s important to be aware of what types of data you’re using and when it’s appropriate to use each type. In this lesson, we’ll start by learning how to define and manipulate the primitive data types of JavaScript. 
-- Numbers, strings, Booleans, undefined and null. Once you’re familiar with these data types, you’ll see how you can store data into variables so you can reuse and manipulate data throughout your code.
+- Numbers, strings, Booleans, undefined and null. 
+- Once you’re familiar with these data types, you’ll see how you can store data into variables so you can reuse and manipulate data throughout your code.
