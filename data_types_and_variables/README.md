@@ -28,10 +28,7 @@
 
 ## Data Types and Variables
 ### Introduction to Data Types
-- Data is everywhere. 
-- It’s the grade you made on your first math test. 
-- It’s the conversation you have with a loved one. 
-- It’s the decision you made to sit down and watch this video. 
+- Data is everywhere; it’s the grade you made on your first math test and the conversation you have with a loved one. 
 - All of these things can be represented as data.
 - Data’s important because it helps us understand the world, recognize trends, make educated guesses and inform our future decisions.
 - This is no different in programming. 
