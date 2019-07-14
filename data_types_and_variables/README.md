@@ -37,3 +37,12 @@
 - It’s important to be aware of what types of data you’re using and when it’s appropriate to use each type. In this lesson, we’ll start by learning how to define and manipulate the primitive data types of JavaScript. 
 - Numbers, strings, Booleans, undefined and null. 
 - Once you’re familiar with these data types, you’ll see how you can store data into variables so you can reuse and manipulate data throughout your code.
+
+## Numbers
+Defining a number in JavaScript is actually pretty simple. The **Number** data type includes any positive or negative integer, as well as decimals. Entering a number into the console will return it right back to you:
+```js
+3
+```
+**Returns:** 3
+
+There, you did it.
