@@ -46,17 +46,6 @@ A concise overview of UDACITY's Intro to JavaScript course
 5. [Arrays](#arrays)
 6. [Objects](#objects)
 
-
-
-### Numbers
-Defining a number in JavaScript is actually pretty simple. The **Number** data type includes any positive or negative integer, as well as decimals. Entering a number into the console will return it right back to you:
-```js
-3
-```
-**Returns:** 3
-
-There, you did it.
-
 #### Arithmetic operations
 You can also perform calculations with numbers pretty easily. Basically type out an expression the way you would type it in a calculator:
 ```js
