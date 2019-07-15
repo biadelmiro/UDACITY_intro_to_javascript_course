@@ -46,27 +46,6 @@ A concise overview of UDACITY's Intro to JavaScript course
 5. [Arrays](#arrays)
 6. [Objects](#objects)
 
-#### Arithmetic operations
-You can also perform calculations with numbers pretty easily. Basically type out an expression the way you would type it in a calculator:
-```js
-3 + 2.1
-```
-**Returns:** 5.1
-
-Now you try!
-
-QUESTION 1 OF 2
-
-Enter the expressions (one at a time) into the console and determine what each expression evaluates to:
-
-2 + 10 - 19 + 4 - 90 + 1 = -92
-
--20 + -19 - (-10) - (-1) + 24 = -4
-
-(10/5) * 4 - 20 = -12
-
-4096 % 12 = 4
-
 #### Comparing numbers
 What about comparing numbers? Can you do that? Well of course you can!
 
