@@ -46,47 +46,6 @@ A concise overview of UDACITY's Intro to JavaScript course
 5. [Arrays](#arrays)
 6. [Objects](#objects)
 
-#### Comparing numbers
-What about comparing numbers? Can you do that? Well of course you can!
-
-Just like in mathematics, you can compare two numbers to see if one’s greater than, less than, or equal to the other:
-```js
-5 > 10
-```
-**Returns:** false
-```js
-5 < 10
-```
-**Returns:** true
-```js
-5 == 10
-```
-**Returns:** false
-
-Comparisons between numbers will either evaluate to true or false. Here are some more examples, so you can try it out!
-
-| Operator | Meaning |
-| :---: | :--- |
-| < | Less than |
-| > | Greater than |
-| <= | Less than or equal to |
-| >= | Greater than or equal to |
-| == | Equal to |
-| != | Not equal to |
-
-QUESTION 2 OF 2
-
-Enter the expressions (one at a time) into the console and determine what each expression evaluates to.
-
-| Expression | Solution |
-| :---: | --- |
-| 43 > 47 | false |
-| 12 == 17 | false |
-| 3 <= 3 | true |
-| 1 != 0 | true |
-
-**TIP:** The values ```true``` and ```false``` have significant importance in JavaScript. These values are called **Booleans** and are another data type in JavaScript. Later in this lesson, you’ll learn more about why Booleans are so important in programming.
-
 ### Comments
 You can use comments to help explain your code and make things clearer. In JavaScript, comments are marked with a double forward-slash //. Anything written on the same line after the // will not be executed or displayed. To have the comment span multiple lines, mark the start of your comment with a forward-slash and star, and then enclose your comment inside a star and forward-slash /* … */.
 ```js
