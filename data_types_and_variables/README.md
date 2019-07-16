@@ -67,3 +67,44 @@ Enter the expressions (one at a time) into the console and determine what each e
 (10/5) * 4 - 20 = -12
 
 4096 % 12 = 4
+
+#### Comparing numbers
+What about comparing numbers? Can you do that? Well of course you can!
+
+Just like in mathematics, you can compare two numbers to see if one’s greater than, less than, or equal to the other:
+```js
+5 > 10
+```
+**Returns:** false
+```js
+5 < 10
+```
+**Returns:** true
+```js
+5 == 10
+```
+**Returns:** false
+
+Comparisons between numbers will either evaluate to true or false. Here are some more examples, so you can try it out!
+
+| Operator | Meaning |
+| :---: | :--- |
+| < | Less than |
+| > | Greater than |
+| <= | Less than or equal to |
+| >= | Greater than or equal to |
+| == | Equal to |
+| != | Not equal to |
+
+QUESTION 2 OF 2
+
+Enter the expressions (one at a time) into the console and determine what each expression evaluates to.
+
+| Expression | Solution |
+| :---: | --- |
+| 43 > 47 | false |
+| 12 == 17 | false |
+| 3 <= 3 | true |
+| 1 != 0 | true |
+
+**TIP:** The values ```true``` and ```false``` have significant importance in JavaScript. These values are called **Booleans** and are another data type in JavaScript. Later in this lesson, you’ll learn more about why Booleans are so important in programming.
