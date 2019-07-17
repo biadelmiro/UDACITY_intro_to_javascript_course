@@ -108,3 +108,39 @@ Enter the expressions (one at a time) into the console and determine what each e
 | 1 != 0 | true |
 
 **TIP:** The values ```true``` and ```false``` have significant importance in JavaScript. These values are called **Booleans** and are another data type in JavaScript. Later in this lesson, you’ll learn more about why Booleans are so important in programming.
+
+### Comments
+You can use comments to help explain your code and make things clearer. In JavaScript, comments are marked with a double forward-slash //. Anything written on the same line after the // will not be executed or displayed. To have the comment span multiple lines, mark the start of your comment with a forward-slash and star, and then enclose your comment inside a star and forward-slash /* … */.
+```js
+// this is a single-line comment
+
+/*
+this is
+a multi-line
+comment
+*/
+```
+Some of the quizzes in this course might include comments that give you hints or instructions to complete the quiz. Comments are often used to clarify and document non-obvious code. It's good practice to include code comments to improve code readability.
+
+Alright, good luck!
+
+### Quiz: First Expression (2-1)
+#### Directions:
+Write an expression that uses at least 3 different arithmetic operators.
+
+The expression should equal 42.
+
+**Hint:** +, -, *, /, and % are possible arithmetic operators
+
+**Your Code:**
+```js
+/*
+ * Programming Quiz: First Expression (2-1)
+ *
+ * Write an expression that uses at least three, different, arithmetic operators
+ * to log the number 42 to the console.
+ */
+
+// this expression equals 4, change it to equal 42
+console.log(4 * 10 + 8 - 6);
+```
