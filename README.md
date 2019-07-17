@@ -46,42 +46,6 @@ A concise overview of UDACITY's Intro to JavaScript course
 5. [Arrays](#arrays)
 6. [Objects](#objects)
 
-### Comments
-You can use comments to help explain your code and make things clearer. In JavaScript, comments are marked with a double forward-slash //. Anything written on the same line after the // will not be executed or displayed. To have the comment span multiple lines, mark the start of your comment with a forward-slash and star, and then enclose your comment inside a star and forward-slash /* … */.
-```js
-// this is a single-line comment
-
-/*
-this is
-a multi-line
-comment
-*/
-```
-Some of the quizzes in this course might include comments that give you hints or instructions to complete the quiz. Comments are often used to clarify and document non-obvious code. It's good practice to include code comments to improve code readability.
-
-Alright, good luck!
-
-### Quiz: First Expression (2-1)
-#### Directions:
-Write an expression that uses at least 3 different arithmetic operators.
-
-The expression should equal 42.
-
-**Hint:** +, -, *, /, and % are possible arithmetic operators
-
-**Your Code:**
-```js
-/*
- * Programming Quiz: First Expression (2-1)
- *
- * Write an expression that uses at least three, different, arithmetic operators
- * to log the number 42 to the console.
- */
-
-// this expression equals 4, change it to equal 42
-console.log(4 * 10 + 8 - 6);
-```
-
 ### Strings
 Let’s take a look at the string datatype. You’ve actually used a string before, and maybe just didn’t know it. When you type a message inside console.log, that message is actually just a JavaScript string. So here, Hiya, Friend, is just a string. Strings can be single letters, like the character h, or even contain numbers, like the string 123. The important thing is that you use quotes to signify a string. It doesn’t matter if the quotes are single or double quotes, but they do have to match. I used double quotes here and single quotes here. If I try to pass the string to the console.log but forget to use the quotes, JavaScript will return back an error. I get this reference error, because the JavaScript engine thinks I’m talking about a variable called hello instead of a string with the value of hello. We haven’t talked about variables just yet, but the moral of the story here is to remember to use quotes when using strings. If I add the quotes in, then the string gets printed out to the console.
 
