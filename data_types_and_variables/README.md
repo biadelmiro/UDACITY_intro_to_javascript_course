@@ -68,7 +68,7 @@ Enter the expressions (one at a time) into the console and determine what each e
 
 4096 % 12 = 4
 
-#### Comparing numbers
+### Comparing numbers
 What about comparing numbers? Can you do that? Well of course you can!
 
 Just like in mathematics, you can compare two numbers to see if one’s greater than, less than, or equal to the other:
@@ -109,7 +109,7 @@ Enter the expressions (one at a time) into the console and determine what each e
 
 **TIP:** The values ```true``` and ```false``` have significant importance in JavaScript. These values are called **Booleans** and are another data type in JavaScript. Later in this lesson, you’ll learn more about why Booleans are so important in programming.
 
-### Comments
+## Comments
 You can use comments to help explain your code and make things clearer. In JavaScript, comments are marked with a double forward-slash //. Anything written on the same line after the // will not be executed or displayed. To have the comment span multiple lines, mark the start of your comment with a forward-slash and star, and then enclose your comment inside a star and forward-slash /* … */.
 ```js
 // this is a single-line comment
@@ -124,8 +124,8 @@ Some of the quizzes in this course might include comments that give you hints or
 
 Alright, good luck!
 
-### Quiz: First Expression (2-1)
-#### Directions:
+## Quiz: First Expression (2-1)
+### Directions:
 Write an expression that uses at least 3 different arithmetic operators.
 
 The expression should equal 42.
