@@ -149,3 +149,30 @@ console.log(4 * 10 + 8 - 6);
 Let’s take a look at the string datatype. You’ve actually used a string before, and maybe just didn’t know it. When you type a message inside console.log, that message is actually just a JavaScript string. So here, Hiya, Friend, is just a string. Strings can be single letters, like the character h, or even contain numbers, like the string 123. The important thing is that you use quotes to signify a string. It doesn’t matter if the quotes are single or double quotes, but they do have to match. I used double quotes here and single quotes here. If I try to pass the string to the console.log but forget to use the quotes, JavaScript will return back an error. I get this reference error, because the JavaScript engine thinks I’m talking about a variable called hello instead of a string with the value of hello. We haven’t talked about variables just yet, but the moral of the story here is to remember to use quotes when using strings. If I add the quotes in, then the string gets printed out to the console.
 
 **TIP:** It is correct to either use “ or ‘ quotes with strings, as long as you’re consistent. The [JavaScript Udacity style guide](http://udacity.github.io/frontend-nanodegree-styleguide/javascript.html) for labs and projects suggests using single quotes to define string literals.
+
+## String Concatination
+**Strings** are a collection of characters enclosed inside double or single quotes. You can use strings to represent data like sentences, names, addresses, and more. Did you know you can even add strings together? In JavaScript, this is called **concatenating**. Concatenating two strings together is actually pretty simple!
+```js
+"Hello," + " New York City"
+```
+**Returns:** "Hello, New York City"
+
+You will see other ways to concatenate and do even more with strings later in this course. But for now, practice using the addition + operator.
+
+QUESTION 1 OF 3
+
+What's the result with ```"hello" + "world"```?
+
+**Answer:** "helloworld"
+
+QUESTION 2 OF 3
+
+What do you think will happen when you type ```"Hello + 5*10"``` into the JavaScript console?
+
+**Answer:** "Hello + 5*10"
+
+QUESTION 3 OF 3
+
+What do you think will happen when you type ```"Hello" + 5*10``` into the console?
+
+**Answer:** "Hello50"
