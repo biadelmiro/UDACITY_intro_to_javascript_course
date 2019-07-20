@@ -46,33 +46,6 @@ A concise overview of UDACITY's Intro to JavaScript course
 5. [Arrays](#arrays)
 6. [Objects](#objects)
 
-### String Concatination
-**Strings** are a collection of characters enclosed inside double or single quotes. You can use strings to represent data like sentences, names, addresses, and more. Did you know you can even add strings together? In JavaScript, this is called **concatenating**. Concatenating two strings together is actually pretty simple!
-```js
-"Hello," + " New York City"
-```
-**Returns:** "Hello, New York City"
-
-You will see other ways to concatenate and do even more with strings later in this course. But for now, practice using the addition + operator.
-
-QUESTION 1 OF 3
-
-What's the result with ```"hello" + "world"```?
-
-**Answer:** "helloworld"
-
-QUESTION 2 OF 3
-
-What do you think will happen when you type ```"Hello + 5*10"``` into the JavaScript console?
-
-**Answer:** "Hello + 5*10"
-
-QUESTION 3 OF 3
-
-What do you think will happen when you type ```"Hello" + 5*10``` into the console?
-
-**Answer:** "Hello50"
-
 ### Variables
 So you have all these numbers, strings and booleans, but what are you supposed to do with them? All this data so far has been for a one time use only. You define the string, Hello, it’s returned and that’s it. That’s the end. The string Hello is now gone. You need a way to be able to store data, so that you can use it or change it later. To do this you can use variables. You’ve probably heard of variables before, maybe in a math class. Let’s say you have a variable called X, and it’s assigned the value 5. And then let’s say we have the expression X + 1. Since X has the value of 5, we can substitute the value of 5 in for X. So the expression becomes 5 + 1 = 6. In JavaScript, variable stored data, much like how the variable you just saw stored the value of 5. And they’re not limited to the storing of just numerical values, you can store any variable in to a variable. To create a variable, use the var keyword followed by the variableName, and the assignment operator. The assignment operator is the equal sign. And then on the right side of the assignment operator, put the value you want to assign to the variable. As an example, here’s my cat Zoe. We can use a variable called name and set it equal to the string Zoe for her name. And for her age, we can create a variable called age, and set that to the number 4, since Zoe’s 4 years old. Eventually, when Zoe has her next birthday, I’ll be able to use the age variable I created to increment Zoe’s age by 1, so the variable age will return Zoe’s updated age of 5. Now, Zoe’s 5 years old.
 
