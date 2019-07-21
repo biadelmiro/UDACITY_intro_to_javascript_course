@@ -176,3 +176,97 @@ QUESTION 3 OF 3
 What do you think will happen when you type ```"Hello" + 5*10``` into the console?
 
 **Answer:** "Hello50"
+
+## Variables
+So you have all these numbers, strings and booleans, but what are you supposed to do with them? All this data so far has been for a one time use only. You define the string, Hello, it’s returned and that’s it. That’s the end. The string Hello is now gone. You need a way to be able to store data, so that you can use it or change it later. To do this you can use variables. You’ve probably heard of variables before, maybe in a math class. Let’s say you have a variable called X, and it’s assigned the value 5. And then let’s say we have the expression X + 1. Since X has the value of 5, we can substitute the value of 5 in for X. So the expression becomes 5 + 1 = 6. In JavaScript, variable stored data, much like how the variable you just saw stored the value of 5. And they’re not limited to the storing of just numerical values, you can store any variable in to a variable. To create a variable, use the var keyword followed by the variableName, and the assignment operator. The assignment operator is the equal sign. And then on the right side of the assignment operator, put the value you want to assign to the variable. As an example, here’s my cat Zoe. We can use a variable called name and set it equal to the string Zoe for her name. And for her age, we can create a variable called age, and set that to the number 4, since Zoe’s 4 years old. Eventually, when Zoe has her next birthday, I’ll be able to use the age variable I created to increment Zoe’s age by 1, so the variable age will return Zoe’s updated age of 5. Now, Zoe’s 5 years old.
+
+With variables, you no longer need to work with one-time-use data.
+
+At the beginning of this course, you declared the value of a string, but you didn't have a way to access or reuse the string later.
+```js
+"Hello"; // Here's a String "Hello"
+"Hello" + " World"; // Here's a new String (also with the value "Hello") concatenated with " World"
+```
+Storing the value of a string in a variable is like packing it away for later use.
+```js
+var greeting = "Hello";
+```
+Now, if you want to use "Hello" in a variety of sentences, you don't need to duplicate "Hello" strings. You can just reuse the ```greeting``` variable.
+```js
+greeting + " World!";
+```
+**Returns:** Hello World!
+```js
+greeting + " Mike!";
+```
+**Returns:** Hello Mike!
+
+You can also change the start of the greeting by reassigning a new string value to the variable ```greeting```.
+```js
+greeting = "Hola";
+greeting + " World!";
+```
+**Returns:** Hola World!
+```js
+greeting + " Mike!";
+```
+**Returns:** Hola Mike!
+
+### Naming Conventions
+When you create a variable, you write the name of the variable using camelCase (the first word is lowercase, and all following words are uppercase). Also try to use a variable name that accurately, but succinctly describes what the data is about.
+```js
+var totalAfterTax = 53.03; // uses camelCase if the variable name is multiple words
+var tip = 8; // uses lowercase if the variable name is one word
+```
+
+Not using camelCase for your variables names is not going to necessarily *break* anything in JavaScript. But there are recommended style guides used in all programming languages that help keep code consistent, clean, and easy-to-read. This is especially important when working on larger projects that will be accessed by multiple developers.
+
+You can read more about Google's JavaScript StyleGuide [here](https://google.github.io/styleguide/jsguide.html).
+
+QUIZ QUESTION
+
+Which of these are good variable names?
+```js
+var thingy = 1;
+
+var count = 1;
+
+var postLiked = false;
+
+var firstname = "Richard";
+```
+**Answer:**
+```js
+var count = 1;
+
+var postLiked = false;
+```
+### Quiz: Converting Temperatures (2-2)
+To convert [Celsius](https://en.wikipedia.org/wiki/Celsius) to [Fahrenheit](https://en.wikipedia.org/wiki/Fahrenheit), you can use the following formula:
+
+F=C×1.8+32
+
+#### Directions:
+Use this equation and the variables ```fahrenheit``` and ```celsius``` to print the Fahrenheit equivalent of 12°C.
+
+**NOTE:** "12°C" reads as "12 degrees Celsius".
+
+**Your Code:**
+```js
+/*
+ * Programming Quiz: Converting Tempatures (2-2)
+ *
+ * The Celsius-to-Fahrenheit formula:
+ *
+ *    F = C x 1.8 + 32
+ *
+ * 1. Set the fahrenheit variable to the correct value using the celsius variable and the forumla above
+ * 2. Log the fahrenheit variable to the console
+ *
+ */
+
+var celsius = 12;
+var fahrenheit = celsius * 1.8 + 32;
+
+console.log(fahrenheit);
+```
