@@ -46,33 +46,6 @@ A concise overview of UDACITY's Intro to JavaScript course
 5. [Arrays](#arrays)
 6. [Objects](#objects)
 
-### String Index
-#### Indexing
-Did you know that you can access individual characters in a string? To access an individual character, you can use the character's location in the string, called its **index**. Just put the index of the character inside square brackets (starting with ```[0]``` as the first character) immediately after the string. For example:
-```js
-"James"[0];
-```
-**Returns:** "J"
-
-or more commonly, you will see it like this, using a variable:
-
-```js
-var name = "James";
-name[0];
-```
-**Returns:** "J"
-
-Characters within a string are indexed starting from 0, where the first character is at position 0, to n-1, where the last character is at position n-1 (n represents the total number of characters within a string).
-
-QUIZ QUESTION
-
-What character will be printed to the JavaScript console after running the following lines of code.
-```js
-var quote = "Stay awhile and listen!";
-console.log(quote[6]);
-```
-**Answer:** w
-
 ### Escaping Strings
 #### Escaping strings
 There are some cases where you might want to create a string that contains more than just numbers and letters. For example, what if you want to use quotes in a string?
