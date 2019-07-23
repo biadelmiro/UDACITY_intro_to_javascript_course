@@ -46,66 +46,6 @@ A concise overview of UDACITY's Intro to JavaScript course
 5. [Arrays](#arrays)
 6. [Objects](#objects)
 
-### Escaping Strings
-#### Escaping strings
-There are some cases where you might want to create a string that contains more than just numbers and letters. For example, what if you want to use quotes in a string?
-```js
-"The man whispered, "please speak to me.""
-```
-**Uncaught SyntaxError:** Unexpected identifier
-If you try to use quotes within a string, you will receive a ```SyntaxError``` like the one above.
-
-Because you need to use quotes to denote the beginning and end of strings, the JavaScript engine misinterprets the meaning of your string by thinking ```"The man whispered, "``` is the string. Then, it sees the remaining ```please speak to me.""``` and returns a ```SyntaxError```.
-
-If you want to use quotes *inside a string*, and have JavaScript not misunderstand your intentions, you’ll need a different way to write quotes. Thankfully, JavaScript has a way to do this using the backslash character ( \ ).
-
-If you forget to use the backslash to escape characters, then the JavaScript engine can misinterpret your strings.
-
-#### Escaping characters
-In JavaScript, you use the backslash to **escape** other characters.
-
-*Escaping a character* tells JavaScript to ignore the character's special meaning and just use the literal value of the character. This is helpful for characters that have special meanings like in our previous example with quotes ```"…"```.
-
-Because quotes are used to signify the beginning and end of a string, you can use the backslash character to escape the quotes in order to access the literal quote character.
-```js
-"The man whispered, \"please speak to me.\""
-```
-**Returns:** The man whispered, "please speak to me."
-
-This guarantees that the JavaScript engine doesn’t misinterpret the string and result in an error.
-
-By using the backslash to escape characters, the JavaScript engine can understand the meaning of your strings.
-
-#### Special characters
-Quotes aren’t the only special characters that need to be escaped, there’s actually [quite a few](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#Using_special_characters_in_strings). However, to keep it simple, here’s a list of some common special characters in JavaScript.
-
-| Code | Character |
-| :--- | :--- |
-| \\ | \ (backslash) |
-| \" | '' (double quote) |
-| \' | ' (single quote) |
-| \n | newline |
-| \t | tab |
-
-The last two characters listed in the table, newline ```\n``` and tab ```\t```, are unique because they add additional **whitespace** to your Strings. A newline character will add a line break and a tab character will advance your line to the next [tab stop](https://en.wikipedia.org/wiki/Tab_stop).
-```
-"Up up\n\tdown down"
-```
-**Returns:**
-```
-Up up
-   down down
-```
-QUIZ QUESTION
-
-Select the string that returns the following output:
-```js
-"The file located at "C:\\Desktop\My Documents\Roster\names.txt" contains the names on the roster."
-```
-**Answer:**
-```js
-"The file located at "C:\\Desktop\My Documents\Roster\names.txt" contains the names on the roster."
-```
 ### Comparing Strings
 #### Comparing strings
 Another way to work with strings is by comparing them. You've seen the comparison operators ```==``` and ```!=``` when you compared numbers for equality. You can also use them with strings! For example, let’s compare the string ```"Yes"``` to ```"yes"```.
