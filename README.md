@@ -46,43 +46,6 @@ A concise overview of UDACITY's Intro to JavaScript course
 5. [Arrays](#arrays)
 6. [Objects](#objects)
 
-### Comparing Strings
-#### Comparing strings
-Another way to work with strings is by comparing them. You've seen the comparison operators ```==``` and ```!=``` when you compared numbers for equality. You can also use them with strings! For example, let’s compare the string ```"Yes"``` to ```"yes"```.
-```js
-"Yes" == "yes"
-```
-**Returns:** false
-
-When you run this in the console, it returns false. Why is that? ```"Yes"``` and ```"yes"``` are the same string, right? Well not quite.
-
-##### Case-sensitive
-When you compare strings, case matters. While both strings use the same letters (and those letters appear in the same order), the first letter in the first string is a capital ```Y``` while the first letter in the second string is a lowercase ```y```.
-```js
-'Y' != 'y'
-```
-**Returns:** true
-
-QUIZ QUESTION
-
-Enter each expression into the console. Check the ones that evaluate to ```true```.
-```js
-"green" == "blue" // false
-"green" == "green" // true
-"green" == "Green" // false
-"Green" == "green" // false
-"green" > "blue" // true
-"green" > "green" // false
-"green" > "Green" // true
-"Green" > "green" // false
-```
-**Answers:**
-```js
-"green" == "green"
-"green" > "blue"
-"green" > "Green"
-```
-
 ### Quiz: Favorite Foods (2-3)
 #### Directions:
 Create a string with the name of your favorite food. The first letter of the string should be capitalized.
