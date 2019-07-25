@@ -395,3 +395,16 @@ Enter each expression into the console. Check the ones that evaluate to ```true`
 "green" > "blue"
 "green" > "Green"
 ```
+
+## Quiz: Favorite Foods (2-3)
+### Directions:
+Create a string with the name of your favorite food. The first letter of the string should be capitalized.
+
+**Your Code:**
+```js
+/*
+ * Programming Quiz: Favorite Food (2-3)
+ */
+
+console.log("Pizza");
+```
