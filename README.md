@@ -46,19 +46,6 @@ A concise overview of UDACITY's Intro to JavaScript course
 5. [Arrays](#arrays)
 6. [Objects](#objects)
 
-### Quiz: Favorite Foods (2-3)
-#### Directions:
-Create a string with the name of your favorite food. The first letter of the string should be capitalized.
-
-**Your Code:**
-```js
-/*
- * Programming Quiz: Favorite Food (2-3)
- */
-
-console.log("Pizza");
-```
-
 ### Quiz: String Equality for All (2-4)
 #### Directions:
 Fix the right side expression so it evaluates to ```true```.
