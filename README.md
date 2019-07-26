@@ -46,21 +46,6 @@ A concise overview of UDACITY's Intro to JavaScript course
 5. [Arrays](#arrays)
 6. [Objects](#objects)
 
-### Quiz: String Equality for All (2-4)
-#### Directions:
-Fix the right side expression so it evaluates to ```true```.
-
-**Your Code:**
-```js
-/*
- * Programming Quiz: String Equality for All (2-4)
- */
-
-// fix the right side of the expression
-var answer = "ALL Strings are CrEaTeD equal" == "ALL Strings are CrEaTeD equal";
-console.log(answer);
-```
-
 ### Quiz: All Tied Up (2-5)
 #### Directions:
 Build a single string that resembles the following joke.
