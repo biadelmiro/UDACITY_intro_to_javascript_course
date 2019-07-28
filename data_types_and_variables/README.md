@@ -423,3 +423,25 @@ Fix the right side expression so it evaluates to ```true```.
 var answer = "ALL Strings are CrEaTeD equal" == "ALL Strings are CrEaTeD equal";
 console.log(answer);
 ```
+
+## Quiz: All Tied Up (2-5)
+### Directions:
+Build a single string that resembles the following joke.
+
+```
+Why couldn't the shoes got out and play?
+They were all "tied" up!
+```
+Your joke should take the format of a **question** and **answer**. The first line should be a question and the second line should be an answer.
+
+**Hint:** *You will need to use special characters to produce the following output.*
+
+**Your Code:**
+```js
+/*
+ * Programming Quiz: All Tied Up (2-5)
+ */
+
+var joke = "Why couldn\'t the shoes got out and play?\nThey were all \"tied\" up!"
+console.log(joke);
+```
