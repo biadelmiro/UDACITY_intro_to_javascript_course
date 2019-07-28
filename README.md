@@ -46,28 +46,6 @@ A concise overview of UDACITY's Intro to JavaScript course
 5. [Arrays](#arrays)
 6. [Objects](#objects)
 
-### Quiz: All Tied Up (2-5)
-#### Directions:
-Build a single string that resembles the following joke.
-
-```
-Why couldn't the shoes got out and play?
-They were all "tied" up!
-```
-Your joke should take the format of a **question** and **answer**. The first line should be a question and the second line should be an answer.
-
-**Hint:** *You will need to use special characters to produce the following output.*
-
-**Your Code:**
-```js
-/*
- * Programming Quiz: All Tied Up (2-5)
- */
-
-var joke = "Why couldn\'t the shoes got out and play?\nThey were all \"tied\" up!"
-console.log(joke);
-```
-
 ### Quiz: Yosa Buson (2-6)
 #### Directions:
 Build a string using concatenation by combining the lines from this famous haiku poem by [Yosa Buson](https://en.wikipedia.org/wiki/Yosa_Buson).
