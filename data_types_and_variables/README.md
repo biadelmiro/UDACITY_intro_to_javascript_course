@@ -39,7 +39,8 @@
 - Once you’re familiar with these data types, you’ll see how you can store data into variables so you can reuse and manipulate data throughout your code.
 
 ## Numbers
-Defining a number in JavaScript is actually pretty simple. The **Number** data type includes any positive or negative integer, as well as decimals. Entering a number into the console will return it right back to you:
+- Defining a number in JavaScript is actually pretty simple.
+- The **Number** data type includes any positive or negative integer, as well as decimals. Entering a number into the console will return it right back to you:
 ```js
 3
 ```
