@@ -40,7 +40,8 @@
 
 ## Numbers
 - Defining a number in JavaScript is actually pretty simple.
-- The **Number** data type includes any positive or negative integer, as well as decimals. Entering a number into the console will return it right back to you:
+- The **Number** data type includes any positive or negative integer, as well as decimals. 
+- Entering a number into the console will return it right back to you:
 ```js
 3
 ```
