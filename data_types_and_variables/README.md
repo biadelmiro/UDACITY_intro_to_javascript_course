@@ -114,7 +114,8 @@ Enter the expressions (one at a time) into the console and determine what each e
 
 ## Comments
 - You can use comments to help explain your code and make things clearer.
-- In JavaScript, comments are marked with a double forward-slash //. Anything written on the same line after the // will not be executed or displayed. To have the comment span multiple lines, mark the start of your comment with a forward-slash and star, and then enclose your comment inside a star and forward-slash /* … */.
+- In JavaScript, comments are marked with a double forward-slash //. 
+- Anything written on the same line after the // will not be executed or displayed. To have the comment span multiple lines, mark the start of your comment with a forward-slash and star, and then enclose your comment inside a star and forward-slash /* … */.
 ```js
 // this is a single-line comment
 
