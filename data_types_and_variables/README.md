@@ -167,7 +167,10 @@ console.log(4 * 10 + 8 - 6);
 **TIP:** It is correct to either use “ or ‘ quotes with strings, as long as you’re consistent. The [JavaScript Udacity style guide](http://udacity.github.io/frontend-nanodegree-styleguide/javascript.html) for labs and projects suggests using single quotes to define string literals.
 
 ## String Concatination
-**Strings** are a collection of characters enclosed inside double or single quotes. You can use strings to represent data like sentences, names, addresses, and more. Did you know you can even add strings together? In JavaScript, this is called **concatenating**. Concatenating two strings together is actually pretty simple!
+- **Strings** are a collection of characters enclosed inside double or single quotes. 
+- You can use strings to represent data like sentences, names, addresses, and more. 
+- Did you know you can even add strings together? In JavaScript, this is called **concatenating**. 
+- Concatenating two strings together is actually pretty simple!
 ```js
 "Hello," + " New York City"
 ```
