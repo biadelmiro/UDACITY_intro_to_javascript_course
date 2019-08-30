@@ -212,7 +212,8 @@ What do you think will happen when you type ```"Hello" + 5*10``` into the consol
 - And they’re not limited to the storing of just numerical values, you can store any variable in to a variable. 
 - To create a variable, use the var keyword followed by the variableName, and the assignment operator. 
 - The assignment operator is the equal sign. 
-- And then on the right side of the assignment operator, put the value you want to assign to the variable. As an example, here’s my cat Zoe. We can use a variable called name and set it equal to the string Zoe for her name. And for her age, we can create a variable called age, and set that to the number 4, since Zoe’s 4 years old. Eventually, when Zoe has her next birthday, I’ll be able to use the age variable I created to increment Zoe’s age by 1, so the variable age will return Zoe’s updated age of 5. Now, Zoe’s 5 years old.
+- And then on the right side of the assignment operator, put the value you want to assign to the variable. 
+- As an example, here’s my cat Zoe. We can use a variable called name and set it equal to the string Zoe for her name. And for her age, we can create a variable called age, and set that to the number 4, since Zoe’s 4 years old. Eventually, when Zoe has her next birthday, I’ll be able to use the age variable I created to increment Zoe’s age by 1, so the variable age will return Zoe’s updated age of 5. Now, Zoe’s 5 years old.
 
 With variables, you no longer need to work with one-time-use data.
 
