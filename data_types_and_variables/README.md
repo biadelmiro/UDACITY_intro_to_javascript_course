@@ -32,7 +32,7 @@
 - They help us organize information and determine how our programs will run.
 - It’s important to be aware of what types of data you’re using and when it’s appropriate to use each type. 
 - JavaScript has 5 primitive data types; Numbers, strings, Booleans, undefined and null. 
-- Once you’re familiar with these data types, you’ll see how you can store data into variables so you can reuse and manipulate data throughout your code.
+- These data types can be stored in variables so you can reuse and manipulate data throughout your code.
 
 ## Numbers
 - Defining a number in JavaScript is actually pretty simple.
