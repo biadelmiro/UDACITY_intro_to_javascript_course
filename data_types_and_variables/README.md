@@ -43,8 +43,6 @@
 ```
 **Returns:** 3
 
-There, you did it.
-
 ### Arithmetic operations
 - You can also perform calculations with numbers pretty easily.
 - Basically type out an expression the way you would type it in a calculator:
