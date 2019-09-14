@@ -109,6 +109,8 @@ Enter the expressions (one at a time) into the console and determine what each e
 - In JavaScript, comments are marked with a double forward-slash //. 
 - Anything written on the same line after the // will not be executed or displayed. 
 - To have the comment span multiple lines, mark the start of your comment with a forward-slash and star, and then enclose your comment inside a star and forward-slash /* … */.
+- Comments are often used to clarify and document non-obvious code. 
+- It's good practice to include code comments to improve code readability.
 ```js
 // this is a single-line comment
 
@@ -118,9 +120,6 @@ a multi-line
 comment
 */
 ```
-Some of the quizzes in this course might include comments that give you hints or instructions to complete the quiz. Comments are often used to clarify and document non-obvious code. It's good practice to include code comments to improve code readability.
-
-Alright, good luck!
 
 ## Quiz: First Expression (2-1)
 ### Directions:
