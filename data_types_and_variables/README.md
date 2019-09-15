@@ -143,6 +143,7 @@ console.log(4 * 10 + 8 - 6);
 ```
 
 ## Strings
+- A string is anything written between **'single'** or **"double"** quotes.
 - Let’s take a look at the string datatype. 
 - You’ve actually used a string before, and maybe just didn’t know it. 
 - When you type a message inside console.log, that message is actually just a JavaScript string. 
